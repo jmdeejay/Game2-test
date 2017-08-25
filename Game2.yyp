@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "226dc96d-db86-4baa-8df2-4521fe050536",
+            "Value": {
+                "id": "3840feae-62ca-43e7-9c89-fc3a9c7abafe",
+                "resourcePath": "fonts\\fnt_Doogle14\\fnt_Doogle14.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "241606d1-e97b-49b0-8062-74b62b649a9d",
             "Value": {
                 "id": "a1332c5c-ca1f-44a7-9ae9-083b0bb32b8b",
@@ -1223,6 +1231,14 @@
             }
         },
         {
+            "Key": "6b5d1ce6-c4dc-4a9d-8b7d-b4b1b90239db",
+            "Value": {
+                "id": "743f02c6-8006-4bd4-89a5-28c220cafe81",
+                "resourcePath": "objects\\obj_okShowMoney\\obj_okShowMoney.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c9357a5-822d-4c50-9142-7753b59c7eff",
             "Value": {
                 "id": "f9faf804-b0f9-493b-95ce-a3003b415f32",
@@ -1767,6 +1783,14 @@
             }
         },
         {
+            "Key": "a5f2cf6f-8dc1-4280-9935-69a955e824cb",
+            "Value": {
+                "id": "22205602-272a-4eeb-9aa7-e42bc1a9a498",
+                "resourcePath": "objects\\obj_MrktInfoTxt\\obj_MrktInfoTxt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5f8a997-d487-4c09-bc6b-06fd454f8a5f",
             "Value": {
                 "id": "aa0746d2-6087-4678-858f-5b1d408001dd",
@@ -2092,6 +2116,14 @@
                 "id": "0fa2ecf5-abc0-4942-8e81-f3e48604ccad",
                 "resourcePath": "sounds\\sfx_Dia_Deep4\\sfx_Dia_Deep4.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c166f738-ad52-4aac-b616-9d73c2f2e237",
+            "Value": {
+                "id": "4694abbd-bf35-4c7e-87d1-5b8cbfebc76e",
+                "resourcePath": "fonts\\fnt_Doogle10\\fnt_Doogle10.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -2444,6 +2476,14 @@
                 "id": "2caae739-4740-41bb-ad5e-6592d959a921",
                 "resourcePath": "sprites\\spr_setSail\\spr_setSail.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4c60214-dd14-4ba3-bb2f-fd8a58ea085a",
+            "Value": {
+                "id": "21458247-381f-4bcc-95e8-2eac1729f661",
+                "resourcePath": "fonts\\fnt_Doogle20\\fnt_Doogle20.yy",
+                "resourceType": "GMFont"
             }
         },
         {

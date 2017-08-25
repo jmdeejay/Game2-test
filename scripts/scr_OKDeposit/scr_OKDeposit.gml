@@ -113,7 +113,22 @@ switch (_mode)
 	
 	case 5: // Mode5 means buy a spice
 	// How Many Barrels do I already have?
-	var tempBarrels = ds_grid_get(obj_MyBarrels.MyBarrels, 0, G.SpiceToBuy);
+	var tempBarrels = obj_MyBarrels.MyBarrels[# 0, G.SpiceToBuy]
+	
+	// Do I have enough money?
+	var _subtotal = obj_InputCash.printNumber *  obj_LocalMarket.myPrices[G.SpiceToBuy]; // Qty * Cost
+	if (_subtotal > obj_MyLedger.Cash) // Does this cost too much?
+	{	
+		show_debug_message("Transaction FAILED");
+		exit; // Don't proceed with the transaction
+	}
+	else 
+	{
+	show_debug_message("Subtotal is: " + string(_subtotal));
+	show_debug_message("Transaction complete.");
+	obj_MyLedger.Cash -= _subtotal; /// NOT WORKING? WHY?
+	show_debug_message("Current Cash is: " + string(obj_MyLedger.Cash))
+	}
 	
 	// Do I have enough space on my boat?
 	if (obj_InputCash.printNumber + G.CurrentBarrels > G.MaxBarrels) 
@@ -124,6 +139,11 @@ switch (_mode)
 	ds_grid_set(obj_MrktGrid.myGrid, 2, G.SpiceToBuy, (obj_PopUp.valueOne - obj_InputCash.printNumber));
 	// Add Quantity to the Boat
 	ds_grid_set(obj_MyBarrels.MyBarrels, 0, G.SpiceToBuy, (tempBarrels + obj_InputCash.printNumber));
+	with (obj_MyBarrels)
+	{
+		event_user(0); // Update Current Barrels
+	}
+	
 	
 	obj_PopUp.valueOne = ds_grid_get(obj_MrktGrid.myGrid, 2, G.SpiceToBuy); // Update numbers displayed
 	obj_PopUp.valueTwo = (G.MaxBarrels - G.CurrentBarrels);	 // Update numbers 	

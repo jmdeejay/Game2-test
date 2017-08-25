@@ -7,3 +7,5 @@ if (obj_InputCash.printNumber > 0)
 	visible = false;
 	
 
+	
+

@@ -46,21 +46,7 @@ image_speed = 0;
 image_index = 0; // Show only the first frame.
 
 // PULL BOAT QUANTITIES
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Rosemary);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Paprika);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Basil);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Thyme);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Cumin);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.CaneSugar);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Pepper);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Turmeric);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.GarlicPowder);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.GingerPowder);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Salt);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.MustardSeed);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Cloves);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Nutmeg);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Sesame);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Cinnamon);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Saffron);
-ds_grid_set(myGrid, 1, 0, obj_MyBarrels.Vanilla);
+for (var i = 0; i < 18; i++)
+{
+	myGrid[# 1, i] = obj_MyBarrels.MyBarrels[# 0, i];
+}

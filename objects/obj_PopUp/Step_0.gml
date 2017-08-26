@@ -1,5 +1,6 @@
-/// @description UPDATE X and Y
+/// @description UPDATE X and Y, COLOR
 
+// POSITION UPDATES
 titleX = bbox_left + 10;
 titleY = bbox_top + 3;
 
@@ -20,3 +21,16 @@ inputField.y = titleY  + 31;
 
 okButton.x = titleX + 174;
 okButton.y = titleY + 31;
+///////////////////////////
+
+// UPDATE COLOR
+
+switch (obj_ButtonOk.myMode)
+{
+	case 5: // Buying Barrels
+	if (valueTwo < obj_InputCash.printNumber)
+		labelTwoColor = COLOR_RED_HOT;
+	else labelTwoColor = COLOR_WHITE_LIGHT;
+	break;
+	
+}

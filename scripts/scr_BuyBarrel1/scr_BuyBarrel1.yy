@@ -1,8 +1,8 @@
 {
-    "id": "0d02395a-ce35-49f3-a560-5efbf1ff0306",
+    "id": "e11d18c1-4b26-4e4c-abdd-91365b05d44f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_MKTbuy",
+    "name": "scr_BuyBarrel1",
     "IsCompatibility": false,
     "IsDnD": false
 }

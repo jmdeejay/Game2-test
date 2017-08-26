@@ -18,6 +18,7 @@ enum GameState
 	BNK_Repay,
 	BNK_PayShark,
 	MRK_BuyBarrel,
+	MRK_SellBarrel,
 	Cutscene
 }
 

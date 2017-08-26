@@ -54,21 +54,7 @@ ds_grid_set(MyBarrels, 0,19, CurrentCannons);
 ds_grid_set(MyBarrels, 0,20, AmmoBarrels);
 
 // RUNNING SUM COSTS
-CostRosemary = 0;
-CostPaprika = 0;
-CostBasil = 0;
-CostThyme = 0;
-CostCumin = 0;
-CostSugar = 0;
-CostPepper = 0;
-CostTurmeric = 0;
-CostGarlic = 0;
-CostGinger = 0;
-CostSalt = 0;
-CostMustard = 0;
-CostCloves = 0;
-CostNutmeg = 0;
-CostSesame = 0;
-CostCinnamon = 0;
-CostSaffron = 0;
-CostVanilla = 0;
+myRunningCosts = ds_list_create()
+
+for (var i = 0; i < 18; i++)
+	ds_list_add(myRunningCosts, 0) // Fill a list of 17 slots, full of zeroes.

@@ -16,8 +16,8 @@ titleY = bbox_top + 3;
 
 titleColor = make_color_rgb(240,240,242);
 dropColor = make_color_rgb(35,33,61);
-
-
+labelOneColor = COLOR_WHITE_LIGHT;
+labelTwoColor = COLOR_WHITE_LIGHT;
 
 labelOne = "Cash: ";
 labelTwo = "Savings: ";

@@ -46,3 +46,7 @@ ds_grid_set(G.worldRanges, 1,14, 606); // Sesame
 ds_grid_set(G.worldRanges, 1,15, 680); // Cinnamon
 ds_grid_set(G.worldRanges, 1,16, 880); // Saffron
 ds_grid_set(G.worldRanges, 1,17, 960); // Vanilla
+
+
+// PRICES
+G.PriceTable = ds_grid_create(7, 18);

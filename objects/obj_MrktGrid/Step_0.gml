@@ -31,3 +31,20 @@ LowRange_x2 = x + 238;
 // HI RANGE COLUMN
 HiRange_x1 = x + 243;
 HiRange_x2 = x + 266;
+
+
+// UPDATE SHIP CARGO
+for (var i = 0; i < 18; i++)
+{
+	myGrid[# 1, i] = obj_MyBarrels.MyBarrels[# 0, i];
+}
+
+// UPDATE AVAILABLE AT PORT
+for (var i = 0; i < 18; i++)
+{
+	myGrid[# 2, i] = obj_LocalMarket.myOnHand[i];
+}
+
+// UPDATE PRICE PAID
+for (var i = 0; i < 18; i++)
+	myGrid[# 3, i] = scr_CalculateCost(obj_MyBarrels.myRunningCosts[| i], obj_MyBarrels.MyBarrels[# 0, i]);

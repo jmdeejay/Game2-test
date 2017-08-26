@@ -2,8 +2,7 @@
 
 event_inherited();
 
-myAction = scr_placeholder;
-
+myAction = scr_SellBarrel;
 image_speed = 0;
 image_index = 0;
 visible = false; // Turned on in Step Event

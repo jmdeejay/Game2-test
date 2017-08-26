@@ -36,42 +36,9 @@ for (i = 17; i >= 0; i--)
 }
 
 // GET PRICES
-myPrices[ROSE] = scr_CalculatePrice(myOnHand[ROSE], ROSE);
-myPrices[PAPR] = scr_CalculatePrice(myOnHand[PAPR], PAPR);
-myPrices[BASI] = scr_CalculatePrice(myOnHand[BASI], BASI);
-myPrices[THYM] = scr_CalculatePrice(myOnHand[THYM], THYM);
-myPrices[CUMI] = scr_CalculatePrice(myOnHand[CUMI], CUMI);
-myPrices[CANE] = scr_CalculatePrice(myOnHand[CANE], CANE);
-myPrices[PEPP] = scr_CalculatePrice(myOnHand[PEPP], PEPP);
-myPrices[TURM] = scr_CalculatePrice(myOnHand[TURM], TURM);
-myPrices[GARL] = scr_CalculatePrice(myOnHand[GARL], GARL);
-myPrices[GING] = scr_CalculatePrice(myOnHand[GING], GING);
-myPrices[SALT] = scr_CalculatePrice(myOnHand[SALT], SALT);
-myPrices[MUST] = scr_CalculatePrice(myOnHand[MUST], MUST);
-myPrices[CLOV] = scr_CalculatePrice(myOnHand[CLOV], CLOV);
-myPrices[NUTM] = scr_CalculatePrice(myOnHand[NUTM], NUTM);
-myPrices[SESA] = scr_CalculatePrice(myOnHand[SESA], SESA);
-myPrices[CINN] = scr_CalculatePrice(myOnHand[CINN], CINN);
-myPrices[SAFF] = scr_CalculatePrice(myOnHand[SAFF], SAFF);
-myPrices[VANI] = scr_CalculatePrice(myOnHand[VANI], VANI);
-
+for (var i = 0; i < 18; i++)
+	myPrices[i] = G.PriceTable[# myCode, i];
 
 // GET COSTS
-myCosts[ROSE] = scr_CalculateCost(obj_MyBarrels.CostRosemary, obj_MyBarrels.Rosemary);
-myCosts[PAPR] = scr_CalculateCost(obj_MyBarrels.CostPaprika, obj_MyBarrels.Paprika);
-myCosts[BASI] = scr_CalculateCost(obj_MyBarrels.CostBasil, obj_MyBarrels.Basil);
-myCosts[THYM] = scr_CalculateCost(obj_MyBarrels.CostThyme, obj_MyBarrels.Thyme);
-myCosts[CUMI] = scr_CalculateCost(obj_MyBarrels.CostCumin, obj_MyBarrels.Cumin);
-myCosts[CANE] = scr_CalculateCost(obj_MyBarrels.CostSugar, obj_MyBarrels.CaneSugar);
-myCosts[PEPP] = scr_CalculateCost(obj_MyBarrels.CostPepper, obj_MyBarrels.Pepper);
-myCosts[TURM] = scr_CalculateCost(obj_MyBarrels.CostTurmeric, obj_MyBarrels.Turmeric);
-myCosts[GARL] = scr_CalculateCost(obj_MyBarrels.CostGarlic, obj_MyBarrels.GarlicPowder);
-myCosts[GING] = scr_CalculateCost(obj_MyBarrels.CostGinger, obj_MyBarrels.GingerPowder);
-myCosts[SALT] = scr_CalculateCost(obj_MyBarrels.CostSalt, obj_MyBarrels.Salt);
-myCosts[MUST] = scr_CalculateCost(obj_MyBarrels.CostMustard, obj_MyBarrels.MustardSeed);
-myCosts[CLOV] = scr_CalculateCost(obj_MyBarrels.CostCloves, obj_MyBarrels.Cloves);
-myCosts[NUTM] = scr_CalculateCost(obj_MyBarrels.CostNutmeg, obj_MyBarrels.Nutmeg);
-myCosts[SESA] = scr_CalculateCost(obj_MyBarrels.CostSesame, obj_MyBarrels.Sesame);
-myCosts[CINN] = scr_CalculateCost(obj_MyBarrels.CostCinnamon, obj_MyBarrels.Cinnamon);
-myCosts[SAFF] = scr_CalculateCost(obj_MyBarrels.CostSaffron, obj_MyBarrels.Saffron);
-myCosts[VANI] = scr_CalculateCost(obj_MyBarrels.CostVanilla, obj_MyBarrels.Vanilla);
+for (var i = 0; i < 18; i++)
+	myCosts[i] = scr_CalculateCost(obj_MyBarrels.myRunningCosts[| i], obj_MyBarrels.MyBarrels[# 0, i]);

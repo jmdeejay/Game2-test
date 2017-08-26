@@ -15,6 +15,8 @@ with (obj_MyLedger)
 	event_user(1); // Update New Cash
 
 with (obj_WorldQty)
-	event_user(0); // Fill World Qty Table
-
+{
+	event_user(10); // Fill World Qty Table
+	event_user(0); // Setup Prices for starting town
+}
 room_goto(2);

@@ -13,7 +13,7 @@ switch (obj_ButtonOk.myMode)
 	case 3: _cash = obj_MyLedger.Cash; break; // BNK
 	case 4: _cash = obj_MyLedger.Cash; break; // BNK
 	case 5: _cash = obj_PopUp.valueOne; break; // MKT - Buy Spice
-	case 6: _cash = obj_MyBarrels.MyBarrels[# 0, G.SpiceToBuy]; // MKT - Sell Spice
+	case 6: _cash = obj_MyBarrels.MyBarrels[# 0, G.SpiceSelected]; // MKT - Sell Spice
 }
 
 switch (_type)

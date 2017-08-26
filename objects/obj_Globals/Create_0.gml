@@ -8,7 +8,7 @@ G.SpawnY = 650;
 G.MaxSupply = 150;
 
 // MARKET BUTTONS
-G.SpiceToBuy = 0;
+G.SpiceSelected = 0;
 
 // BANK
 G.LoanInterest = 0.05;

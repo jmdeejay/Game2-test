@@ -1,8 +1,8 @@
 {
-    "id": "e1344c05-c0be-403f-b1ad-022835c46434",
+    "id": "37ec8a88-1d8c-41cf-a3b6-834bb32151ef",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_YouPaid",
+    "name": "spr_ColumnZandretta1",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -15,24 +15,24 @@
     "coltolerance": 0,
     "frames": [
         {
-            "id": "00df1856-aa5c-4b75-ac7a-f87424c7ecbc",
+            "id": "23cb4e88-e9a9-4388-b7bd-c50a63d4886d",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "e1344c05-c0be-403f-b1ad-022835c46434",
+            "SpriteId": "37ec8a88-1d8c-41cf-a3b6-834bb32151ef",
             "compositeImage": {
-                "id": "c9b8ec54-fe8f-4320-aeca-3a8b44e55c9e",
+                "id": "5e8d76b8-d1be-4c3b-98a9-7149535fee62",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "00df1856-aa5c-4b75-ac7a-f87424c7ecbc",
+                "FrameId": "23cb4e88-e9a9-4388-b7bd-c50a63d4886d",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "5aaba199-82ab-46a9-b743-590d148ec369",
+                    "id": "ea23d186-576b-4834-8d29-b8796a509b2d",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "00df1856-aa5c-4b75-ac7a-f87424c7ecbc",
-                    "LayerId": "ce3114fe-c9e2-4e2c-b7d0-e9e2441bfd74"
+                    "FrameId": "23cb4e88-e9a9-4388-b7bd-c50a63d4886d",
+                    "LayerId": "d622ba94-5f9d-409c-8d09-2f767a0b074c"
                 }
             ]
         }
@@ -42,10 +42,10 @@
     "height": 256,
     "layers": [
         {
-            "id": "ce3114fe-c9e2-4e2c-b7d0-e9e2441bfd74",
+            "id": "d622ba94-5f9d-409c-8d09-2f767a0b074c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "e1344c05-c0be-403f-b1ad-022835c46434",
+            "SpriteId": "37ec8a88-1d8c-41cf-a3b6-834bb32151ef",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",

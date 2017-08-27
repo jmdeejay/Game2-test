@@ -17,6 +17,6 @@ with (obj_MyLedger)
 with (obj_WorldQty)
 {
 	event_user(10); // Fill World Qty Table
-	event_user(0); // Setup Prices for starting town
+	event_user(0); // Setup Prices 
 }
 room_goto(2);

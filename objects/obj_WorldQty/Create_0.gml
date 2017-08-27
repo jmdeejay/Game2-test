@@ -49,4 +49,4 @@ ds_grid_set(G.worldRanges, 1,17, 960); // Vanilla
 
 
 // PRICES
-G.PriceTable = ds_grid_create(7, 18);
+G.PriceTable = ds_grid_create(8, 18);

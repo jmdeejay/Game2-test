@@ -19,7 +19,8 @@
         "a5f2cf6f-8dc1-4280-9935-69a955e824cb",
         "2121250f-a139-45bd-863a-b56a54d610e5",
         "6b5d1ce6-c4dc-4a9d-8b7d-b4b1b90239db",
-        "5dc523af-4ad6-4e50-8399-e384be5d8130"
+        "5dc523af-4ad6-4e50-8399-e384be5d8130",
+        "b2af812b-ea03-40a6-aeb2-1469c7a66afa"
     ],
     "filterType": "GMObject",
     "folderName": "Market",

@@ -15,7 +15,14 @@
         "f0ac0fc3-29dc-40db-a006-967a7a37ebe2",
         "21048c4e-5204-4196-930c-9bcaa79bddce",
         "e1344c05-c0be-403f-b1ad-022835c46434",
-        "270cde56-ab26-4570-8067-7ff374d7ccf9"
+        "270cde56-ab26-4570-8067-7ff374d7ccf9",
+        "25459c93-e100-46e1-8103-1cdab1bea4c5",
+        "c7d2cca6-ed24-45a5-ad5a-756a0a673a38",
+        "5d85f1c4-0992-4233-a2da-be72677b8914",
+        "9a929a4d-b80f-48c1-b64f-b0d13944e295",
+        "205b2632-555a-474a-a0ca-d352b7735201",
+        "37ec8a88-1d8c-41cf-a3b6-834bb32151ef",
+        "95581ac8-34b6-4d29-82c6-0e27cf7f4aa3"
     ],
     "filterType": "GMSprite",
     "folderName": "Market",

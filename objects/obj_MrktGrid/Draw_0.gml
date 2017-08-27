@@ -100,4 +100,3 @@ for (var i = 0; i < ds_grid_height(myGrid); i++)
 	else draw_set_color(COLOR_WHITE_DARK);
 	draw_text_ext(HiRange_x2, (i * thisHeight) + Names_y1, thisRange, 0, thisWidth);
 }
-

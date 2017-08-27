@@ -48,7 +48,8 @@ switch (_mode)
 	break; // All done with Withdraw
 	
 	case 2: // Mode2 means borrow money from bank
-	if ( (obj_InputCash.printNumber + obj_MyLedger.BankLoan) < G.BankCreditLimit)
+	
+	if ( (obj_InputCash.printNumber + obj_MyLedger.BankLoan) <= G.BankCreditLimit)
 	{
 		obj_MyLedger.BankLoan += obj_InputCash.printNumber; // Add to the Bank Loan
 		obj_MyLedger.Cash += obj_InputCash.printNumber; // Add to the Cash
@@ -70,9 +71,13 @@ switch (_mode)
 	break; // All done with Borrow
 	
 	case 3: // Mode3 means repay money from bank
+	
 
+	if (obj_InputCash.printNumber > obj_MyLedger.BankLoan) // Can't pay more than you owe.
+		obj_InputCash.printNumber = obj_MyLedger.BankLoan; // Make the number smaller.
+	
 	obj_MyLedger.BankLoan -= obj_InputCash.printNumber; // Subtract from the Bank Loan
-	obj_MyLedger.Cash -= obj_InputCash.printNumber; // Add to the Cash
+	obj_MyLedger.Cash -= obj_InputCash.printNumber; // Subtract from the Cash
 
 	obj_PopUp.valueOne = obj_MyLedger.Cash; // Update numbers displayed
 	obj_PopUp.valueTwo = obj_MyLedger.BankLoan; // Update numbers 	
@@ -150,7 +155,7 @@ switch (_mode)
 	ds_stack_push(G.stateStack, GameState.BNK_CancelTransaction); // Dismiss PopUp
 	break; // All done with Buy Barrels
 	
-	case 6: // Mode6 means sell a spice ///////////// INCOMPLETE
+	case 6: // Mode6 means sell a spice
 	
 	var tempBarrels = obj_MyBarrels.MyBarrels[# 0, G.SpiceSelected]
 	

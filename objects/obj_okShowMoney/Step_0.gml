@@ -3,7 +3,7 @@
 x = obj_ButtonOk.x;
 y = obj_ButtonOk.y + 50;
 
-if (obj_ButtonOk.visible == true)
+if ((obj_ButtonOk.visible == true) and (room == rm_Market1))
 	visible = true;
 else visible = false;
 

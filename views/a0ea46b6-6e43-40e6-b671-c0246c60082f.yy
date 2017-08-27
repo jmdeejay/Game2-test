@@ -14,7 +14,8 @@
         "bdca0b3a-cc20-4717-8e27-1e00067bbc66",
         "f0ac0fc3-29dc-40db-a006-967a7a37ebe2",
         "21048c4e-5204-4196-930c-9bcaa79bddce",
-        "e1344c05-c0be-403f-b1ad-022835c46434"
+        "e1344c05-c0be-403f-b1ad-022835c46434",
+        "270cde56-ab26-4570-8067-7ff374d7ccf9"
     ],
     "filterType": "GMSprite",
     "folderName": "Market",

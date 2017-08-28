@@ -1,6 +1,8 @@
 /// @description INIT VAR
 
 visible = false; // Turn Visible:On with obj_GameStates
+mySprite = sprite_index
+image_speed = 0;
 
 surf = noone;
 

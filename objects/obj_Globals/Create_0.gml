@@ -9,6 +9,7 @@ G.MaxSupply = 150;
 
 // MARKET BUTTONS
 G.SpiceSelected = 0;
+G.TownSelected = VAIO;
 
 // BANK
 G.LoanInterest = 0.05;

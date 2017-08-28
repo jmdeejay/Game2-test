@@ -14,3 +14,9 @@ if (isMouseEnter)
 
 if (obj_Darken.visible == true)
 	visible = false;
+	
+if (obj_MrktSupply.visible != true)
+{
+	sprite_index = mySprite;
+	image_index = 0;
+}

@@ -5,5 +5,5 @@ if (myHotzone and G.gameState == GameState.BuildingTransaction)
 	visible = true;
 else visible = false;
 
-if (obj_Darken.visible == true)
+if ((obj_Darken.visible == true) or (obj_MrktSupply.visible == true))
 	visible = false;

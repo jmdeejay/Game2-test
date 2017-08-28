@@ -1,14 +1,5 @@
-/// @description CREATE DS GRID
-
-myLocation = VAIO;
-visible = false;
-
-myGrid = ds_grid_create(7,18);
-
-myPath = pth_Bnk_LeftPanel; // Empty path. Needs to be defined manually in Room Creation Code.
-x = path_get_x(myPath,0);
-y = path_get_y(myPath,0);
-
+/// @description UPDATE POS, IMG INDX
+image_index = 0;
 
 // SPICE COLUMN
 Names_x1 = x + 5;
@@ -33,7 +24,6 @@ Column3_x2 = x + 174;
 Column4_x1 = x + 179;
 Column4_x2 = x + 206;
 
-
 // COLUMN 5
 Column5_x1 = x + 211;
 Column5_x2 = x + 238;
@@ -42,16 +32,6 @@ Column5_x2 = x + 238;
 Column6_x1 = x + 243;
 Column6_x2 = x + 266;
 
-
-mySpeed = 0;
-myTicks = 1; // Change in Creation Code;
-image_speed = 0;
-image_index = 0; // Show only the first frame.
-
-// PULL SPICE NAMES
-for (var i = 0; i < 18; i++)
-	myGrid[# 0, i] = G.worldQtyTable[# 0, i]; // Names
-
 // HOTZONES
 isColumnOne = point_in_rectangle(mouse_x, mouse_y, Column1_x1, Names_y1, Column1_x2, bbox_bottom);
 isColumnTwo = point_in_rectangle(mouse_x, mouse_y, Column2_x1, Names_y1, Column2_x2, bbox_bottom);
@@ -59,3 +39,33 @@ isColumnThree = point_in_rectangle(mouse_x, mouse_y, Column3_x1, Names_y1, Colum
 isColumnFour = point_in_rectangle(mouse_x, mouse_y, Column4_x1, Names_y1, Column4_x2, bbox_bottom);
 isColumnFive = point_in_rectangle(mouse_x, mouse_y, Column5_x1, Names_y1, Column5_x2, bbox_bottom);
 isColumnSix = point_in_rectangle(mouse_x, mouse_y, Column6_x1, Names_y1, Column6_x2, bbox_bottom);
+
+if (isColumnOne)
+{
+	image_index = 1;
+}
+
+if (isColumnTwo)
+{
+	image_index = 2;
+}
+
+if (isColumnThree)
+{
+	image_index = 3;
+}
+
+if (isColumnFour)
+{
+	image_index = 4;
+}
+
+if (isColumnFive)
+{
+	image_index = 5;
+}
+
+if (isColumnSix)
+{
+	image_index = 6;
+}

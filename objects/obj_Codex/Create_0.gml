@@ -83,3 +83,11 @@ BNK_Welcome2 = "\"Come to pay off your debt, I hope?\"";
 
 // MARKET
 MRK_Welcome1 = "Hiya!";
+
+MRK_DestinationVaio = "Headed to Vaio, huh?";
+MRK_DestinationDomos = "Going to Domos, eh."
+MRK_DestinationChirsk = "Chirsk has the coldest winters.";
+MRK_DestinationBarc = "Going to Barcellus next?"
+MRK_DestinationZand = "Zandretta is nice this time of year."
+MRK_DestinationSyrr = "Syrr is so hot, but it's a dry heat."
+MRK_DestinationKand = "Kanda it is.";

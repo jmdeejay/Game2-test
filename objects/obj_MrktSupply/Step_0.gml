@@ -43,29 +43,41 @@ isColumnSix = point_in_rectangle(mouse_x, mouse_y, Column6_x1, Names_y1, Column6
 if (isColumnOne)
 {
 	image_index = 1;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_YourCargo.image_index);
 }
 
 if (isColumnTwo)
 {
 	image_index = 2;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_Available.image_index);
 }
 
 if (isColumnThree)
 {
 	image_index = 3;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_YouPaid.image_index);
 }
 
 if (isColumnFour)
 {
 	image_index = 4;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_PriceHere.image_index);
 }
 
 if (isColumnFive)
 {
 	image_index = 5;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_LowestPrice.image_index);
 }
 
 if (isColumnSix)
 {
 	image_index = 6;
+	if (mouse_check_button_released(mb_left))
+		scr_DialogueInterrupt(obj_HighestPrice.image_index);
 }

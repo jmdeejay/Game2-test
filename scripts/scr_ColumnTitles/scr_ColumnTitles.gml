@@ -1,6 +1,8 @@
 // Invoked by: obj_MrktSupply **EXCLUSIVE**
 // Accepts 6 arguments, one for each column title.
 
+
+
 with (obj_ParentColumnTitle)
 {
 	sprite_index = spr_ColumnSupply;

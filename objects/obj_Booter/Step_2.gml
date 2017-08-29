@@ -12,3 +12,4 @@ if (instance_exists(obj_GameStates) and
 	
 
 
+display_set_gui_size(640,360);

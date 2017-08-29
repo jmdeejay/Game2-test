@@ -10,7 +10,10 @@
         "e11d18c1-4b26-4e4c-abdd-91365b05d44f",
         "620a62a1-ad4c-4e14-bdf3-dedef5455ebb",
         "0006903b-e801-4732-8c00-4402c89ee14c",
-        "f76633b1-20cd-4f00-abd5-ed5f1a0c6ac7"
+        "f76633b1-20cd-4f00-abd5-ed5f1a0c6ac7",
+        "1ae92c0e-f983-4ae2-a418-0e2ddfd4943d",
+        "3613d4d8-e3ca-46cf-92d2-821ac084f3c8",
+        "dbeb6bca-3bb2-4ca6-bb3d-dcef126f8994"
     ],
     "filterType": "GMScript",
     "folderName": "Market",

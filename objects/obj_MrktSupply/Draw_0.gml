@@ -19,4 +19,4 @@ for (var i = 0; i < ds_grid_height(myGrid); i++)
 
 // DRAW LOCATION 1
 for (var i = 1; i < 7; i++)
-	scr_DrawSupplyText(i);
+	scr_DrawSupplyPrice(i);

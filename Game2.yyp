@@ -34,7 +34,7 @@
             "Key": "0006903b-e801-4732-8c00-4402c89ee14c",
             "Value": {
                 "id": "b7fb2b54-8188-4db0-8346-3c8e778d837a",
-                "resourcePath": "scripts\\scr_DrawSupplyText\\scr_DrawSupplyText.yy",
+                "resourcePath": "scripts\\scr_DrawSupplyPrice\\scr_DrawSupplyPrice.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -291,6 +291,14 @@
             "Value": {
                 "id": "10923636-9e38-4c34-b17d-0aa5a52904c0",
                 "resourcePath": "scripts\\scr_PanelUpdateCash\\scr_PanelUpdateCash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1ae92c0e-f983-4ae2-a418-0e2ddfd4943d",
+            "Value": {
+                "id": "37293f9b-6a00-4880-bce1-120499560093",
+                "resourcePath": "scripts\\scr_FillSupplyPercent\\scr_FillSupplyPercent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -603,6 +611,14 @@
             "Value": {
                 "id": "ab31dabe-39f9-4060-b764-499d2974b6bd",
                 "resourcePath": "scripts\\scr_BNKRepay\\scr_BNKRepay.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3613d4d8-e3ca-46cf-92d2-821ac084f3c8",
+            "Value": {
+                "id": "06de211d-fd24-4fe2-9a52-7b7ccadb3e42",
+                "resourcePath": "scripts\\scr_DrawSupplyPercent\\scr_DrawSupplyPercent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1122,7 +1138,7 @@
             "Key": "620a62a1-ad4c-4e14-bdf3-dedef5455ebb",
             "Value": {
                 "id": "b0c025b8-563c-4004-b663-309ce90eef79",
-                "resourcePath": "scripts\\scr_FillSupplyGrid\\scr_FillSupplyGrid.yy",
+                "resourcePath": "scripts\\scr_FillSupplyPrice\\scr_FillSupplyPrice.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2463,6 +2479,14 @@
             }
         },
         {
+            "Key": "dbeb6bca-3bb2-4ca6-bb3d-dcef126f8994",
+            "Value": {
+                "id": "7676d0d2-f7f0-4fed-a092-62456a68f3e9",
+                "resourcePath": "scripts\\scr_DialogueInterrupt\\scr_DialogueInterrupt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dc750d32-95b1-497a-8698-31efc514f96f",
             "Value": {
                 "id": "1eb14262-8295-4ba8-8366-c4c157a41bb3",
@@ -2895,7 +2919,10 @@
         "e11d18c1-4b26-4e4c-abdd-91365b05d44f",
         "620a62a1-ad4c-4e14-bdf3-dedef5455ebb",
         "0006903b-e801-4732-8c00-4402c89ee14c",
-        "f76633b1-20cd-4f00-abd5-ed5f1a0c6ac7"
+        "f76633b1-20cd-4f00-abd5-ed5f1a0c6ac7",
+        "1ae92c0e-f983-4ae2-a418-0e2ddfd4943d",
+        "3613d4d8-e3ca-46cf-92d2-821ac084f3c8",
+        "dbeb6bca-3bb2-4ca6-bb3d-dcef126f8994"
     ],
     "tutorial": ""
 }

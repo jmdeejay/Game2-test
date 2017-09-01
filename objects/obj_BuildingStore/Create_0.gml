@@ -1,4 +1,4 @@
 /// @description INIT VAR
 event_inherited();
 
-myRoom = rm_placeholder1; // works fine
+myRoom = rm_Store1; // works fine

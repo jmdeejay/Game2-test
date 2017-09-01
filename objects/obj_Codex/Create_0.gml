@@ -91,3 +91,7 @@ MRK_DestinationBarc = "Going to Barcellus next?"
 MRK_DestinationZand = "Zandretta is nice this time of year."
 MRK_DestinationSyrr = "Syrr is so hot, but it's a dry heat."
 MRK_DestinationKand = "Kanda it is.";
+
+// STORE
+
+STO_Welcome1 = "Got a selection of good things for sale, Stranger."

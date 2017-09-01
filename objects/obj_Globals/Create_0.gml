@@ -11,6 +11,16 @@ G.MaxSupply = 150;
 G.SpiceSelected = 0;
 G.TownSelected = VAIO;
 
+// STORE PRICE MODIFIERS;
+
+G.VaioRationModifier = 15; // Changes on a turn by turn basis, via Random Events.
+G.DomosRationModifier = 10;
+G.ChirskRationModifier = 8;
+G.BarcellusRationModifier = 12;
+G.ZandrettaRationModifier = 14;
+G.SyrrRationModifier = 20;
+G.KandaRationModifer = 5;
+
 // BANK
 G.LoanInterest = 0.05;
 G.SharkInterest = 0.04;
@@ -22,5 +32,6 @@ G.PreviousSavings = 0;
 G.PreviousLoan = 0;
 G.PreviousShark = 0;
 G.BankCreditLimit = 50000;
+
 
 

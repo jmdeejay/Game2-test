@@ -11,7 +11,9 @@
         "667b417a-a3d5-4f03-8e52-d173667de2a3",
         "d5a71da6-9caf-469a-bd60-d4f03e2d6099",
         "9c6bbb62-599d-4d04-b82d-095d8c6886c3",
-        "882d1116-f61e-4f90-aa2b-f823de812cee"
+        "882d1116-f61e-4f90-aa2b-f823de812cee",
+        "dcfe56fe-b359-40d7-a43a-614670646992",
+        "98294852-df94-43bc-b333-ea6dad12403d"
     ],
     "filterType": "GMSprite",
     "folderName": "HeaderChars",

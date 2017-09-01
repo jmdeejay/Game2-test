@@ -1,0 +1,13 @@
+OBJECTIVE: GENERAL STORE
+	• Make obj_LocalStore
+		- Creates a ds_map
+			○ "ItemName", "Price"
+		- Calculate Price using Price + "G.VAIOrationModifier"
+		- Draws info on a Panel
+		- User can click on an Entry.
+			○ Triggers a pseudo-dialog event where the dialog box fills in quickly with item description
+		- Need to be able to Buy and Refund.
+			○ Refund only allows you to sell back the Rations/Ammo that you bought on that turn. Once the turn is over, you permanently own those Rations/Ammo.
+				♦ obj_MyPlayer must keep track of refundable items, clear that number at the start of each turn.
+	• Make obj_StorePanel
+		- Responsible for drawing / interacting with the information in obj_LocalStore.

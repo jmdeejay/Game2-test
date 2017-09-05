@@ -1,8 +1,9 @@
-/// @description IMG INDEX UPDATE
+/// @description IMG INDX UPDATE
+pressDelay = false;
 
-if (myType)
-	image_index = 3;
-else if (!myType)
-	image_index = 1;
+if (!myType and myInput.printNumber < 100)
+	myInput.printNumber += 1;
+else if (myType and myInput.printNumber > 0)
+	myInput.printNumber -= 1;
 
-event_inherited()
+alarm_set(0, 40);

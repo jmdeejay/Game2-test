@@ -1,6 +1,7 @@
 /// @description CREATE DS MAPS
 
 myLocation = VAIO;
+mySubtotal = 0;
 
 ItemRations = ds_map_create();
 

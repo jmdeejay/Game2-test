@@ -8,7 +8,7 @@ with (obj_MyBarrels)
 	CurrentCannons = obj_MyShip.CurrentCannons;
 	AmmoBarrels = ceil( _Balls / 12);
 	event_user(1);
-	G.CurrentBarrels = scr_SumBarrels();
+	event_user(0); // Update Current Barrels / SumBarrels
 }
 
 with (obj_MyLedger)

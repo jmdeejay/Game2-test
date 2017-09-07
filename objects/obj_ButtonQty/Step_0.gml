@@ -1,8 +1,6 @@
-/// @description VISIBLE UPDATE
+/// @description VISIBLITY UPDATE
 
-
-myHotzone = point_in_rectangle(mouse_x, mouse_y, Hotzone_x1, Hotzone_y1, Hotzone_x2, Hotzone_y2);
-
-if (myHotzone and G.gameState == GameState.BuildingTransaction)
+if (myInput.isManual == true)
+	visible = false;
+else if (myInput.isManual == false)
 	visible = true;
-else visible = false;

@@ -3,6 +3,9 @@
 myLocation = VAIO;
 mySubtotal = 0;
 
+myRationCount = 0;
+myAmmoCount = 0;
+
 ItemRations = ds_map_create();
 
 ds_map_add(ItemRations, "ItemName", "Ration");
@@ -22,3 +25,5 @@ ds_list_mark_as_map(myMenu, 0);
 
 ds_list_add(myMenu, ItemAmmo);
 ds_list_mark_as_map(myMenu, 1);
+
+

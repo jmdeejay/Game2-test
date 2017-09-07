@@ -1,5 +1,5 @@
 /// @description SUM BARRELS
-// Invoked by: scr_OKDeposit, Mode5
+// Invoked by: scr_OKDeposit, scr_StartNewGame
 
 var _barrels = scr_SumBarrels();
 

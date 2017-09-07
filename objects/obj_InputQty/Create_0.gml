@@ -10,6 +10,7 @@ minusButton = noone;
 localGood = "";
 itemPrice = 0;
 itemTotal = 0;
+itemType = 0;
 
 printNumber = 0;
 

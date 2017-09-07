@@ -4,7 +4,7 @@
 // ASSETS //
 Cash = 0;
 Savings = 0;
-Rations = 0;
+
 
 
 // LIABILITIES //
@@ -17,7 +17,7 @@ MyLedger = ds_map_create();
 
 ds_map_add(MyLedger, "Cash", Cash);
 ds_map_add(MyLedger, "Savings", Savings);
-ds_map_add(MyLedger, "Rations", Rations);
+
 
 ds_map_add(MyLedger, "SharkLoan", SharkLoan);
 ds_map_add(MyLedger, "BankLoan", BankLoan);

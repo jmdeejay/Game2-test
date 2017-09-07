@@ -25,10 +25,11 @@ Saffron = 0;
 Vanilla = 0;
 
 CurrentCannons = 0;
+CurrentRations = 0;
 AmmoBarrels = 0;
 Passengers = 0;
 
-MyBarrels = ds_grid_create(1, 21);
+MyBarrels = ds_grid_create(1, 22);
 
 ds_grid_set(MyBarrels, 0,0, Rosemary);
 ds_grid_set(MyBarrels, 0,1, Paprika);
@@ -52,6 +53,7 @@ ds_grid_set(MyBarrels, 0,17, Vanilla);
 ds_grid_set(MyBarrels, 0,18, Passengers);
 ds_grid_set(MyBarrels, 0,19, CurrentCannons);
 ds_grid_set(MyBarrels, 0,20, AmmoBarrels);
+ds_grid_set(MyBarrels, 0, 21, CurrentRations)
 
 // RUNNING SUM COSTS
 myRunningCosts = ds_list_create()

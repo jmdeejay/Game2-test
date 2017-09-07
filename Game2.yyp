@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "407cfb9f-5e7c-4bb7-bc7b-2d3aa2bf66d5",
+            "Value": {
+                "id": "8414049d-4971-4be4-ae94-5f7089ee9657",
+                "resourcePath": "objects\\obj_InfoTxtOne_Ammo\\obj_InfoTxtOne_Ammo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "407d5c5c-e55a-42ec-959e-dc2cfddc6997",
             "Value": {
                 "id": "3b5a3711-9110-4b04-8b1c-f9f8db96aef9",
@@ -1051,6 +1059,14 @@
             "Value": {
                 "id": "614498aa-5892-419b-9e11-ca9635a185b1",
                 "resourcePath": "objects\\obj_ButtonCancel\\obj_ButtonCancel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58ad7063-bdba-4822-9690-0e0299603100",
+            "Value": {
+                "id": "e69ba60e-c0c8-4cc9-b389-481930a88827",
+                "resourcePath": "objects\\obj_InfoTxtThree\\obj_InfoTxtThree.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2444,6 +2460,14 @@
                 "id": "f6acda31-4a42-49e5-938d-952663704f72",
                 "resourcePath": "rooms\\rm_Store1\\rm_Store1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ce14afcd-caa0-4006-b685-1dd5227d352d",
+            "Value": {
+                "id": "61d3bcfd-5be4-4bf2-9384-3e4b2beaf92f",
+                "resourcePath": "objects\\obj_StoreBarrelCapacity1\\obj_StoreBarrelCapacity1.yy",
+                "resourceType": "GMObject"
             }
         },
         {

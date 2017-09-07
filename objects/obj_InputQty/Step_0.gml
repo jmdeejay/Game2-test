@@ -11,19 +11,21 @@ if (visible == true)
 	{
 		if mouse_check_button_pressed(mb_left)
 		{
-			if (!isManual)
+			if (!isManual) // if isManual = true, then disregard.
 			{
 				keyboard_string = "0";
-				isManual = true;
+				with (obj_InputQty) // Disable isManual for other InputQty objects
+				{
+					isManual = false;
+				}
+				isManual = true; // Turn on isManual for *this* object
 				var _confirm =  instance_create_layer(plusButton.x, plusButton.y, "Boxes", obj_ButtonQtyManual);
 				_confirm.myInput = id;
-				_confirm.myType = 2;
-				instance_destroy(plusButton);
+				_confirm.myType = 2; // 2 Means "Accept" button behavior
 				var _cancel = instance_create_layer(minusButton.x, minusButton.y, "Boxes", obj_ButtonQtyManual);
 				_cancel.myInput = id;
 				_cancel.myType = 3;
 				_cancel.image_index = 6;
-				instance_destroy(minusButton);
 			}			
 		}
 	}
@@ -35,7 +37,26 @@ if (isManual)
 	myText = keyboard_string;
 	var _checkNumber = int64(myText);
 	var _checkNumber = _checkNumber % 100;
+	if (obj_InfoTxtTwo.valueOne > obj_InfoTxtTwo.valueTwo) // Are there too many barrels?
+	{
+		 _checkNumber -= (obj_InfoTxtTwo.valueOne - obj_InfoTxtTwo.valueTwo); // reduce it
+		 keyboard_string = string(_checkNumber);
+	}
+	
 	printNumber = _checkNumber;
 }
 
-itemTotal = printNumber * itemPrice;
+switch (localGood)
+{
+	case "ItemRations":
+	itemPrice = obj_LocalStore.ItemRations[? "ItemPrice"];
+	itemType = obj_MyBarrels.MyBarrels[# 0, 21];
+	break;
+	
+	case "ItemAmmo":
+	itemPrice = obj_LocalStore.ItemAmmo[? "ItemPrice"];
+	break;
+
+}
+
+itemTotal = printNumber * itemPrice; // itemTotal gets used by obj_LocalStore User Event 0

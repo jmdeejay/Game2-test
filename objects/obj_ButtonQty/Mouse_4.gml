@@ -1,9 +1,15 @@
 /// @description IMG INDX UPDATE
-pressDelay = false;
+if (visible)
+{
+	pressDelay = false;
 
-if (!myType and myInput.printNumber < 100)
-	myInput.printNumber += 1;
-else if (myType and myInput.printNumber > 0)
-	myInput.printNumber -= 1;
+	if (!myType and 
+		myInput.printNumber < 100 and 
+		obj_InfoTxtTwo.valueOne < obj_InfoTxtTwo.valueTwo)
+			myInput.printNumber ++;
 
-alarm_set(0, 40);
+	else if (myType and myInput.printNumber > 0)
+		myInput.printNumber -= 1;
+
+	alarm_set(0, 40);
+}

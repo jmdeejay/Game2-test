@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "21ac2d37-4a09-4ae0-8a65-15c1d657a908",
+            "Value": {
+                "id": "3659bdf1-227a-4ba4-8954-cddda900e65d",
+                "resourcePath": "scripts\\scr_StoreExit\\scr_StoreExit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "226dc96d-db86-4baa-8df2-4521fe050536",
             "Value": {
                 "id": "3840feae-62ca-43e7-9c89-fc3a9c7abafe",
@@ -3037,6 +3045,14 @@
                 "resourcePath": "sprites\\spr_StoreCharacter\\spr_StoreCharacter.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ffe417fb-5a61-4906-8ba6-fed2732036a1",
+            "Value": {
+                "id": "8364de1e-2130-44c7-addf-e3af10e6777a",
+                "resourcePath": "objects\\obj_ButtonExitStore\\obj_ButtonExitStore.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -3109,7 +3125,8 @@
         "dbeb6bca-3bb2-4ca6-bb3d-dcef126f8994",
         "e98f41e3-a86f-4e76-aaad-342123801f88",
         "30027b61-53a8-4e78-8ca5-3edd2510f516",
-        "9ef12f58-f4e4-4d15-8f5e-1900f3f69490"
+        "9ef12f58-f4e4-4d15-8f5e-1900f3f69490",
+        "21ac2d37-4a09-4ae0-8a65-15c1d657a908"
     ],
     "tutorial": ""
 }

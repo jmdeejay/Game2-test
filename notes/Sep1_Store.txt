@@ -15,6 +15,6 @@ OBJECTIVE: GENERAL STORE
 		- Get the QtyCancel button to work. // DONE
 		- Only 1 instance of obj_InputQty can be isManual. // DONE
 	• Change Exit Button to Buy and Exit.
-	• Show Subtotal
+	• Show Subtotal  // DONE
 	• Rearrange the Button / InputQty placement. // DONE
 	• Show how many Rations / Ammo you currently have // IN PROGRESS

@@ -10,6 +10,7 @@ G.MaxSupply = 150;
 // MARKET BUTTONS
 G.SpiceSelected = 0;
 G.TownSelected = VAIO;
+G.CurrentTown = VAIO;
 
 // STORE PRICE MODIFIERS;
 

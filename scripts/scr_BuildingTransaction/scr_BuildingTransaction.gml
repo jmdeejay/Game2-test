@@ -9,6 +9,14 @@ with (obj_ButtonExitRoom)
 	visible = true;
 }
 
+if (instance_exists(obj_ButtonExitStore))
+{
+	with (obj_ButtonExitStore)
+	{
+		visible = true;
+	}
+}
+
 if (instance_exists(obj_ParentColumnTitle))
 {
 	with (obj_ParentColumnTitle)

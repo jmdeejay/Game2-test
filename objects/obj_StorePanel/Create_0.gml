@@ -14,3 +14,13 @@ myTitle = "Item Shop";
 dropColor = make_color_rgb(35,33,61);
 titleColor = make_color_rgb(242,242,240);
 bodyColor = make_color_rgb(92,56,65);
+
+
+// Draw GUI Event
+isDraw = false;
+
+slot_0 = "";
+slot_1 = "";
+
+hotZone_0 = point_in_rectangle(mouse_x, mouse_y, bbox_left, yPadding+28, bbox_right + 28, y + 14);
+hotZone_1 = point_in_rectangle(mouse_x, mouse_y, bbox_left, yPadding+28, bbox_right + 28, y + 14);

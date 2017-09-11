@@ -12,3 +12,4 @@ if (myInput.isManual == true)
 	myInput.isManual = false;
 	myType = 0;
 }
+

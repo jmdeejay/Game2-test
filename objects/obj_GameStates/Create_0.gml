@@ -10,6 +10,7 @@ enum GameState
 	MapScreen,
 	InTownScreen,
 	BuildingDialog,
+	StoreDescription,
 	BuildingTransaction,
 	BNK_Deposit,
 	BNK_Withdraw,

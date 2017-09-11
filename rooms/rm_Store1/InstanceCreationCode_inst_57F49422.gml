@@ -6,4 +6,5 @@ myPortrait = obj_StorePortait;
 message[0] = "";
 message[1] = obj_Codex.STO_Welcome1;
 
+myButtons = [];
 

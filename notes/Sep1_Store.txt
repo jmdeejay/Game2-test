@@ -5,16 +5,16 @@ OBJECTIVE: GENERAL STORE
 		- Calculate Price using Price + "G.VAIOrationModifier" /// DONE
 		- Draws info on a Panel // DONE
 		- User can click on an Entry.  // DONE
-			○ Triggers a pseudo-dialog event where the dialog box fills in quickly with item description /// NOT DONE
-		- Need to be able to Buy and Refund. // IN PROGRESS
+			○ Triggers a pseudo-dialog event where the dialog box fills in quickly with item description /// DONE
+		- Need to be able to Buy and Refund. // DONE
 			○ Refund only allows you to sell back the Rations/Ammo that you bought on that turn. Once the turn is over, you permanently own those Rations/Ammo.
 				♦ obj_MyPlayer must keep track of refundable items, clear that number at the start of each turn.
 	• Make obj_StorePanel
-		- Responsible for drawing / interacting with the information in obj_LocalStore.
+		- Responsible for drawing / interacting with the information in obj_LocalStore. // DONE
 		
 		- Get the QtyCancel button to work. // DONE
 		- Only 1 instance of obj_InputQty can be isManual. // DONE
-	• Change Exit Button to Buy and Exit.
+	• Change Exit Button to Buy and Exit. // DONE
 	• Show Subtotal  // DONE
 	• Rearrange the Button / InputQty placement. // DONE
-	• Show how many Rations / Ammo you currently have // IN PROGRESS
+	• Show how many Rations / Ammo you currently have // DONE

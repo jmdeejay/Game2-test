@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1eed5624-a552-4e45-8c1d-e8a1eacdcb08",
+            "Value": {
+                "id": "14b9b363-24f6-4aca-9e4c-b3a5d89763fe",
+                "resourcePath": "views\\1eed5624-a552-4e45-8c1d-e8a1eacdcb08.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1f1ff4df-4b53-4e0e-983c-26b7ed5c8366",
             "Value": {
                 "id": "a6fb8344-018b-46ec-94cc-8c79a5193c97",
@@ -436,6 +444,14 @@
                 "id": "7d106cb7-c96a-4a73-a6a4-5c2ebb073dd8",
                 "resourcePath": "scripts\\scr_GameStart\\scr_GameStart.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "26696145-bccc-409d-b67d-2f2ae983ccc5",
+            "Value": {
+                "id": "6f8dbdf5-70f5-4499-b0c6-e34c910ca80e",
+                "resourcePath": "objects\\obj_TavernCharacter\\obj_TavernCharacter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1591,6 +1607,14 @@
             }
         },
         {
+            "Key": "82373b2e-558b-4548-b5f7-f81751a7e280",
+            "Value": {
+                "id": "3e79a302-4e8d-4abc-b081-ffc80e440cf8",
+                "resourcePath": "objects\\obj_TavernPortait\\obj_TavernPortait.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82964606-c949-4572-81cd-2092da1b2937",
             "Value": {
                 "id": "79d422ce-6492-427f-b515-e4e1a5e27a91",
@@ -2111,6 +2135,14 @@
             }
         },
         {
+            "Key": "b1582c17-8338-4911-ab34-5df98debd320",
+            "Value": {
+                "id": "e32d9de5-8e74-48ea-adfc-3a3bf81fd260",
+                "resourcePath": "sprites\\spr_TavernCharacter\\spr_TavernCharacter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2308e6c-69a2-4d0a-8fa3-35732d898335",
             "Value": {
                 "id": "4a7d120f-8fc6-41db-bac7-75dea995549c",
@@ -2207,6 +2239,22 @@
             }
         },
         {
+            "Key": "b70fb9db-4248-4a50-a834-5b153968c982",
+            "Value": {
+                "id": "8a6f2098-8c40-4e30-92af-6630bdbf944c",
+                "resourcePath": "rooms\\rm_Tavern1\\rm_Tavern1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b8476548-f6c7-483b-bf68-7506037bf9a3",
+            "Value": {
+                "id": "36eb099c-8656-4482-a901-4bfa4bfcdc00",
+                "resourcePath": "sprites\\spr_TavernPortrait\\spr_TavernPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b85006b5-2cf5-48c5-91dc-d05a0923630b",
             "Value": {
                 "id": "ad09475f-cd0f-4db5-9107-4d6582a7a811",
@@ -2284,6 +2332,14 @@
                 "id": "4df87d31-57e0-4b7f-ac58-73280fb1c10f",
                 "resourcePath": "fonts\\fnt_Doogle50\\fnt_Doogle50.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "beb8b767-8f47-4aed-8b48-1ed0c4be8bd8",
+            "Value": {
+                "id": "c1f01fb7-0d79-4abc-b743-94620fe47f36",
+                "resourcePath": "views\\beb8b767-8f47-4aed-8b48-1ed0c4be8bd8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2844,6 +2900,14 @@
                 "id": "7a2e557e-5f0c-489f-810f-fe463af47407",
                 "resourcePath": "scripts\\scr_QtyAdd\\scr_QtyAdd.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e9f9a76d-8a6b-4458-a460-49ee484e1117",
+            "Value": {
+                "id": "ff908619-7ed3-4a1a-8590-57c3bf0ef0b0",
+                "resourcePath": "notes\\Sep19_Tavern.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

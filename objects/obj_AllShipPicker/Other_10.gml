@@ -1,4 +1,6 @@
 /// @description SAVE OUR SHIP
+// Invoked by: obj_CardShip- Step Event
+
 
 shipArray[0] = Name;
 shipArray[1] = SailSpeed;

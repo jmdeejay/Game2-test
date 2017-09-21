@@ -1,10 +1,11 @@
 OBJECTIVE: TAVERN
 	• Setup scr_StartNewGame to add a starting crew to ship
+		• Re-work the entire Crew system. (Ship Readiness = Total Crew Readiness)
 	• Setup scr_StartNewGame to add 10 starting ration barrels
 	• Be able to see Crew count in Port.
 	• Be able to see Ship Readiness in Port.
-	• Duplicate Store room
-		• Replace art assets/bg color with new assets
+	• Duplicate Store room // Done (sorta)
+		• Replace art assets/bg color with new assets // Done (mostly)
 		• Hire Seaman / Cook / Gunner as available options
 			- Create Explanation Texts for each crew type
 		• Show current crew number, max crew number, ship readiness.

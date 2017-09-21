@@ -4,8 +4,8 @@
 
 shipArray[0] = Name;
 shipArray[1] = SailSpeed;
-shipArray[2] = normalRequired;
-shipArray[3] = MinRequire;
+shipArray[2] = MaxReady;
+shipArray[3] = CurrentReady;
 shipArray[4] = PassengerCapacity;
 shipArray[5] = CurrentCannons;
 shipArray[6] = CannonCapacity;

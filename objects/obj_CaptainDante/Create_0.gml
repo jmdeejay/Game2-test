@@ -5,7 +5,7 @@
 Name = "Dante Castigar";
 CrewStatus = "Green";
 CrewXPGrow = 0.90;
-CrewRequired = 1.00;
+CrewReadinessModifier = 1.00;
 CrewPayRate = 0.85;
 CrewTraitorChance = 1.00;
 StartingCannons = 2;

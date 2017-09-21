@@ -2,32 +2,32 @@
 // NOTE: Do not invoke in Step Event
 
 
-switch (obj_MyCaptain.Name)
+switch (obj_MyCaptain.myCaptain[? "Name"])
 {
 	case "Corvus Castigar":
-	isCorvusCaptain = true;
+	myShip[? "isCorvusCaptain"] = true;
 	break;
 	
 	case "Dante Castigar":
-	isDanteCaptain = true;
+	myShip[? "isDanteCaptain"] = true;
 	break;
 	
 	case "Christian King":
-	isChristianCaptain = true;
+	myShip[? "isChristianCaptain"] = true;
 	break;
 }
 
-if (isCorvusCaptain and Name == "Remex")
+if (myShip[? "isCorvusCaptain"] == true and myShip[? "Name"] == "Remex")
 {
-	SailSpeed += 1;
+	myShip[? "SailSpeed"] += 1;
 }
 
-if (isDanteCaptain and Name == "Nostro")
+if (myShip[? "isDanteCaptain"] == true and myShip[? "Name"] == "Nostro")
 {
-	CurrentCannons += 2;
+	myShip[? "CurrentCannons"] += 2;
 }
 
-if (isChristianCaptain and Name == "Ark")
+if (myShip[? "isChristianCaptain"] == true and myShip[? "Name"] == "Ark")
 {
-	Capacity += 10;
+	myShip[? "Capacity"] += 10;
 }

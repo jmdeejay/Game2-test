@@ -3,8 +3,8 @@
 Name = "";
 Capacity = 100;
 SailSpeed = 10;
-normalRequired = 10;
-MinRequire = 5;
+MaxReady = 100;
+CurrentReady = 0;
 PassengerCapacity = 10;
 CurrentCannons = 5;
 CurrentAmmo = CurrentCannons * 3;

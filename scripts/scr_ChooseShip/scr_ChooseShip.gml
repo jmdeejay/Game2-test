@@ -5,13 +5,13 @@
 
 var _thisArray = argument0;
 
-var _name, _sailSpd, _nrmlReq, _minReq, _passCap, _currCann, _maxHP, 
+var _name, _sailSpd, _maxRdy, _curRdy, _passCap, _currCann, _maxHP, 
 _cannCap, _sightRan, _shipHP, _isCorv, _isDant, _isChris, _capac;
 
 _name = _thisArray[0];
 _sailSpd = _thisArray[1];
-_nrmlReq = _thisArray[2];
-_minReq = _thisArray[3];
+_maxRdy = _thisArray[2];
+_curRdy = _thisArray[3];
 _passCap = _thisArray[4];
 _currCann = _thisArray[5];
 _cannCap = _thisArray[6];
@@ -26,25 +26,27 @@ _maxHP = _thisArray[13];
 with (obj_MyShip)
 {
 	//First, update the variables
-	Name = _name;
-	Capacity = _capac;
-	SailSpeed = _sailSpd;
-	NormalRequired = _nrmlReq;
-	MinRequire = _minReq;
-	PassengerCapacity = _passCap;
-	CurrentCannons = _currCann;
-	CannonCapacity = _cannCap;
-	SightRange = _sightRan;
-	CurrentHP = _shipHP;
-	MaxHP = _maxHP;
+	myShip[? "Name"] = _name;
+	myShip[? "Capacity"] = _capac;
+	myShip[? "SailSpeed"] = _sailSpd;
+	myShip[? "MaxReady"] = _maxRdy;
+	myShip[? "CurrentReady"] = _curRdy;
+	myShip[? "PassengerCapacity"] = _passCap;
+	myShip[? "CurrentCannons"] = _currCann;
+	myShip[? "CannonCapacity"] = _cannCap;
+	myShip[? "SightRange"] = _sightRan;
+	myShip[? "CurrentHP"] = _shipHP;
+	myShip[? "MaxHP"] = _maxHP;
 
-	isCorvusCaptain = false;
-	isDanteCaptain = false;
-	isChristianCaptain = false;
-	
-	event_user(0); // Save the DS MAP
+	myShip[? "isCorvusCaptain"] = false;
+	myShip[? "isDanteCaptain"] = false;
+	myShip[? "isChristianCaptain"] = false;
 }
 
+	show_debug_message("Update Complete");
+	var debugName = obj_MyShip.myShip[? "Name"];
+	show_debug_message("You chose " + debugName);
+	
 with (obj_ButtonChooseShip)
 {
 	isVisible = true;

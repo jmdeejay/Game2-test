@@ -4,7 +4,7 @@
 scr_ChooseCap(	thisCaptain.Name, 
 				thisCaptain.CrewStatus, 
 				thisCaptain.CrewXPGrow,
-				thisCaptain.CrewRequired,
+				thisCaptain.CrewReadinessModifier,
 				thisCaptain.CrewPayRate,
 				thisCaptain.CrewTraitorChance,
 				thisCaptain.CrewQuitChance,

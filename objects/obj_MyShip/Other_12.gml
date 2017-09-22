@@ -14,3 +14,8 @@ with (obj_MyCaptain)
 
 
 myShip[? "CurrentReady"] = totalReadiness;
+
+if (myShip[? "CurrentReady"] > myShip[? "MaxReady"])
+	myShip[? "CurrentReady"] = myShip[? "MaxReady"];
+
+ReadyPercent = floor((myShip[? "CurrentReady"] / myShip[? "MaxReady"]) * 100);

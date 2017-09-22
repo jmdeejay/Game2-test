@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "4df6c2a3-11f6-427c-bf53-658241ccbe0f",
+            "Value": {
+                "id": "ed541d7f-ed39-444d-9a9a-eab39555ce66",
+                "resourcePath": "sprites\\spr_V_38x50\\spr_V_38x50.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f12c17d-139d-4caf-ab73-b47ef343ec9c",
             "Value": {
                 "id": "31f8ff3e-7c1f-454e-b37c-60c6a3b172f9",
@@ -2503,6 +2511,14 @@
             }
         },
         {
+            "Key": "cba32ea4-132d-4e2f-8368-05bcef3dcf93",
+            "Value": {
+                "id": "0366b02a-0197-4c6a-bc94-c11cf3a5c982",
+                "resourcePath": "scripts\\scr_StartCrewReadiness\\scr_StartCrewReadiness.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbe4a8b1-0965-4d86-a022-fccacbf91ce2",
             "Value": {
                 "id": "6e3f31f6-fe6c-4ea4-ba21-cf1b9b45bb44",
@@ -3087,6 +3103,14 @@
             }
         },
         {
+            "Key": "fbfef0c2-da09-49b5-b292-1cfc66050926",
+            "Value": {
+                "id": "4638afd8-f064-431f-a680-651eba2a5d8d",
+                "resourcePath": "scripts\\scr_CalcCrewReadiness\\scr_CalcCrewReadiness.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fcc2f668-fdfa-4e54-a730-7b8ad885df98",
             "Value": {
                 "id": "92043de0-87d6-4307-a21f-2e7a2b17987f",
@@ -3199,7 +3223,9 @@
         "e98f41e3-a86f-4e76-aaad-342123801f88",
         "30027b61-53a8-4e78-8ca5-3edd2510f516",
         "9ef12f58-f4e4-4d15-8f5e-1900f3f69490",
-        "21ac2d37-4a09-4ae0-8a65-15c1d657a908"
+        "21ac2d37-4a09-4ae0-8a65-15c1d657a908",
+        "cba32ea4-132d-4e2f-8368-05bcef3dcf93",
+        "fbfef0c2-da09-49b5-b292-1cfc66050926"
     ],
     "tutorial": ""
 }

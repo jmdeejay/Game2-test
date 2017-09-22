@@ -1,5 +1,10 @@
 /// @description DS MAP CREATE
 
+// INSTANCE VAR
+ReadyPercent = 0;
+
+
+// DS MAP 
 myShip = ds_map_create();
 
 ds_map_add(myShip, "Name", "");

@@ -1,5 +1,10 @@
 /// @description DS MAP CREATE
 
+//INSTANCE VARIABLES
+totalSeamen = 0;
+totalCooks = 0;
+totalGunners = 0;
+
 
 // CAPTAIN STATS
 myCaptain = ds_map_create();
@@ -26,6 +31,8 @@ for (var i = 0; i < 10; i++)
 	ds_map_add(cm, "Type", "Seaman");
 	ds_map_add(cm,"Status","Green"); // probably not necessary.
     ds_map_add(cm,"Readiness", 3);
+	ds_map_add(cm, "Cooking", 0);
+	ds_map_add(cm, "Gunning", 0);
     ds_list_add(myCrewManifest, cm);
 	ds_list_mark_as_map(myCrewManifest, i);
 }

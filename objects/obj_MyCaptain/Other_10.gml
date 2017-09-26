@@ -1,16 +1,36 @@
-/// @description SAVE CAPTAIN
+/// @description SUM CREW TYPES
+// Invoked when entering Tavern Room.
+// Invoked when leaving Tavern Room.
+// Invoked when Entering Port. (Not yet)
 
-show_debug_message("Updating Captain DS Map");
 
-ds_map_replace(myCaptain, "name", Name);
-ds_map_replace(myCaptain, "CrewStatus", CrewStatus);
-ds_map_replace(myCaptain, "CrewXPGrow", CrewXPGrow);
-ds_map_replace(myCaptain, "CrewRequired", CrewRequired);
-ds_map_replace(myCaptain, "CrewPayRate", CrewPayRate);
-ds_map_replace(myCaptain, "CrewTraitorChance", CrewTraitorChance);
-ds_map_replace(myCaptain, "CrewQuitChance", CrewQuitChance);
-ds_map_replace(myCaptain, "StartingCannon", StartingCannons);
+var _size = ds_list_size(myCrewManifest);
+var _sea = 0;
+var _cook = 0;
+var _gunr = 0;
 
-show_debug_message("Update Complete");
-var thisName = ds_map_find_value(myCaptain, "name");
-show_debug_message("You chose " + thisName);
+for (var i = 0; i < _size; i++)
+{
+	var _type = "";
+	var _map = myCrewManifest[| i];
+	
+	switch (_map[? "Type"])
+	{
+		case "Seaman":
+		_sea += 1;
+		break;
+		
+		case "Cook": 
+		_cook += 1;
+		break;
+		
+		case "Gunner":
+		_gunr += 1;
+		break;
+	}
+}
+
+totalSeamen = _sea;
+totalCooks = _cook;
+totalGunners = _gunr;
+

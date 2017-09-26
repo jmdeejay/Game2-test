@@ -37,10 +37,16 @@ if (isManual)
 	myText = keyboard_string;
 	var _checkNumber = int64(myText);
 	var _checkNumber = _checkNumber % 100;
-	if (obj_InfoTxtTwo.valueOne > obj_InfoTxtTwo.valueTwo) // Are there too many barrels?
+	var _roomName = room_get_name(room);
+	_roomName = string_copy(_roomName, 1, string_length(_roomName) - 1); // Get Building Name
+	
+	if (_roomName == "rm_Store")
 	{
-		 _checkNumber -= (obj_InfoTxtTwo.valueOne - obj_InfoTxtTwo.valueTwo); // reduce it
-		 keyboard_string = string(_checkNumber);
+		if (obj_InfoTxtTwo.valueOne > obj_InfoTxtTwo.valueTwo) // Are there too many barrels?
+		{
+			 _checkNumber -= (obj_InfoTxtTwo.valueOne - obj_InfoTxtTwo.valueTwo); // reduce it
+			 keyboard_string = string(_checkNumber);
+		}
 	}
 	
 	printNumber = _checkNumber;
@@ -56,7 +62,6 @@ switch (localGood)
 	case "ItemAmmo":
 	itemPrice = obj_LocalStore.ItemAmmo[? "ItemPrice"];
 	break;
-
 }
 
 itemTotal = printNumber * itemPrice; // itemTotal gets used by obj_LocalStore User Event 0

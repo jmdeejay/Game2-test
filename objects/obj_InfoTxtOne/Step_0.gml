@@ -1,12 +1,14 @@
 /// @description EVAL AND UPDATE
 
-switch (room)
+switch (currentRoom)
 {
-	case rm_Market1:
+	case "rm_Market":
 	valueOne = obj_MyLedger.Cash;
 	break;
 
-	case rm_Store1:
+	case "rm_Store":
 	valueOne = obj_LocalStore.myRationCount + startValue;
 	break;
+	
+	
 }

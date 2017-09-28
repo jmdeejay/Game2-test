@@ -6,6 +6,7 @@ mySubtotal = 0;
 mySeamanCount = 0;
 myCookCount = 0;
 myGunnerCount = 0;
+myTotalHireCount = 0;
 
 NewSeamen = ds_map_create();
 

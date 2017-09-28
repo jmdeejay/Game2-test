@@ -24,3 +24,12 @@ if (instance_exists(obj_ParentColumnTitle))
 		visible = true;
 	}
 }
+
+if (instance_exists(obj_ButtonExitTavern))
+{
+	with (obj_ButtonExitTavern)
+	{
+		visible = true;
+	}
+
+}

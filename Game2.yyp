@@ -1383,6 +1383,14 @@
             }
         },
         {
+            "Key": "6b3a211f-7971-45ea-8126-b811c84a57f6",
+            "Value": {
+                "id": "c18dd267-3bdb-4cf8-80b7-f7f2c58919ef",
+                "resourcePath": "objects\\obj_ButtonExitTavern\\obj_ButtonExitTavern.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b500194-2573-45ee-9b97-c772e1867688",
             "Value": {
                 "id": "14d14ef3-ccd5-405c-b576-b8e3e42807e7",

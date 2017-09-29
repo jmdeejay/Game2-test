@@ -16,45 +16,46 @@ switch (myType)
 	
 	case 2: // Show Ship Readiness
 		var _newSeamen = obj_LocalTavern.mySeamanCount;
-		var _status = obj_MyCaptain.myCaptain[? "CrewStatus"]; // "Green" "Able" "Seasoned"
 		var _capModifier = obj_MyCaptain.myCaptain[? "CrewReadinessModifier"]; // a number close to 1.
-		var _baseSkill;
-		switch (_status)
-		{
-			case "Green":
-			_baseSkill = 3;
-			break;
-			case "Able":
-			_baseSkill = 5;
-			break;
-			case "Seasoned":
-			_baseSkill = 7;
-			break;	
-		}
+		var _baseSkill = 3;
 		var _newPercent = (_newSeamen * (_baseSkill * _capModifier)) / obj_MyShip.myShip[? "MaxReady"] * 100 ;
 		valueOne = min(floor(_newPercent) + obj_MyShip.ReadyPercent, 100);
-		
+		if (floor(_newPercent) + obj_MyShip.ReadyPercent > 100) 
+		{
+			bodyColor = COLOR_RED_DARK;
+		}
+		else if (floor(_newPercent) + obj_MyShip.ReadyPercent <= 100)
+			bodyColor = COLOR_WHITE_LIGHT;
 	break;
 	
 	case 3: // Show Ship Cooking Ability
-	//do stuff
 		var _newCook = obj_LocalTavern.myCookCount;
-		var _status = obj_MyCaptain.myCaptain[? "CrewStatus"]; // "Green" "Able" "Seasoned"
-		var _baseSkill;
-		switch (_status)
-		{
-			case "Green":
-			_baseSkill = 2;
-			break;
-			case "Able":
-			_baseSkill = 4;
-			break;
-			case "Seasoned":
-			_baseSkill = 6;
-			break;	
-		}
+		var _baseSkill = 2;;
 		var _newPercent = (_newCook * _baseSkill);
 		valueOne = min(floor(_newPercent) + obj_MyShip.CookingSkill, obj_MyShip.myShip[? "PassengerCapacity"]);
+		if (floor(_newPercent) + obj_MyShip.CookingSkill > obj_MyShip.myShip[? "PassengerCapacity"])
+			bodyColor = COLOR_RED_DARK;
+		else if (floor(_newPercent) + obj_MyShip.CookingSkill <= obj_MyShip.myShip[? "PassengerCapacity"])
+			bodyColor = COLOR_WHITE_LIGHT;
+			
+	break;
 	
+	case 4: // Show Ship Gunning Ability
+
+		var _newGunner = obj_LocalTavern.myGunnerCount;
+		var _baseSkill = 1;
+		var _newPercent = (_newGunner * _baseSkill);
+		valueOne = min(floor(_newPercent) + obj_MyShip.MannedGuns, obj_MyShip.myShip[? "CurrentCannons"]);
+		if (floor(_newPercent) + obj_MyShip.MannedGuns > obj_MyShip.myShip[? "CurrentCannons"])
+			bodyColor = COLOR_RED_DARK;
+		else if (floor(_newPercent) + obj_MyShip.MannedGuns <= obj_MyShip.myShip[? "CurrentCannons"])
+			bodyColor = COLOR_WHITE_LIGHT;
+	break;
+	
+	case 5: // Show Payroll expense		
+		var _newCrew = obj_LocalTavern.myTotalHireCount;	
+		var _oldCrew = ds_list_size(obj_MyCaptain.myCrewManifest);
+		var _capModifier = obj_MyCaptain.myCaptain[? "CrewPayRate"];	
+		valueOne = (_newCrew + _oldCrew) * (_capModifier * G.CrewWages);
 	break;
 }

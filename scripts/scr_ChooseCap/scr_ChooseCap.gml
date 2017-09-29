@@ -14,7 +14,6 @@ var _cannonStart = argument7;
 with (obj_MyCaptain)
 {
 	myCaptain[? "Name"] = _name;
-	myCaptain[? "CrewStatus"] = _crewStatus;
 	myCaptain[? "CrewXPGrow"] = _crewXP;
 	myCaptain[? "CrewReadinessModifier"] = _crewMod;
 	myCaptain[? "CrewPayRate"] = _crewPay;

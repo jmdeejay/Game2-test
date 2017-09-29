@@ -1,36 +1,16 @@
-/// @description SUM CREW TYPES
-// Invoked when entering Tavern Room.
-// Invoked when leaving Tavern Room.
-// Invoked when Entering Port. (Not yet)
+/// @description STARTING CREW
 
-
-var _size = ds_list_size(myCrewManifest);
-var _sea = 0;
-var _cook = 0;
-var _gunr = 0;
-
-for (var i = 0; i < _size; i++)
+// START OUT WITH TEN CREW MEMBERS
+for (var i = 0; i < 10; i++)
 {
-	var _type = "";
-	var _map = myCrewManifest[| i];
-	
-	switch (_map[? "Type"])
-	{
-		case "Seaman":
-		_sea += 1;
-		break;
-		
-		case "Cook": 
-		_cook += 1;
-		break;
-		
-		case "Gunner":
-		_gunr += 1;
-		break;
-	}
+    var cm = ds_map_create();
+    ds_map_add(cm,"Name","Tom_" + string(i));
+	ds_map_add(cm, "Type", "Seaman");
+	ds_map_add(cm,"Status","Green"); // probably not necessary.
+	ds_map_add(cm, "ExperiencePoints", 0);
+    ds_map_add(cm,"Readiness", 3);
+	ds_map_add(cm, "Cooking", 0);
+	ds_map_add(cm, "Gunning", 0);
+    ds_list_add(myCrewManifest, cm);
+	ds_list_mark_as_map(myCrewManifest, i);
 }
-
-totalSeamen = _sea;
-totalCooks = _cook;
-totalGunners = _gunr;
-

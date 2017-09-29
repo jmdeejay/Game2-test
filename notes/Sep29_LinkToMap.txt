@@ -1,0 +1,19 @@
+OBJECTIVE: LINKAGE
+• Need to add Start Turn room
+	• Duplicate the Booter room, remove what's unnecessary from original, and change Duplicate to First Turn room.
+		• Need to audit obj_Globals. Perhaps move to Start Turn room.
+		• First Turn room sets up player/boat as configured in Front End
+			• Need to fix Front End so that if a different captain is picked, bonuses are reset. (Just in case)
+• Need to get Port Room to properly exit to Map room.
+	• Add an 'Exit' button to go back to Port
+• Need to further develop Map room
+	• Need Passengers wanting to leave for another Port
+	• Need "Selected Port" to be shown/highlighted.
+	• Need to indicate how many rations journey will consume
+	• Need to indicate how much time journey will take
+• Need Map Room to for-reals transition to other port, increment turn.
+	• CurrentTown effects room numbers
+• Need to add End Turn room
+	• Increment G.TurnNumber
+	• Evaluate and subtract ration barrels
+	

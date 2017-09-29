@@ -17,8 +17,6 @@ MyLedger = ds_map_create();
 
 ds_map_add(MyLedger, "Cash", Cash);
 ds_map_add(MyLedger, "Savings", Savings);
-
-
 ds_map_add(MyLedger, "SharkLoan", SharkLoan);
 ds_map_add(MyLedger, "BankLoan", BankLoan);
 ds_map_add(MyLedger, "CrewPay", CrewPay);

@@ -1,5 +1,5 @@
 /// @description DESTROY DS MAPS
-var _status = obj_MyCaptain.myCaptain[? "CrewStatus"]
+
 
 repeat(mySeamanCount)
 {
@@ -7,7 +7,8 @@ repeat(mySeamanCount)
     var cm = ds_map_create();
     ds_map_add(cm,"Name","Timmy_" + _unique + string(irandom(9)));
 	ds_map_add(cm, "Type", "Seaman");
-	ds_map_add(cm,"Status", _status); 
+	ds_map_add(cm,"Status", "Green");
+	ds_map_add(cm,"ExperiencePoints", 0);  
     ds_map_add(cm,"Readiness", 3);
 	ds_map_add(cm, "Cooking", 0);
 	ds_map_add(cm, "Gunning", 0);
@@ -22,7 +23,8 @@ repeat(myCookCount)
     var cm = ds_map_create();
     ds_map_add(cm,"Name","Jean_" + _unique + string(irandom(9)));
 	ds_map_add(cm, "Type", "Cook");
-	ds_map_add(cm,"Status", _status);
+	ds_map_add(cm,"Status", "Green");
+	ds_map_add(cm,"ExperiencePoints", 0);
     ds_map_add(cm,"Readiness", 0);
 	ds_map_add(cm, "Cooking", 2);
 	ds_map_add(cm, "Gunning", 0);
@@ -37,7 +39,8 @@ repeat(myGunnerCount)
     var cm = ds_map_create();
     ds_map_add(cm,"Name","Frank_" + _unique + string(irandom(9)));
 	ds_map_add(cm, "Type", "Gunner");
-	ds_map_add(cm,"Status", _status); 
+	ds_map_add(cm,"Status", "Green");
+	ds_map_add(cm,"ExperiencePoints", 0); 
     ds_map_add(cm,"Readiness", 1);
 	ds_map_add(cm, "Cooking", 0);
 	ds_map_add(cm, "Gunning", 1);

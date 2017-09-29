@@ -12,6 +12,10 @@ G.SpiceSelected = 0;
 G.TownSelected = VAIO;
 G.CurrentTown = VAIO;
 
+// CREW
+G.CrewWages = 100;
+
+
 // STORE PRICE MODIFIERS;
 
 G.VaioRationModifier = 15; // Changes on a turn by turn basis, via Random Events.

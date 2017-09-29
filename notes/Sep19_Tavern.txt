@@ -1,14 +1,14 @@
 OBJECTIVE: TAVERN
-	• Setup scr_StartNewGame to add a starting crew to ship
+	• Setup scr_StartNewGame to add a starting crew to ship // Done
 		• Re-work the entire Crew system. (Ship Readiness = Total Crew Readiness) // Done
 	• Setup scr_StartNewGame to add 10 starting ration barrels // Done?
-	• Be able to see Crew count in Port. 
+	• Be able to see Crew count in Port. // Done? Sorta
 	• Be able to see Ship Readiness in Port. // Done
-	• Duplicate Store room // Done (sorta)
-		• Replace art assets/bg color with new assets // Done (mostly)
+	• Duplicate Store room // Done
+		• Replace art assets/bg color with new assets // Done
 		• Hire Seaman / Cook / Gunner as available options // Done
 			- Create Explanation Texts for each crew type // Done
-		• Show current crew number, max crew number, ship readiness. // Sorta Done
-	• Have working subtotal
-	• Have working Buy + Exit
+		• Show current crew number, max crew number, ship readiness. // Done
+	• Have working subtotal // Done (Payroll)
+	• Have working Buy + Exit // Done
 	

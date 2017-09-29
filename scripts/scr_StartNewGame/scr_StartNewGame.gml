@@ -24,6 +24,4 @@ with (obj_WorldQty)
 	event_user(0); // Setup Prices 
 }
 
-scr_StartCrewReadiness();
-
 room_goto(2); // Goto starting port

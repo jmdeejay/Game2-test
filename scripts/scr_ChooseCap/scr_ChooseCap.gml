@@ -11,20 +11,20 @@ var _crewTraitor = argument5;
 var _crewQuit = argument6;
 var _cannonStart = argument7;
 
-with (obj_MyCaptain)
+with (obj_NewGame)
 {
-	myCaptain[? "Name"] = _name;
-	myCaptain[? "CrewXPGrow"] = _crewXP;
-	myCaptain[? "CrewReadinessModifier"] = _crewMod;
-	myCaptain[? "CrewPayRate"] = _crewPay;
-	myCaptain[? "CrewTraitorChance"] = _crewTraitor;
-	myCaptain[? "CrewQuitChance"] = _crewQuit;
-	myCaptain[? "StartingCannons"] = _cannonStart;
+	NewGameCaptain[? "Name"] = _name;
+	NewGameCaptain[? "CrewXPGrow"] = _crewXP;
+	NewGameCaptain[? "CrewReadinessModifier"] = _crewMod;
+	NewGameCaptain[? "CrewPayRate"] = _crewPay;
+	NewGameCaptain[? "CrewTraitorChance"] = _crewTraitor;
+	NewGameCaptain[? "CrewQuitChance"] = _crewQuit;
+	NewGameCaptain[? "StartingCannons"] = _cannonStart;
 	
 }
 
 show_debug_message("Update Complete");
-var debugName = obj_MyCaptain.myCaptain[? "Name"];
+var debugName = obj_NewGame.NewGameCaptain[? "Name"];
 show_debug_message("You chose " + debugName);
 
 with (obj_ButtonChooseShip)

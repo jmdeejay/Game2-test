@@ -17,17 +17,17 @@ switch (obj_MyCaptain.myCaptain[? "Name"])
 	break;
 }
 
-if (myShip[? "isCorvusCaptain"] == true and myShip[? "Name"] == "Remex")
+if (myShip[? "isCorvusCaptain"] == true)
 {
 	myShip[? "SailSpeed"] += 1;
 }
 
-if (myShip[? "isDanteCaptain"] == true and myShip[? "Name"] == "Nostro")
+if (myShip[? "isDanteCaptain"] == true)
 {
 	myShip[? "CurrentCannons"] += 2;
 }
 
-if (myShip[? "isChristianCaptain"] == true and myShip[? "Name"] == "Ark")
+if (myShip[? "isChristianCaptain"] == true)
 {
 	myShip[? "Capacity"] += 10;
 }

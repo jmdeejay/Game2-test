@@ -1,5 +1,5 @@
 /// @description NEW GAME
-// Invoked By: scr_StarNewGame
+// Invoked By: rm_FirstTurn
 
 Cash = 10000;
 SharkLoan = 110000;

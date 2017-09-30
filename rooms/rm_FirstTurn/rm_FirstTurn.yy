@@ -2,7 +2,7 @@
 {
     "name": "rm_FirstTurn",
     "id": "60bacbb9-8cf5-4215-9388-de212ff4917d",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

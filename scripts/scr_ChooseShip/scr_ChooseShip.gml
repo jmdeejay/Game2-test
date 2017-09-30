@@ -23,28 +23,28 @@ _isChris = _thisArray[11];
 _capac = _thisArray[12];
 _maxHP = _thisArray[13];
 
-with (obj_MyShip)
+with (obj_NewGame)
 {
 	//First, update the variables
-	myShip[? "Name"] = _name;
-	myShip[? "Capacity"] = _capac;
-	myShip[? "SailSpeed"] = _sailSpd;
-	myShip[? "MaxReady"] = _maxRdy;
-	myShip[? "CurrentReady"] = _curRdy;
-	myShip[? "PassengerCapacity"] = _passCap;
-	myShip[? "CurrentCannons"] = _currCann;
-	myShip[? "CannonCapacity"] = _cannCap;
-	myShip[? "SightRange"] = _sightRan;
-	myShip[? "CurrentHP"] = _shipHP;
-	myShip[? "MaxHP"] = _maxHP;
+	NewGameShip[? "Name"] = _name;
+	NewGameShip[? "Capacity"] = _capac;
+	NewGameShip[? "SailSpeed"] = _sailSpd;
+	NewGameShip[? "MaxReady"] = _maxRdy;
+	NewGameShip[? "CurrentReady"] = _curRdy;
+	NewGameShip[? "PassengerCapacity"] = _passCap;
+	NewGameShip[? "CurrentCannons"] = _currCann;
+	NewGameShip[? "CannonCapacity"] = _cannCap;
+	NewGameShip[? "SightRange"] = _sightRan;
+	NewGameShip[? "CurrentHP"] = _shipHP;
+	NewGameShip[? "MaxHP"] = _maxHP;
 
-	myShip[? "isCorvusCaptain"] = false;
-	myShip[? "isDanteCaptain"] = false;
-	myShip[? "isChristianCaptain"] = false;
+	NewGameShip[? "isCorvusCaptain"] = false;
+	NewGameShip[? "isDanteCaptain"] = false;
+	NewGameShip[? "isChristianCaptain"] = false;
 }
 
 	show_debug_message("Update Complete");
-	var debugName = obj_MyShip.myShip[? "Name"];
+	var debugName = obj_NewGame.NewGameShip[? "Name"];
 	show_debug_message("You chose " + debugName);
 	
 with (obj_ButtonChooseShip)

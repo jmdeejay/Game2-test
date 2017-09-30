@@ -17,9 +17,7 @@ ds_map_add(NewGameShip, "MaxHP", 3);
 ds_map_add(NewGameShip, "isCorvusCaptain", false);
 ds_map_add(NewGameShip, "isDanteCaptain", false);
 ds_map_add(NewGameShip, "isChristianCaptain", false);
-ds_map_add(NewGameShip, "CurrentSeamen", 0);
-ds_map_add(NewGameShip, "CurrentCooks", 0);
-ds_map_add(NewGameShip, "CurrentGunners", 0);
+
 
 // MY CAPTAIN
 NewGameCaptain = ds_map_create();
@@ -33,13 +31,5 @@ ds_map_add(NewGameCaptain, "CrewQuitChance", 0.15);
 ds_map_add(NewGameCaptain, "StartingCannon", 0);
 
 
-// MY LEDGER
-NewGameLedger = ds_map_create();
 
-ds_map_add(NewGameLedger, "Cash", Cash);
-ds_map_add(NewGameLedger, "Savings", Savings);
-ds_map_add(NewGameLedger, "SharkLoan", SharkLoan);
-ds_map_add(NewGameLedger, "BankLoan", BankLoan);
-ds_map_add(NewGameLedger, "CrewPay", CrewPay);
-ds_map_add(NewGameLedger, "Taxes", Taxes);
 

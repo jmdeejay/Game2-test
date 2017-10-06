@@ -1,4 +1,6 @@
 /// @description SPAWN CAPS
+// Set by Room Start Event, 10 frames.
+
 with (obj_hexTester)
 {
 	event_user(0);

@@ -21,5 +21,11 @@ switch (global.gameState)
 		camera.destX = 1920;
 		camera.destY = 720;
 	break;
+	
+	case GameState.MapScreen :
+		camera.destX = obj_MouseController.x;
+		camera.destY = obj_MouseController.y;
+		camera.lerp_cam = 0.90;
+	break;
 }
 

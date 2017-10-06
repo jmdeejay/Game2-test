@@ -8,3 +8,6 @@ destY = 0;
 initWidth = view_wport[view_number];
 initHeight = view_hport[view_number];
 init = false;
+
+
+display_mouse_get_x()

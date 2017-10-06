@@ -4,7 +4,7 @@ var myCollider = collision_rectangle(myStartX - 32,
 								 myStartY - 40,
 								 myStartX + 32,
 								 myStartY + 40,
-								 obj_MouseCursor, false, true);
+								 obj_MouseController, false, true);
 
 if (myCollider != noone)
 {

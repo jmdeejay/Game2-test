@@ -1,12 +1,16 @@
 OBJECTIVE: LINKAGE
-• Need to add Start Turn room
-	• Duplicate the Booter room, remove what's unnecessary from original, and change Duplicate to First Turn room.
-		• Need to audit obj_Globals. Perhaps move to Start Turn room.
-		• First Turn room sets up player/boat as configured in Front End
-			• Need to fix Front End so that if a different captain is picked, bonuses are reset. (Just in case)
+• Need to add First Turn room // DONE
+	• Duplicate the Booter room, remove what's unnecessary from original, and change Duplicate to First Turn room. // DONE
+		• Need to audit obj_Globals. Perhaps move to First Turn room. // DONE
+		• First Turn room sets up player/boat as configured in Front End // DONE
+			• Need to fix Front End so that if a different captain is picked, bonuses are reset. (Just in case) // EFFECTIVELY DONE
 • Need to get Port Room to properly exit to Map room.
 	• Add an 'Exit' button to go back to Port
+	• 'Set Sail' plays animation and goes to End Turn room
 • Need to further develop Map room
+	• Need to develop camera sytem.
+		• Camera object needs to lerp slowly to mouse cursor
+		• Camera cannot go outside room boundaries.
 	• Need Passengers wanting to leave for another Port
 	• Need "Selected Port" to be shown/highlighted.
 	• Need to indicate how many rations journey will consume
@@ -16,4 +20,5 @@ OBJECTIVE: LINKAGE
 • Need to add End Turn room
 	• Increment G.TurnNumber
 	• Evaluate and subtract ration barrels
+	• Update WorldQtyTable
 	

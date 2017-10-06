@@ -12,7 +12,13 @@
         "4474b66c-851f-41e2-80a6-d0435cd3a25b",
         "3945e5ee-4af4-4f19-95b5-99abdff24b58",
         "a650393a-8f7b-455d-9973-78d40782bbfb",
-        "e43220d3-96ef-44f9-93b7-21a2d526b6a4"
+        "e43220d3-96ef-44f9-93b7-21a2d526b6a4",
+        "2e327051-1486-4cf5-bd12-772b7dca624a",
+        "7fd7b0a7-7840-4bd6-ad48-0a11de07a6a9",
+        "765899ae-3aa6-42dd-bb76-572faf28248b",
+        "d3d5a4c4-8336-4bae-9dfe-8e458d2aa820",
+        "b51502f2-a87a-42ca-be52-30f64166d70c",
+        "51aae005-1c8a-45b2-a87a-024972a5f1d8"
     ],
     "filterType": "GMSprite",
     "folderName": "Mapscreen",

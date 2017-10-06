@@ -1,5 +1,9 @@
 /// @description INIT VARS
 
+// TURNS
+G.TurnCount = 0;
+
+
 // SPAWN POINT
 G.SpawnX = 95;
 G.SpawnY = 650;
@@ -9,7 +13,7 @@ G.MaxSupply = 150;
 
 // MARKET BUTTONS
 G.SpiceSelected = 0;
-G.TownSelected = VAIO;
+G.TownSelected = 0; // Remember, VAIO == 1
 G.CurrentTown = VAIO;
 
 // CREW

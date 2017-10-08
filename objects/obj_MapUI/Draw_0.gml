@@ -50,7 +50,7 @@ if (KandDraw)
 {
 	draw_set_font(mapFont);
 	draw_set_color(bodyColor);
-	draw_text(Kand_X - 8, Kand_Y - 8, KandString);
+	draw_text(Kand_X - 16, Kand_Y - 8, KandString);
 }
 
 // DRAW SELF

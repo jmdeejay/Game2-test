@@ -9,4 +9,9 @@ if (collision_point(mouse_x, mouse_y, obj_hexTester, true, true))
 	{
 		path_start(myPath, 8, path_action_stop, false);
 	}
+	
+	with (obj_MapRightLabel)
+	{
+		alarm_set(0, myTicks);
+	}
 }

@@ -3,6 +3,9 @@
 // TURNS
 G.TurnCount = 0;
 
+// MAP SCREEN
+G.ServingsPerRation = 30;
+G.MilesPerTile = 90;
 
 // SPAWN POINT
 G.SpawnX = 95;

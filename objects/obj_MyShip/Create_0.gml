@@ -4,6 +4,8 @@
 ReadyPercent = 0; // Increased by Seamen on board. Cannot exceed MaxReady.
 CookingSkill = 0; // Increased by Cooks on board. Cannot exceed PassengerCapacity.
 MannedGuns = 0; // Increased by Gunners on board. Cannot exceed CurrentCannons.
+CurrentPassengers = 0;
+
 
 // DS MAP 
 myShip = ds_map_create();

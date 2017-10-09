@@ -31,3 +31,5 @@ with (obj_Player)
 	y = myStartY;
 	path_clear_points(myCourse);
 }
+
+event_user(0); // Hide the Redo button

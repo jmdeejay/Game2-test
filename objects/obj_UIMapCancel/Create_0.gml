@@ -3,5 +3,5 @@
 myAction = scr_ExitMapScreen;
 
 myColor = COLOR_WHITE_LIGHT;
-myString = "Cancel";
+myString = "Exit";
 myFont = fnt_ChronoType16;

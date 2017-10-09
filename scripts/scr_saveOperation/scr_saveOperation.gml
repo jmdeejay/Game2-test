@@ -12,4 +12,8 @@ with (obj_hexTester)
 }
 
 // save list
+var _jsonCopy = json_encode(global.hexLandMap);
+var file = file_text_open_write(working_directory + "\jsonMap.txt")
+file_text_write_string(file, _jsonCopy);
+file_text_close(file);
 ds_map_secure_save(global.hexLandMap, "hexLands.sav")

@@ -14,4 +14,9 @@ if (collision_point(mouse_x, mouse_y, obj_hexTester, true, true))
 	{
 		alarm_set(0, myTicks);
 	}
+	
+	with (obj_UIMapRedo)
+	{
+		alarm_set(0, 5);
+	}
 }

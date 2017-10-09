@@ -20,7 +20,8 @@
         "4d362807-3104-4fbf-b7d5-35ba793bae66",
         "c923fc8a-9119-4750-adf8-4e5ab3644f7f",
         "5a6ad3c5-a8dd-4dee-8785-72119d1a9cb2",
-        "a4c0b4a3-cd75-424e-a7db-1741a0753a5b"
+        "a4c0b4a3-cd75-424e-a7db-1741a0753a5b",
+        "849949ae-0a24-4a42-85f1-7a0be73bed4d"
     ],
     "filterType": "GMObject",
     "folderName": "Mapscreen",

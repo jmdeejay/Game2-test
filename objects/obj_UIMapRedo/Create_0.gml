@@ -3,7 +3,7 @@
 labelOne = "Reset";
 myAction = scr_StartOver;
 
-myFont = fnt_ChronoType12;
+myFont = fnt_ChronoType16;
 myColor = COLOR_WHITE_LIGHT;
 visible = false;
 image_speed = 0;

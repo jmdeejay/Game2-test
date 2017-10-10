@@ -4,8 +4,8 @@
 G.TurnCount = 0;
 
 // MAP SCREEN
-G.ServingsPerRation = 30;
-G.MilesPerTile = 90;
+G.ServingsPerRation = 50;
+G.MilesPerTile = 60;
 
 // SPAWN POINT
 G.SpawnX = 95;

@@ -23,6 +23,7 @@ with (obj_PathTracker)
 with (obj_SetSail)
 {
 	isVisible = false;
+	canPress = true;
 }
 
 with (obj_Player)

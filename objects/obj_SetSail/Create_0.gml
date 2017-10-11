@@ -7,3 +7,5 @@ myString = "SET SAIL";
 
 dropColor = COLOR_BLACK_LIGHT;
 myAlpha = 0.60;
+
+canPress = true;

@@ -615,14 +615,6 @@
             }
         },
         {
-            "Key": "33b2cdac-4db2-4164-9ca0-78e00337734c",
-            "Value": {
-                "id": "3795b36e-d2d6-418b-ac2c-a2393baa6e9b",
-                "resourcePath": "objects\\obj_StartOver\\obj_StartOver.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "33d3bd9b-2ba8-4979-8318-6cd31df88dac",
             "Value": {
                 "id": "7dc47b3a-edcf-499b-bc8e-bbbc40e23b4b",
@@ -1852,6 +1844,14 @@
                 "id": "8a10b7d6-f696-4052-a18e-11489f2b47bc",
                 "resourcePath": "scripts\\scr_GotoRoom\\scr_GotoRoom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86bc1c5d-bbdc-4617-95f6-e1ec1c9eafb9",
+            "Value": {
+                "id": "9535b890-f897-4eb1-8806-e0b01901f2f5",
+                "resourcePath": "objects\\obj_AllPassengers\\obj_AllPassengers.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3415,6 +3415,14 @@
             }
         },
         {
+            "Key": "fd5bbbac-4b21-47c1-8c87-2820c690ae02",
+            "Value": {
+                "id": "d38ebac8-beea-42de-9154-c71c73ad276d",
+                "resourcePath": "scripts\\scr_AttractAverage\\scr_AttractAverage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fe290475-520f-495b-87d4-77f50d536ca9",
             "Value": {
                 "id": "78523abf-0d29-4f0f-8d82-e6bede918c2d",
@@ -3480,6 +3488,7 @@
         "c6151d3d-6000-4418-aa2c-072f7fb89d4f",
         "ef786bea-a1ff-48a1-aed8-065b8d8cf3ca",
         "e59ce4d1-cea5-412e-a5ee-202201a6662c",
+        "fd5bbbac-4b21-47c1-8c87-2820c690ae02",
         "f10aa20f-1ad1-454f-8e7d-7763a05cd32b",
         "ea3127de-22c4-4ea4-b818-dfe37a1181ac",
         "abe5b464-abf2-447d-b5ee-f52a8d24d21d",

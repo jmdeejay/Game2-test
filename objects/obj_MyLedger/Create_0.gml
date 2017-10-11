@@ -6,12 +6,17 @@ Cash = 0;
 Savings = 0;
 
 
-
 // LIABILITIES //
 SharkLoan = 0;
 BankLoan = 0;
 CrewPay = 0;
 Taxes = 0;
+
+
+// PASSENGERS
+Advertising = 0;
+TicketPrice = 1000;
+
 
 MyLedger = ds_map_create();
 
@@ -21,4 +26,7 @@ ds_map_add(MyLedger, "SharkLoan", SharkLoan);
 ds_map_add(MyLedger, "BankLoan", BankLoan);
 ds_map_add(MyLedger, "CrewPay", CrewPay);
 ds_map_add(MyLedger, "Taxes", Taxes);
+
+
+
 

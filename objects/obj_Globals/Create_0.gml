@@ -7,6 +7,17 @@ G.TurnCount = 0;
 G.ServingsPerRation = 50;
 G.MilesPerTile = 60;
 
+G.TotalTourismDemand = 0; // Determines overall the max number of Passengers wanting to travel
+G.VaiosAttract = 0;
+G.DomosAttract = 0;
+G.ChirskAttract = 0;
+G.BarcellusAttract = 0;
+G.ZandrettaAttract = 0;
+G.SyrrAttract = 0;
+G.KandaAttract = 0;
+
+
+
 // SPAWN POINT
 G.SpawnX = 95;
 G.SpawnY = 650;

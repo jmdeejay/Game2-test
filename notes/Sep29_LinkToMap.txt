@@ -5,20 +5,54 @@ OBJECTIVE: LINKAGE
 		• First Turn room sets up player/boat as configured in Front End // DONE
 			• Need to fix Front End so that if a different captain is picked, bonuses are reset. (Just in case) // EFFECTIVELY DONE
 • Need to get Port Room to properly exit to Map room.
-	• Add an 'Exit' button to go back to Port
-	• 'Set Sail' plays animation and goes to End Turn room
+	• Add an 'Exit' button to go back to Port // DONE
+	• 'Set Sail' plays animation and goes to End Turn room // IN PROGRESS
 • Need to further develop Map room
-	• Need to develop camera sytem.
-		• Camera object needs to lerp slowly to mouse cursor
-		• Camera cannot go outside room boundaries.
+	• Need to develop camera sytem. // DONE
+		• Camera object needs to lerp slowly to mouse cursor // DONE
+		• Camera cannot go outside room boundaries. // DONE
 	• Need Passengers wanting to leave for another Port
-	• Need "Selected Port" to be shown/highlighted.
-	• Need to indicate how many rations journey will consume
-	• Need to indicate how much time journey will take
+	• Need "Selected Port" to be shown/highlighted. // DONE
+	• Need to indicate how many rations journey will consume // DONE
+	• Need to indicate how much time journey will take // SORTA DONE
 • Need Map Room to for-reals transition to other port, increment turn.
 	• CurrentTown effects room numbers
 • Need to add End Turn room
 	• Increment G.TurnNumber
 	• Evaluate and subtract ration barrels
 	• Update WorldQtyTable
+	• Show time taken to arrive at port. (Will be used later to rank who goes first)
+	
+	
+PASSENGER SYSTEM:
+
+Each turn, the world has a random number of people that want to travel to a different port. These people will pay any player for a
+ticket to ride on their boat. 1 Passenger also brings their personal belongings, which is equivalent to 1 barrel of space. Because of
+this, the Player must first have available space and Cooks for a Passenger, and thus must push a button to Board Passengers. Once 
+pressed, that button will fill the boat with passengers until there are either no passengers left to board, or until there is no more
+space on board, or until there aren't enough Cooks to service more Passengers. Since passengers have to be fed and cared for, 
+passengers also count as People that consume rations. Passengers cannot board if there are no Cooks on board. 1 Cook can accomodate 
+5 passengers (tentative).
+
+First, Take the Total number of passengers available and divide that by each port (six). Then, Ports are ranked by their
+attractiveness. Get the Average Attractiveness by summing and dividing the Attractiveness numbers for each port excluding the Current
+Port. Compare this Average to the Attractiveness at each port. For each whole number *below* this average, subtract 1 passenger from
+that destination and put that passenger in a queue. For each whole number *above* this average, take 1 passenger from that queue and
+add it to that more-attractive destination. Attractive destinations take turns in this manner. A destination that is 2 points higher
+gets a 2nd turn.
+
+If there are no other Players at the current port, then you're done. So for example, if the total number of passengers available was
+36, and if the attractiveness of each port was the same across each port, then when the Player clicks on a destination, they will see
+that there are 6 Passengers that would like to buy a ticket to board the boat (36 / 6, no difference between ports).
+
+If there are other players at that port, then Passengers have a choice as to which boat they sail on. The two factors that determine 
+this is the Ticket Price and Advertising Spent. In the event that more than 1 player is at current town, sum the advertising 
+expenditures and average that number. For each 1000 a Player spent *below* that average, that Player has to take 1 Passenger away
+from a random port and put that passenger in a queue. For each 1000 a Player spent *above* that average, that Player gets to take 1
+Passenger from that queue, and assign them a random Port--with the more attractive ports being a more likely destination. Then,
+take the Ticket Prices across each player and average them. For each 100 coins a Player has Set *above* that average, that Player
+must take 1 Passenger away from a random port and put that passenger in a queue. For each 100 coins a player has Set *below* that
+average, a Player gets to take 1 passenger from that queue and assign them a destination--with more attractive destinations being
+more likely.
+
 	

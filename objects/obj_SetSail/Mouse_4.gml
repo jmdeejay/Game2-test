@@ -1,6 +1,10 @@
 /// @description MOVE THE BOAT
 
-with (obj_Player)
+if (canPress)
 {
-	event_user(1);
+	with (obj_Player)
+	{
+		event_user(1);
+	}
 }
+canPress = false;

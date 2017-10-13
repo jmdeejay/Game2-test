@@ -4,6 +4,7 @@ var tileNum = argument0;
 var loadMap;
 loadMap = ds_map_secure_load("hexLands.sav")
 
+
 if(ds_exists(loadMap, ds_type_map)){
   with (obj_hexTester)
   {

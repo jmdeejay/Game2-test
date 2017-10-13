@@ -6,6 +6,7 @@ vectorY = 0; // also for Pathfinding
 landType = 0;
 tileID = 0;
 
+
 // Save / Load Variables
 tileKey = scr_getTileKey();
 var _savedata = ds_map_find_value(global.hexLandMap, tileKey);

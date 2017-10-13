@@ -13,11 +13,10 @@ if (thisHex) // am I colliding with a tile? Bob- Returns false if no instance th
         }
         thisHex.isEncountered = true;
     }
-}
-
-if (thisHex.landTitle != "" and thisHex.landTitle != "Port0_1")
-{
-	isDone = true; // stop moving.
-	obj_SetSail.isVisible = true;
-
+    
+    if (thisHex.landTitle != "" and thisHex.landTitle != "Port0_1")
+    {
+        isDone = true; // stop moving.
+        obj_SetSail.isVisible = true;
+    }
 }

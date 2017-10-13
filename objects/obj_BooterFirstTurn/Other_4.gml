@@ -1,6 +1,6 @@
 /// @description SET UP TOURISM
 
-G.TotalTourismDemand = irandom_range(28, 35);
+G.TotalTourismDemand = irandom_range(24, 36);
 G.VaiosAttract = 4;
 G.DomosAttract = 4;
 G.ChirskAttract = 3;

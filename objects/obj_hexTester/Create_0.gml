@@ -14,6 +14,7 @@ if (!is_undefined(_savedata))
 	landType = _savedata;
 	else landType = 0;	
 
+image_speed = 0;
 codeName = "";
 landTitle = ""; // For Ports
 

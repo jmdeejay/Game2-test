@@ -8,3 +8,6 @@ startPointY = y;
 
 oldHex = noone;
 thisHex = noone;
+
+destinationPort = "";
+isDestination = false;

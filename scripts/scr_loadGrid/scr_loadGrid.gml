@@ -26,7 +26,7 @@ if(ds_exists(loadMap, ds_type_map))
 		{
 			if (tileID == iter){
 				landType = ds_map_find_value(loadMap, tileKey);
-				if(is_undefined(landType)){ landType = 0; isTileUndefined= true; }
+				if(is_undefined(landType)){ landType = 9; isTileUndefined= true; }
 			}
 		}
 		

@@ -2,7 +2,7 @@
     "id": "20e2e364-3cf8-4c13-bb90-cf24f0c59847",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_MapRightLabel1",
+    "name": "obj_MapLeftLabel",
     "eventList": [
         {
             "id": "8f123376-9345-4596-b14c-eb38a5111b87",
@@ -81,6 +81,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "d3d5a4c4-8336-4bae-9dfe-8e458d2aa820",
+    "spriteId": "b51502f2-a87a-42ca-be52-30f64166d70c",
     "visible": true
 }

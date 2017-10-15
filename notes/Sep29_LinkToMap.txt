@@ -34,16 +34,9 @@ space on board, or until there aren't enough Cooks to service more Passengers. S
 passengers also count as People that consume rations. Passengers cannot board if there are no Cooks on board. 1 Cook can accomodate 
 5 passengers (tentative).
 
-First, Take the Total number of passengers available and divide that by each port (six). Then, Ports are ranked by their
-attractiveness. Get the Average Attractiveness by summing and dividing the Attractiveness numbers for each port excluding the Current
-Port. Compare this Average to the Attractiveness at each port. For each whole number *below* this average, subtract 1 passenger from
-that destination and put that passenger in a queue. For each whole number *above* this average, take 1 passenger from that queue and
-add it to that more-attractive destination. Attractive destinations take turns in this manner. A destination that is 2 points higher
-gets a 2nd turn.
-
-If there are no other Players at the current port, then you're done. So for example, if the total number of passengers available was
-36, and if the attractiveness of each port was the same across each port, then when the Player clicks on a destination, they will see
-that there are 6 Passengers that would like to buy a ticket to board the boat (36 / 6, no difference between ports).
+Passengers are distributed based on a ratio multiplier established by the sum attractivenes of all ports. The most attractive port
+gets the bonus remainder of passengers after the distribution, if there are any. The Total Passenger demand is effected by the
+Advertising cost and ticket price.
 
 If there are other players at that port, then Passengers have a choice as to which boat they sail on. The two factors that determine 
 this is the Ticket Price and Advertising Spent. In the event that more than 1 player is at current town, sum the advertising 

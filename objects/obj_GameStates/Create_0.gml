@@ -26,3 +26,5 @@ enum GameState
 G.gameState = GameState.GameStart;
 G.stateStack = ds_stack_create();
 ds_stack_push(G.stateStack, GameState.GameStart);
+
+hasTriggered = false;

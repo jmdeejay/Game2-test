@@ -52,6 +52,15 @@ if !instance_exists(obj_MyBarrels){ instance_create_depth(0, 0, 0, obj_MyBarrels
 if !instance_exists(obj_Globals){ instance_create_depth(0, 0, 0, obj_Globals); }
 if !instance_exists(obj_WorldQty){ instance_create_depth(0, 0, 0, obj_WorldQty); }
 
+G.TotalTourismDemand = irandom_range(24, 36);
+G.VaiosAttract = 4;
+G.DomosAttract = 4;
+G.ChirskAttract = 3;
+G.BarcellusAttract = 5;
+G.ZandrettaAttract = 6;
+G.SyrrAttract = 2;
+G.KandaAttract = 3;
+
 if(room_exists(redirect)){
 	room_goto(redirect);
 }else{

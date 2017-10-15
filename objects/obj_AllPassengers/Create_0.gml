@@ -10,7 +10,7 @@ PlayersInTown = 1;
 AverageAttraction = 0;
 total_ports = 7;
 
-TotalPassengersAvailable = G.TotalTourismDemand;
+TotalPassengersAvailable = scr_PassengerDemand();
 
 PassengersForPort[7] = 0;
 

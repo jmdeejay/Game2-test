@@ -45,3 +45,7 @@ repeat (cmax) // repeat for however many columns...
 global.hexCount = instance_number(obj_hexTester);
 
 ds_grid_destroy(myMap);
+
+show_debug_message("HexMap X address: " + string(x));
+show_debug_message("HexMap Y address: " + string(y));
+

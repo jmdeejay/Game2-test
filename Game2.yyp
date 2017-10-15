@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "160c09fc-ea8f-425b-9e55-73845589358a",
+            "Value": {
+                "id": "f607e196-b1df-4213-9ebc-6f501f1bf6c9",
+                "resourcePath": "paths\\pth_LeftLabelThree\\pth_LeftLabelThree.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "173b7724-8043-47f6-a957-d5c1203cd55b",
             "Value": {
                 "id": "81c75011-6164-404e-8df5-7b63251312c2",
@@ -371,6 +379,14 @@
             "Value": {
                 "id": "a78cc1fb-f003-41a8-8169-a74e88aa5a2c",
                 "resourcePath": "objects\\obj_CaptainDante\\obj_CaptainDante.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "20e2e364-3cf8-4c13-bb90-cf24f0c59847",
+            "Value": {
+                "id": "6b8e8b20-b228-409e-a956-aadfd6e0da72",
+                "resourcePath": "objects\\obj_MapLeftLabel\\obj_MapLeftLabel.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -703,6 +719,14 @@
             }
         },
         {
+            "Key": "3775d49c-26c7-49f5-9459-496d31699f9e",
+            "Value": {
+                "id": "4fb408a1-c100-4313-8bdc-3d82c39f770c",
+                "resourcePath": "paths\\pth_LeftLabelOne\\pth_LeftLabelOne.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "385552c2-7b3c-4281-8640-28b18bf89252",
             "Value": {
                 "id": "58eab89e-164f-44b5-b955-d5b0e6df280a",
@@ -780,6 +804,14 @@
                 "id": "958a2a89-aff5-48c8-bff0-3a147841e1bc",
                 "resourcePath": "rooms\\rm_MapScreen\\rm_MapScreen.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3e10578d-15eb-436a-9c45-32dead8a1440",
+            "Value": {
+                "id": "019efa2a-8c4f-4a54-b8e2-64ef10f92592",
+                "resourcePath": "paths\\pth_LeftLabelTwo\\pth_LeftLabelTwo.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -1099,6 +1131,14 @@
             "Value": {
                 "id": "6cdb4eef-f95e-4e24-84d1-eda9304246c3",
                 "resourcePath": "scripts\\scr_ExitBuilding\\scr_ExitBuilding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "55519d33-22a1-4e5c-bfcd-274b47d93799",
+            "Value": {
+                "id": "340b02a8-563c-495e-a332-dff7bca04b3c",
+                "resourcePath": "scripts\\scr_PassengerDemand\\scr_PassengerDemand.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2111,6 +2151,14 @@
             }
         },
         {
+            "Key": "a09566ea-cc5b-481c-8be6-cc03cb38b7b3",
+            "Value": {
+                "id": "e943180c-b3d1-49d8-a01c-206ce826dac2",
+                "resourcePath": "scripts\\scr_GetPassengersAtPort\\scr_GetPassengersAtPort.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a0ea46b6-6e43-40e6-b671-c0246c60082f",
             "Value": {
                 "id": "f950c83f-9689-4206-bc08-3cdb1f47decb",
@@ -2575,6 +2623,14 @@
             }
         },
         {
+            "Key": "bfce54aa-87b0-4ffb-9993-414a55c6ed8d",
+            "Value": {
+                "id": "03d0a5df-0c68-4c88-830f-94ee8e108dbd",
+                "resourcePath": "scripts\\scr_MapScreen\\scr_MapScreen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bff810b8-bce7-4718-95e5-adb18b47d9a3",
             "Value": {
                 "id": "f23479b1-24a3-47b6-add3-b7d768a46d52",
@@ -3031,6 +3087,14 @@
             }
         },
         {
+            "Key": "df287399-78b2-4138-8662-be468f9c4468",
+            "Value": {
+                "id": "df1b36eb-4979-4e09-9056-5744996266d4",
+                "resourcePath": "paths\\pth_LeftLabelFour\\pth_LeftLabelFour.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "dfc8a369-811b-40e8-b44d-88adffdadaef",
             "Value": {
                 "id": "45cbab64-7f36-4c31-a67e-90cfab80fe1c",
@@ -3480,6 +3544,7 @@
         "a6887d37-eaa3-4c6c-9a7a-b4dc7a813588",
         "0d02395a-ce35-49f3-a560-5efbf1ff0306",
         "d620fa2f-3335-46c3-8078-0dfcf58e570d",
+        "bfce54aa-87b0-4ffb-9993-414a55c6ed8d",
         "dc75ae18-ba27-44ee-849a-67fa7d23d3f5",
         "d172ba1a-8a79-4330-a01d-5478de94215a",
         "ee4bfe3f-e9df-4356-b5a1-cfb5b6e50777",
@@ -3489,6 +3554,8 @@
         "e59ce4d1-cea5-412e-a5ee-202201a6662c",
         "fd5bbbac-4b21-47c1-8c87-2820c690ae02",
         "c8642087-d424-4374-8ec8-eb593c4e92b9",
+        "55519d33-22a1-4e5c-bfcd-274b47d93799",
+        "a09566ea-cc5b-481c-8be6-cc03cb38b7b3",
         "f10aa20f-1ad1-454f-8e7d-7763a05cd32b",
         "ea3127de-22c4-4ea4-b818-dfe37a1181ac",
         "abe5b464-abf2-447d-b5ee-f52a8d24d21d",

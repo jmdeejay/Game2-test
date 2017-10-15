@@ -21,5 +21,6 @@ if (room != room_first)
 		case GameState.BNK_CancelTransaction : scr_CancelPopTwo(); break; // only 1 frame?
 		case GameState.MRK_BuyBarrel : scr_MKTbuy(G.SpiceSelected); break; // Pushed by obj_ButtonBuy scr_BuyBarrel
 		case GameState.MRK_SellBarrel : scr_MKTsell(G.SpiceSelected); break; // Pushed by obj_ButtonBuy scr_BuyBarrel
+		case GameState.MapScreen : scr_MapScreen(); break;
 	}
 }

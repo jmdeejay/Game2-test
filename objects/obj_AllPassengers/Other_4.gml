@@ -11,6 +11,8 @@ for (var i = 1; i < 8; i++)
 	_sum += PortAttractionLevels[i];
 }
 
+show_debug_message("Sum is " + string(_sum));
+
 // Find Ratios
 var _Ratio;
 _Ratio[0] = 0;
@@ -47,7 +49,7 @@ if (PassForPortTotal != TotalPassengersAvailable)
 	//we do it this way for safety
 	for(var i = 0; i < total_ports; i++)
 	{
-	    if(i == current_port)
+	    if(i == CurrentTown)
 	        continue;
 	    //we add the indicies of your ports to the list
 	    ds_list_add(best_ports, i)

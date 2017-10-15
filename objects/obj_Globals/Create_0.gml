@@ -6,7 +6,8 @@ G.TurnCount = 0;
 // MAP SCREEN
 G.ServingsPerRation = 50;
 G.MilesPerTile = 60;
-G.PASSENGER_MAX = 255;
+G.PASSENGERS_MAX = 255;
+G.StandardTicketPrice = 1000;
 
 G.TotalTourismDemand = 0; // Determines overall the max number of Passengers wanting to travel
 G.VaiosAttract = 0;

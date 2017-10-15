@@ -33,4 +33,9 @@ with (obj_Player)
 	path_clear_points(myCourse);
 }
 
+with (obj_GameStates)
+{
+	hasTriggered = false;	
+}
+
 event_user(0); // Hide the Redo button

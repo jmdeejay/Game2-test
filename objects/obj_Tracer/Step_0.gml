@@ -14,9 +14,11 @@ if (thisHex) // am I colliding with a tile? Bob- Returns false if no instance th
         thisHex.isEncountered = true;
     }
     
-    if (thisHex.landTitle != "" and thisHex.landTitle != "Port0_1")
+    if (thisHex.landTitle != "" and thisHex.landTitle != "Port0_1") // Where "Port0_1 is the current Port we're at"
     {
         isDone = true; // stop moving.
-        obj_SetSail.isVisible = true;
+        obj_SetSail.isVisible = true; // Show the Set Sail button
+		destinationPort = thisHex.landTitle; // For the Passenger UI labels
     }
 }
+

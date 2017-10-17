@@ -37,4 +37,13 @@ with (obj_NewGame)
 	event_user(9); // Destroy obj_NewGame and its maps
 }
 
+G.TotalTourismDemand = irandom_range(24, 36);
+G.VaiosAttract = 4;
+G.DomosAttract = 4;
+G.ChirskAttract = 3;
+G.BarcellusAttract = 5;
+G.ZandrettaAttract = 6;
+G.SyrrAttract = 2;
+G.KandaAttract = 3;
+
 room_goto(rm_Port1);

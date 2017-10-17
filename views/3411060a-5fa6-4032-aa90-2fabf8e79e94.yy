@@ -19,7 +19,8 @@
         "d3d5a4c4-8336-4bae-9dfe-8e458d2aa820",
         "b51502f2-a87a-42ca-be52-30f64166d70c",
         "51aae005-1c8a-45b2-a87a-024972a5f1d8",
-        "d78f73ce-9836-4edc-aabf-c80ff89027e0"
+        "d78f73ce-9836-4edc-aabf-c80ff89027e0",
+        "3012b282-eecf-4dd4-8a88-0f8dcf135764"
     ],
     "filterType": "GMSprite",
     "folderName": "Mapscreen",

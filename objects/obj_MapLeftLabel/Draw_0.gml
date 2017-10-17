@@ -1,7 +1,8 @@
 /// @description DRAW TEXT, SELF
-var _viewx = camera_get_view_x(view_camera[0]) + xstart;
+var _viewx = camera_get_view_x(view_camera[0]);
 var _viewy = camera_get_view_y(view_camera[0]) + ystart;
-x = _viewx - (xstart - path_get_x(myPath, path_position));
+x = _viewx + (xstart + path_get_x(myPath, path_position) - sprite_width + 28);
+
 y = _viewy;
     
 // DRAW SPRITE
@@ -13,3 +14,4 @@ if (visible and isPathEnded){
     draw_set_color(myColor);
     draw_text(x + 6, y + 6, labelOne + string(valueOne));
 }
+

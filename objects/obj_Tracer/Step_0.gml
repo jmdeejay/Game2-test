@@ -19,6 +19,7 @@ if (thisHex) // am I colliding with a tile? Bob- Returns false if no instance th
         isDone = true; // stop moving.
         obj_SetSail.isVisible = true; // Show the Set Sail button
 		destinationPort = thisHex.landTitle; // For the Passenger UI labels
+		obj_ButtonBoardPassengers.isTriggered = true;
     }
 }
 

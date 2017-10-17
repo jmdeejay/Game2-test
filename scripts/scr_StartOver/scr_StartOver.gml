@@ -1,4 +1,6 @@
 /// @description RESTART COURSE
+// Invoked by: obj_UIMapRedo
+
 
 show_debug_message("Gotta Start Over");
 with (obj_Tracer)
@@ -36,6 +38,17 @@ with (obj_Player)
 with (obj_GameStates)
 {
 	hasTriggered = false;	
+}
+
+with (obj_MapLeftLabel)
+{
+	event_user(0); // Reset the passenger labels.	
+}
+
+with (obj_ButtonBoardPassengers)
+{
+	isTriggered = false;
+	visible = false;
 }
 
 event_user(0); // Hide the Redo button

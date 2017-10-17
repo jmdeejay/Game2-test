@@ -11,7 +11,7 @@ OBJECTIVE: LINKAGE
 	• Need to develop camera sytem. // DONE
 		• Camera object needs to lerp slowly to mouse cursor // DONE
 		• Camera cannot go outside room boundaries. // DONE
-	• Need Passengers wanting to leave for another Port
+	• Need Passengers wanting to leave for another Port // DONE?
 	• Need "Selected Port" to be shown/highlighted. // DONE
 	• Need to indicate how many rations journey will consume // DONE
 	• Need to indicate how much time journey will take // SORTA DONE

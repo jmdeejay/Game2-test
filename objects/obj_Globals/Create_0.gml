@@ -1,13 +1,16 @@
 /// @description INIT VARS
 
 // TURNS
-G.TurnCount = 0;
+G.TurnCount = 1;
 
 // MAP SCREEN
 G.ServingsPerRation = 50;
 G.MilesPerTile = 60;
 G.PASSENGERS_MAX = 255;
 G.StandardTicketPrice = 1000;
+
+G.DistanceTravelled = 0;
+G.DistanceCost = 0;
 
 G.TotalTourismDemand = 0; // Determines overall the max number of Passengers wanting to travel
 G.VaiosAttract = 0;

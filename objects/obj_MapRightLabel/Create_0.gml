@@ -9,3 +9,6 @@ visible = false;
 isTriggered = false;
 isPathEnded = false;
 myPath = noone;
+
+// For Only if myMode == 3
+DistanceCost = 0;

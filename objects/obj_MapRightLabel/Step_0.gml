@@ -23,6 +23,7 @@ switch (myMode)
     myPath = pth_RightLabelThree;
     labelOne = "Distance: ";
     valueOne = obj_PathTracker.travelDistance;
+	G.DistanceTravelled = obj_PathTracker.travelDistance;
     break;
     
     case 3: // Show Cost
@@ -35,10 +36,11 @@ switch (myMode)
     var _spd = round(obj_MyShip.myShip[? "SailSpeed"] * _percent);
     // How many mouths to feed?
     var _people = ds_list_size(obj_MyCaptain.myCrewManifest) + obj_MyShip.CurrentPassengers;
-    // Each _dist is 90 nautical miles. Each _leg is 3 hours of travel
+    // Each _dist is 50 nautical miles. Each _leg is 3 hours of travel
     var _leg = ((_dist * G.MilesPerTile) / _spd) div 3;
     // Each _leg has a food break.
     var _cost = round((_leg * _people) / G.ServingsPerRation);
+	G.DistanceCost = _cost;
     valueOne = _cost;
     break;
 }

@@ -9,7 +9,7 @@ Savings = 0;
 // LIABILITIES //
 SharkLoan = 0;
 BankLoan = 0;
-CrewPay = 0;
+Payroll = 0;
 Taxes = 0;
 
 
@@ -24,7 +24,7 @@ ds_map_add(MyLedger, "Cash", Cash);
 ds_map_add(MyLedger, "Savings", Savings);
 ds_map_add(MyLedger, "SharkLoan", SharkLoan);
 ds_map_add(MyLedger, "BankLoan", BankLoan);
-ds_map_add(MyLedger, "CrewPay", CrewPay);
+ds_map_add(MyLedger, "Payroll", Payroll);
 ds_map_add(MyLedger, "Taxes", Taxes);
 
 

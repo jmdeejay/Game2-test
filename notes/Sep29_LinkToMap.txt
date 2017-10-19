@@ -19,10 +19,12 @@ OBJECTIVE: LINKAGE
 • Need Map Room to for-reals transition to other port, increment turn.
 	• CurrentTown effects room numbers
 • Need to add End Turn room
-	• Increment G.TurnNumber
-	• Evaluate and subtract ration barrels
-	• Update WorldQtyTable
-	• Show time taken to arrive at port. (Will be used later to rank who goes first)
+	• Increment G.TurnNumber // DONE
+	• Evaluate and subtract ration barrels // DONE
+	• Update WorldQtyTable // DONE
+	• Show time taken to arrive at port. (Will be used later to rank who goes first) // DONE
+	• Add Ticket Revenues to Cash. //DONE
+	• Draw Event displays info breakdown. // IN PROGRESS
 	
 	
 PASSENGER SYSTEM:

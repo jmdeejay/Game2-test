@@ -1,13 +1,16 @@
 /// @description INIT VARS
+event_inherited();
 
+valueOne = "";
+drawValue = false;
 labelOne = "Reset";
 myAction = scr_StartOver;
-
 myFont = fnt_ChronoType16;
 myColor = COLOR_WHITE_LIGHT;
-visible = false;
+xTextOffset = 10;
+yTextOffset = -18;
 image_speed = 0;
 image_index = 0;
-isTriggered = false;
-isPathEnded = false;
-myPath = noone;
+
+animationAxis = "y";
+yOffset = sprite_height + 6;

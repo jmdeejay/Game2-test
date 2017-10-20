@@ -8,19 +8,19 @@ if (isTriggered) // Did obj_Tracer hit a Port?
 		if (myMode == 0) // The one that is concerned with space remaining
 		{
 			if (valueOne > 0) // Is there space remaining?
-				hasSpace = true;
+				other.hasSpace = true;
 		}
 		
 		if (myMode == 1) // The one that is concerned with Cooking Skill
 		{
 			if (valueOne > 0) // Is there any cooking skills on the boat?
-				hasCooks = true;
+				other.hasCooks = true;
 		}
 		
 		if (myMode == 2) // The one that is concerned with Passenger Count at this port...
 		{
 			if (valueOne > 0) // If there are any passengers...
-				hasPassengers = true; // ... hasPassengers is true.
+				other.hasPassengers = true; // ... hasPassengers is true.
 		}
 	}
 }

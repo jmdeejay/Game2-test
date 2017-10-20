@@ -4,7 +4,7 @@ event_inherited();
 depth = 990;
 titleColor = make_color_rgb(242,242,240);
 dropColor = make_color_rgb(35,33,61);
-myFont = fnt_Bank18;
+myFont = fnt_Venice16;
 charWidth = 0;
 charHeight = 0;
 

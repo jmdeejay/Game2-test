@@ -1,1 +1,0 @@
-labelOne = "Total Barrels:";

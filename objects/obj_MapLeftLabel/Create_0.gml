@@ -1,7 +1,7 @@
 labelOne = "";
 valueOne = 0;
 myMode = 0;
-myFont = fnt_ChronoType12;
+myFont = fnt_Venice14;
 myColor = COLOR_WHITE_LIGHT;
 visible = false;
 

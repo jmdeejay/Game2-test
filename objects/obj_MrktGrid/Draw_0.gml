@@ -7,14 +7,16 @@ draw_set_halign(fa_left);
 draw_set_color(COLOR_WHITE_DARK);
 for (var i = 0; i < ds_grid_height(myGrid); i++)
 {
+	var thisColor = COLOR_WHITE_DARK;
+	var outlineColor = COLOR_BLACK_DARK;
 	var thisName = ds_grid_get(myGrid, 0, i);	
 	var thisWidth = Names_x2 - Names_x1;
 	var thisHeight = Names_y2 - Names_y1;
 	var isBright =  point_in_rectangle(mouse_x, mouse_y, bbox_left, (i * thisHeight) + Names_y1, bbox_right, (i * thisHeight) + Names_y2)
 	if (isBright)
-		draw_set_color(COLOR_WHITE_LIGHT);
-	else draw_set_color(COLOR_WHITE_DARK);
-	draw_text_ext(Names_x1, (i * thisHeight) + Names_y1, thisName, 0, thisWidth);
+		thisColor = COLOR_WHITE_LIGHT;
+	else thisColor = COLOR_WHITE_DARK;
+	draw_text_outline(Names_x1, (i * thisHeight) + Names_y1, thisName, thisColor, outlineColor, 1, 1);
 }
 
 // DRAW ON BOAT QUANTITIES

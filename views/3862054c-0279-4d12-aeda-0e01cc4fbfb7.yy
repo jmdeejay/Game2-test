@@ -12,7 +12,9 @@
         "407cfb9f-5e7c-4bb7-bc7b-2d3aa2bf66d5",
         "2121250f-a139-45bd-863a-b56a54d610e5",
         "58ad7063-bdba-4822-9690-0e0299603100",
-        "77dad05f-6fa8-4ebc-8a51-9f6c11b20a1b"
+        "77dad05f-6fa8-4ebc-8a51-9f6c11b20a1b",
+        "d179588f-c9ca-4477-946b-92f9802fe072",
+        "35153829-d69b-45ce-8058-dba6ffda8173"
     ],
     "filterType": "GMObject",
     "folderName": "TextStuff",

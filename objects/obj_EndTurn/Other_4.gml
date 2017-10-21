@@ -21,3 +21,4 @@ timeSpent = (G.DistanceTravelled * G.MilesPerTile) / _currentSpeed;
 ticketRevenue = obj_MyShip.CurrentPassengers * obj_MyLedger.TicketPrice;
 obj_MyLedger.Cash += ticketRevenue;
 
+alarm_set(1, room_speed);

@@ -4,7 +4,7 @@ if (obj_Dialog.done == true)
 {
 	var _x = obj_Dialog.x + 10;
 	var _y = obj_Dialog.y + 10;
-	draw_set_font(fnt_ChronoType16);
+	draw_set_font(fnt_Venice16);
 	var _width = obj_Dialog.sprite_width - myPortrait.sprite_width;
 	var _test = "M";
 	var _height = string_height(_test);

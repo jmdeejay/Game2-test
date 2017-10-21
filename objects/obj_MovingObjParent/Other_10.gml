@@ -2,6 +2,6 @@
 // Invoked by: scr_StartOver()
 
 visible = false;
-path_position = 0;
 isTriggered = false;
-isPathEnded = false;
+isEnded = false;
+myTimer = 0;

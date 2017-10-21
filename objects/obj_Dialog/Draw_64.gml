@@ -138,7 +138,7 @@ if (message_end > 0){
       
       // Reset variables
       draw_set_font(myFont);
-      draw_set_colour(dropColor);
+      
       if !fastForward{
         curDelay = delay;
       }
@@ -165,7 +165,7 @@ if (message_end > 0){
       //  }
 
       //  if(modifier == "font"){ // font
-      //    var tmpFont = fnt_ChronoType12;
+      //    var tmpFont = fnt_Venice14;
       //    if(modValue == "fnt_chat"){ tmpFont = fnt_chat; }
       //    if(modValue == "fnt_gui"){ tmpFont = fnt_gui; }
       //    if(modValue == "fnt_regular"){ tmpFont = fnt_regular; }
@@ -199,10 +199,10 @@ if (message_end > 0){
       var char = string_char_at(message[message_current], i);
       if(jumpChar){ char = "\"" + char; }
 	  if (done) char = "";
-      draw_text(txtX+2, txtY+2, char);
-	  draw_set_color(titleColor);
+      
+	  
 	  if (done) char = "";
-      draw_text(txtX, txtY, char); 
+      draw_text_outline(txtX, txtY, char, titleColor, dropColor, 1, 1); 
 	    
       //Move to next character
       space++;

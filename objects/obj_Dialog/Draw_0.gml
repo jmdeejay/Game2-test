@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description DRAW SELF
 
 draw_self();

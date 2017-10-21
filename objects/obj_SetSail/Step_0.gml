@@ -10,3 +10,16 @@ var _viewy = camera_get_view_y(view_camera[0]) + ystart;
 
 x = _viewx;
 y = _viewy;
+
+
+
+if (obj_MyBarrels.MyBarrels[# 0, 21] < G.DistanceCost)
+{
+	myString = "Get\nRations";
+	myColor = COLOR_RED_DARK;
+	canPress = false;
+} else 
+{
+	myString = "Set Sail";
+	myColor = COLOR_WHITE_LIGHT;
+}

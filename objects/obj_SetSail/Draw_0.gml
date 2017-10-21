@@ -11,12 +11,14 @@ draw_sprite(sprite_index, image_index, _viewx, _viewy);
 // DROP SHADOW
 
 draw_set_font(myFont);
-draw_set_halign(fa_left);
-draw_text_color( _viewx + (sprite_width div 4 + 4), _viewy + (sprite_height div 3 + 4), myString,
+draw_set_halign(fa_center);
+draw_text_color( _viewx + (sprite_width div 2 + 4), _viewy + (sprite_height div 3 + 4), myString,
 				 dropColor, dropColor, dropColor, dropColor, 1);
 
 // TEXT
 draw_set_font(myFont);
-draw_set_halign(fa_left);
+draw_set_halign(fa_center);
 draw_set_color(myColor);
-draw_text( _viewx + (sprite_width div 4), _viewy + (sprite_height div 3), myString);
+draw_text( _viewx + (sprite_width div 2), _viewy + (sprite_height div 3), myString);
+
+draw_set_halign(fa_left);

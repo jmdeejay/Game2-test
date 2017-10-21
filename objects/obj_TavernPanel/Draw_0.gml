@@ -3,13 +3,10 @@
 draw_self();
 
 // TITLE TEXT
-draw_set_font(fnt_ChronoType20);
-
-//Drop Shadow
-draw_text_color(xPadding + 2, yPadding + 2, myTitle, dropColor, dropColor, dropColor, dropColor, 1);
+draw_set_font(fnt_Venice20);
 
 // Main Title
-draw_text_color(xPadding, yPadding, myTitle, titleColor, titleColor, titleColor, titleColor, 1);
+draw_text_outline(xPadding, yPadding, myTitle, titleColor, dropColor, 1, 2);
 
 // END TITLE
 

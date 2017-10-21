@@ -1,5 +1,5 @@
 /// @description SUM BARRELS
-// Invoked by: scr_OKDeposit, scr_StartNewGame
+// Invoked by: scr_OKDeposit, scr_StartNewGame, scr_BoardPassengers
 
 var _barrels = scr_SumBarrels();
 

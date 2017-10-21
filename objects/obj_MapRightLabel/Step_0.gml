@@ -24,6 +24,7 @@ switch (myMode)
     labelOne = "Distance: ";
 	if(instance_exists(obj_PathTracker)){
 		valueOne = obj_PathTracker.travelDistance;
+		G.DistanceTravelled = obj_PathTracker.travelDistance;
 	}
     break;
     

@@ -5,6 +5,8 @@ At the end of all turns, the Ports produce or consume excess spices and these ar
 On Hand quantities. Run only *once* at the end of the turn. No arguments necessary.
 NOTE: Do not let the amounts decrease below zero!
 */
+// Invoked by: obj_worldQty User Event 1, (via obj_EndTurn Room Start)
+
 
 // ========== VAIOS ===============
 var VaioRose = ds_grid_get(WORLD, VAIO, ROSE);

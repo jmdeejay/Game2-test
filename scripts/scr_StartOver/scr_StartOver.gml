@@ -3,6 +3,9 @@
 
 
 show_debug_message("Gotta Start Over");
+
+scr_ResetPassengers();
+
 with (obj_Tracer)
 {
 	x = startPointX;
@@ -47,8 +50,12 @@ with (obj_MapLeftLabel)
 
 with (obj_ButtonBoardPassengers)
 {
-	isTriggered = false;
-	visible = false;
+	event_user(0); // Reset the Board Passengers button
+}
+
+with (obj_MyShip)
+{
+	MyDestination = 0;	
 }
 
 event_user(0); // Hide the Redo button

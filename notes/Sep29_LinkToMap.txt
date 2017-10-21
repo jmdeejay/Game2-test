@@ -11,17 +11,20 @@ OBJECTIVE: LINKAGE
 	• Need to develop camera sytem. // DONE
 		• Camera object needs to lerp slowly to mouse cursor // DONE
 		• Camera cannot go outside room boundaries. // DONE
-	• Need Passengers wanting to leave for another Port // DONE?
+	• Need Passengers wanting to leave for another Port // DONE
 	• Need "Selected Port" to be shown/highlighted. // DONE
 	• Need to indicate how many rations journey will consume // DONE
 	• Need to indicate how much time journey will take // SORTA DONE
+	• Need to show how many Passengers at each port, and be able to board passengers. // DONE
 • Need Map Room to for-reals transition to other port, increment turn.
 	• CurrentTown effects room numbers
 • Need to add End Turn room
-	• Increment G.TurnNumber
-	• Evaluate and subtract ration barrels
-	• Update WorldQtyTable
-	• Show time taken to arrive at port. (Will be used later to rank who goes first)
+	• Increment G.TurnNumber // DONE
+	• Evaluate and subtract ration barrels // DONE
+	• Update WorldQtyTable // DONE
+	• Show time taken to arrive at port. (Will be used later to rank who goes first) // DONE
+	• Add Ticket Revenues to Cash. //DONE
+	• Draw Event displays info breakdown. // IN PROGRESS
 	
 	
 PASSENGER SYSTEM:
@@ -48,4 +51,16 @@ must take 1 Passenger away from a random port and put that passenger in a queue.
 average, a Player gets to take 1 passenger from that queue and assign them a destination--with more attractive destinations being
 more likely.
 
-	
+
+BOARDING PASSENGERS:
+
+Passengers are boarded by clicking on the 'Board Passengers' button on the screen. Order of operations:
+
+• Update MyShip Destination to PassengersAtPort[slot]. // done
+• Check Space Remaining vs. Passengers On Board (starts at 0).
+	• If yes, Check Cook Skill vs. Passengers On Board (POB)
+		• If yes, Subtract 1 Passenger from PassengersAtPort[slot] and add 1 Passenger to MyShip.
+		• repeat (PassengersAtPort[slot]);
+• After adding Passengers, re-calculate Rations consumed.
+	IF PLAYER EXITS ROOM, RESET MyShip Passengers to 0.
+	IF PLAYER HITS UNDO, RETURN MyShip Passengers to PassengersAtPort[slot]

@@ -1,6 +1,5 @@
 /// @description CHECK ALL
 
-
 if (isTriggered) // Did obj_Tracer hit a Port?
 {
 	with (obj_MapLeftLabel) // With All Left Labels
@@ -27,5 +26,4 @@ if (isTriggered) // Did obj_Tracer hit a Port?
 
 if (hasSpace and hasCooks and hasPassengers)
 	visible = true;
-else
-	visible = false;
+

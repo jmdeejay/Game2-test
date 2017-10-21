@@ -7,4 +7,4 @@ myMessage = obj_Codex.PLACEHOLDER;
 myPadding = 8;
 myWidth = 96;
 myHeight = 64;
-myFont = fnt_Venice14;
+myFont = fnt_Venice12;

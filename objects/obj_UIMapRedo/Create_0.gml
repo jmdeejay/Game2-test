@@ -5,10 +5,10 @@ valueOne = "";
 drawValue = false;
 labelOne = "Reset";
 myAction = scr_StartOver;
-myFont = fnt_ChronoType16;
+myFont = fnt_Venice16;
 myColor = COLOR_WHITE_LIGHT;
-xTextOffset = 10;
-yTextOffset = -18;
+xTextOffset = 12;
+yTextOffset = -20;
 image_speed = 0;
 image_index = 0;
 

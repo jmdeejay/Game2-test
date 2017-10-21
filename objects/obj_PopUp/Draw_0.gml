@@ -3,7 +3,7 @@
 draw_self();
 
 //DRAW TITLE
-draw_set_font(fnt_ChronoType16);
+draw_set_font(fnt_Venice16);
 draw_set_halign(fa_left);
 //Drop Shadow
 draw_text_ext_color(titleX+2, titleY+2, myTitle, 10, 161, dropColor, dropColor, dropColor, dropColor, 1);

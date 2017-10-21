@@ -9,7 +9,7 @@ draw_sprite(sprite_index, image_index, x, y);
 draw_set_font(myFont);
 draw_set_halign(fa_left);
 draw_set_color(myColor);
-draw_text(x + 18, y + 40, myString);
+draw_text(x + 16, y + 38, myString);
 
 
 

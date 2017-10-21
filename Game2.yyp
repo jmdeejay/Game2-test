@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "35153829-d69b-45ce-8058-dba6ffda8173",
+            "Value": {
+                "id": "875e20ab-fb06-4ea6-af5e-47f85c16f064",
+                "resourcePath": "objects\\obj_EndTurnFloater\\obj_EndTurnFloater.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "352e8f4e-a8b8-4bf6-9b03-d03fae3cdc3f",
             "Value": {
                 "id": "fa3b5f02-b6c1-42d5-b08e-007943c14a03",
@@ -956,6 +964,14 @@
                 "id": "9e667678-3255-452e-95af-4bead80009ba",
                 "resourcePath": "rooms\\rm_Boot\\rm_Boot.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "47d84928-cfc6-4b04-ad54-52f3ed786b23",
+            "Value": {
+                "id": "0531ed95-e313-4e10-b4de-72d225b16c8f",
+                "resourcePath": "objects\\obj_ButtonStartTurn\\obj_ButtonStartTurn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2983,6 +2999,14 @@
             }
         },
         {
+            "Key": "d179588f-c9ca-4477-946b-92f9802fe072",
+            "Value": {
+                "id": "060f5d1e-9211-40b5-aca1-9b7575807960",
+                "resourcePath": "objects\\obj_ParentFloaterText\\obj_ParentFloaterText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d2efdef8-2478-4fa6-8afc-617f6255b637",
             "Value": {
                 "id": "c7910d94-3a50-4dad-af46-1314bde6c465",
@@ -3171,6 +3195,14 @@
             "Value": {
                 "id": "afd76e92-c643-46cb-b523-c1dcce6c1e91",
                 "resourcePath": "sprites\\spr_YouPaid\\spr_YouPaid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2b1b5da-7c43-431c-b182-76cab7134ecf",
+            "Value": {
+                "id": "47fdf732-cab8-4e35-a2ac-0f815c36babc",
+                "resourcePath": "sprites\\spr_ButtonStartTurn\\spr_ButtonStartTurn.yy",
                 "resourceType": "GMSprite"
             }
         },

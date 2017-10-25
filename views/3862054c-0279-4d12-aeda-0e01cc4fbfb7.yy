@@ -7,6 +7,7 @@
         "79077d4f-4f5d-4491-81c7-dbf5b47713ed",
         "46b4ef69-86c8-4d94-8fa4-51e1c66f2349",
         "d179588f-c9ca-4477-946b-92f9802fe072",
+        "a445a22c-0f82-46f7-8018-046a6b808e62",
         "55f6172a-33e5-4822-a38e-63a5e5683d6d",
         "5ee999a1-0f1f-414b-a29c-3c1ba296c1e6",
         "a5f2cf6f-8dc1-4280-9935-69a955e824cb",
@@ -14,7 +15,13 @@
         "2121250f-a139-45bd-863a-b56a54d610e5",
         "58ad7063-bdba-4822-9690-0e0299603100",
         "77dad05f-6fa8-4ebc-8a51-9f6c11b20a1b",
-        "35153829-d69b-45ce-8058-dba6ffda8173"
+        "35153829-d69b-45ce-8058-dba6ffda8173",
+        "f2bbec48-6748-4b4c-8cb0-549e61a8c35c",
+        "5951329c-62d0-4e9d-927d-141316837686",
+        "c1a23594-db51-448f-86a3-b378dfca3a2f",
+        "84ce8fdb-5c78-4077-bc4f-dd13e4bc71d7",
+        "f74ce3b7-d71e-4cdc-aa38-0a4edae03cce",
+        "bf0aae9e-4a4d-425c-8be2-74da731f183f"
     ],
     "filterType": "GMObject",
     "folderName": "TextStuff",

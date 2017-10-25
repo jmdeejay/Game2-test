@@ -1247,6 +1247,14 @@
             }
         },
         {
+            "Key": "5951329c-62d0-4e9d-927d-141316837686",
+            "Value": {
+                "id": "4a65841d-2678-40c6-986a-9a03dcd9f1ec",
+                "resourcePath": "objects\\obj_PassengerTurnText\\obj_PassengerTurnText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59c055ad-2ef6-4815-8072-8ce28160c372",
             "Value": {
                 "id": "6fba0cde-9a14-4ea1-b52e-e5be446306dc",
@@ -1927,6 +1935,14 @@
             }
         },
         {
+            "Key": "84ce8fdb-5c78-4077-bc4f-dd13e4bc71d7",
+            "Value": {
+                "id": "83a64620-6c7f-46a4-b1c1-d2d9a3b4c6ed",
+                "resourcePath": "objects\\obj_TaxTurnText\\obj_TaxTurnText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84e98d3e-8c89-453e-b874-771e0125684e",
             "Value": {
                 "id": "326c2506-7094-43e5-b969-5b2bf9786c61",
@@ -2291,6 +2307,14 @@
             "Value": {
                 "id": "97f585f4-9698-45f5-aa03-b7b31fe592ef",
                 "resourcePath": "objects\\obj_NewGame\\obj_NewGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a445a22c-0f82-46f7-8018-046a6b808e62",
+            "Value": {
+                "id": "45ebfa61-9c60-4758-88e1-a0c0f268c2de",
+                "resourcePath": "objects\\obj_ParentTurnText\\obj_ParentTurnText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2695,6 +2719,14 @@
             }
         },
         {
+            "Key": "bf0aae9e-4a4d-425c-8be2-74da731f183f",
+            "Value": {
+                "id": "c7ee97c1-ae6c-4192-920b-8103e1fe91a1",
+                "resourcePath": "objects\\obj_OrderTurnText\\obj_OrderTurnText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfc52449-e996-4b06-b43e-d2d00e259d4a",
             "Value": {
                 "id": "2a7a3d13-4fd9-4115-afbd-90cee481ebba",
@@ -2740,6 +2772,14 @@
                 "id": "4694abbd-bf35-4c7e-87d1-5b8cbfebc76e",
                 "resourcePath": "fonts\\fnt_Doogle10\\fnt_Doogle10.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c1a23594-db51-448f-86a3-b378dfca3a2f",
+            "Value": {
+                "id": "287f175c-58de-4f01-a96b-35586cd08d79",
+                "resourcePath": "objects\\obj_PayrollTurnText\\obj_PayrollTurnText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3455,6 +3495,14 @@
             }
         },
         {
+            "Key": "f2bbec48-6748-4b4c-8cb0-549e61a8c35c",
+            "Value": {
+                "id": "035e74e7-745c-42fd-9571-9e10a05a8d9d",
+                "resourcePath": "objects\\obj_RationTurnText\\obj_RationTurnText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f3cc7906-5e5c-4a58-8e23-1983a4bb37bb",
             "Value": {
                 "id": "984ef336-dee2-4473-ab21-f8fdaf3d4638",
@@ -3516,6 +3564,14 @@
                 "id": "b3ba3311-c421-41f2-ae82-458ff00c9c30",
                 "resourcePath": "sprites\\spr_Store\\spr_Store.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f74ce3b7-d71e-4cdc-aa38-0a4edae03cce",
+            "Value": {
+                "id": "d1d0f098-6710-4579-a2a1-b5315b01c0b6",
+                "resourcePath": "objects\\obj_TimeTurnText\\obj_TimeTurnText.yy",
+                "resourceType": "GMObject"
             }
         },
         {

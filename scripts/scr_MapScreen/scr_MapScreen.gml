@@ -12,3 +12,8 @@ with (obj_Tracer)
 		obj_GameStates.hasTriggered = true;
 	}
 }
+
+if (obj_Player.path_position == 1)
+{
+	room_goto(rm_EndTurn);	
+}

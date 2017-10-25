@@ -11,11 +11,13 @@ ticketRevenue = 0;
 
 previousCash = obj_MyLedger.Cash;
 previousRations = obj_MyBarrels.MyBarrels[# 0, 21];
+previousPassengers = obj_MyShip.CurrentPassengers;
 
 titleString = "End Turn ";
 
+nextObject = noone;
+myAlarms = 1;
+
 showRations = false;
 
-doTheThing = false; // For use in Alarm0 Event
 
-floaterSpawnPoint[0] = 0;

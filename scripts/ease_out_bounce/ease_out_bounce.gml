@@ -1,4 +1,6 @@
 /// ease_out_bounce(time, start, change, duration);
+// Authored by: jmd
+// For use with UI Label objects transitioning onto / out of the screen.
 
 var _arg0 = argument[0] / argument[3];
 

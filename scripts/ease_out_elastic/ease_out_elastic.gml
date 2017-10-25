@@ -1,4 +1,7 @@
 /// ease_out_elastic(time, start, change, duration);
+// Authored by: jmd
+// For use with UI Label objects transitioning onto / out of the screen.
+
 
 var _s = 1.70158;
 var _p = 0;

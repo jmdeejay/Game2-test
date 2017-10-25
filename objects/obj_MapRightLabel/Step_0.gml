@@ -43,6 +43,7 @@ switch (myMode)
 	    // Each _leg has a food break.
 	    var _cost = round((_leg * _people) / G.ServingsPerRation);
 	    valueOne = _cost;
+		G.DistanceCost = _cost;
 	}
     break;
 }

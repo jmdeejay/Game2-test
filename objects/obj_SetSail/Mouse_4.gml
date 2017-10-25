@@ -4,7 +4,12 @@ if (canPress)
 {
 	with (obj_Player)
 	{
-		event_user(1);
+		event_user(1); // Move the Boat
+	}
+	
+	with (obj_MyLedger)
+	{
+		event_user(2);	// Update Payroll
 	}
 }
 canPress = false;

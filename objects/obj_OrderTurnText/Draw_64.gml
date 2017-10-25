@@ -1,4 +1,4 @@
-/// @description DRAW TEXT
+/// @description SHOW TURN ORDER OVERRIDE
 
 draw_set_font(myFont);
 draw_set_halign(labelAlign);
@@ -11,5 +11,5 @@ if (showLabel)
 
 if (showValue)
 {
-	draw_text(x + _width, y,  scr_CurrencyFormat(valueOne, 0, 0, 3));	
+	draw_text(x + _width, y, valueOne);	
 }

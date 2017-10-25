@@ -13,7 +13,11 @@ with (obj_Tracer)
 	}
 }
 
-if (obj_Player.path_position == 1)
+with (obj_Player)
 {
-	room_goto(rm_EndTurn);	
+	if (path_position == 1)
+	{
+		
+		room_goto(rm_EndTurn);	
+	}
 }

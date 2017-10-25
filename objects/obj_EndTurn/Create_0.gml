@@ -17,7 +17,9 @@ titleString = "End Turn ";
 
 nextObject = noone;
 myAlarms = 1;
+isDone = false;
 
-showRations = false;
+
+// showRations = false;
 
 

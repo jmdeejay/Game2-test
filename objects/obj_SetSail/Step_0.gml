@@ -12,8 +12,8 @@ x = _viewx;
 y = _viewy;
 
 
-
-if (obj_MyBarrels.MyBarrels[# 0, 21] < G.DistanceCost)
+var _rations = obj_MyBarrels.MyBarrels[# 0, 21];
+if (_rations < G.DistanceCost)
 {
 	myString = "Get\nRations";
 	myColor = COLOR_RED_DARK;

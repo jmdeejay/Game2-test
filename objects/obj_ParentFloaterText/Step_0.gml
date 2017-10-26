@@ -1,9 +1,9 @@
 /// @description FLOAT AND DECAY
 
-while (Lifespan > 0)
+if (Lifespan > 0)
 {
-	y -= 0.50;
-	myAlpha -= 0.05;
+	y -= 0.10;
+	myAlpha -= 0.02;
 	Lifespan -= 1;
 }
 

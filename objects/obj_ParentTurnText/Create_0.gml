@@ -5,6 +5,7 @@ valueOne = 0;
 
 labelWidth = 0;
 valueWidth = 0;
+xMargin = 30;
 
 showLabel = false;
 showValue = false;

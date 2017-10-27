@@ -50,7 +50,7 @@
             "Key": "00eae701-b4d5-475c-982c-19b5b1486b36",
             "Value": {
                 "id": "99c16d24-1bf8-47de-9360-318394f203a1",
-                "resourcePath": "objects\\obj_ButtonPayButton\\obj_ButtonPayButton.yy",
+                "resourcePath": "objects\\obj_ButtonPayTurn\\obj_ButtonPayTurn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -84,6 +84,14 @@
                 "id": "31dce825-ec2a-4b02-ba4b-16520470c1ec",
                 "resourcePath": "objects\\obj_ButtonTransact\\obj_ButtonTransact.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "07969855-f799-4970-9386-62ca613fd0ac",
+            "Value": {
+                "id": "57c5e2de-4ef0-47d6-8cdb-0e279a373d94",
+                "resourcePath": "views\\07969855-f799-4970-9386-62ca613fd0ac.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2895,6 +2903,14 @@
             }
         },
         {
+            "Key": "c9d2d41f-85df-4acd-98b9-f9aa5602b1e7",
+            "Value": {
+                "id": "e9ea18d1-f61a-46b5-be79-c0bff85463cc",
+                "resourcePath": "scripts\\scr_PayPayroll\\scr_PayPayroll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca045543-bff2-48d0-8da2-9116de077578",
             "Value": {
                 "id": "a3be3adf-1740-49ec-bf2d-255567e399d2",
@@ -3407,6 +3423,14 @@
             }
         },
         {
+            "Key": "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
+            "Value": {
+                "id": "4811e1ca-0b60-4843-b8e8-cdcdb4f65efb",
+                "resourcePath": "scripts\\scr_PayTaxes\\scr_PayTaxes.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "edaf78c1-53ae-4822-b704-2c815f288b94",
             "Value": {
                 "id": "97f07c44-70b7-415a-834a-7100ac0d1ea8",
@@ -3773,6 +3797,8 @@
         "21ac2d37-4a09-4ae0-8a65-15c1d657a908",
         "34b2ebf2-6c39-4f3b-a7d0-18c24ea55957",
         "fe1b1939-47ca-4de4-a771-220061c0bca9",
+        "c9d2d41f-85df-4acd-98b9-f9aa5602b1e7",
+        "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
         "1ca00bce-3c06-4c4e-82fe-56396de616fe"
     ],

@@ -13,7 +13,8 @@
         "59e51d55-fdbb-45c3-8a3a-840a3b83b7ed",
         "09730a8b-d63a-4825-af98-e8340333f918",
         "70d73851-3f38-45d7-9adc-b07c167b3159",
-        "6fb776cd-0ea3-40fd-b441-599149e27b72"
+        "6fb776cd-0ea3-40fd-b441-599149e27b72",
+        "c2aa56ff-8f9d-405c-90ec-6431aa8f6f93"
     ],
     "IsDnD": false,
     "layers": [
@@ -24,7 +25,7 @@
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
-            "hierarchyFrozen": false,
+            "hierarchyFrozen": true,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -32,6 +33,32 @@
             "inheritVisibility": false,
             "instances": [
 
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": true,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Buttons",
+            "id": "a23f00c0-d4cd-4962-9702-b7568344324c",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+                {"name": "inst_8C44F4D","id": "c2aa56ff-8f9d-405c-90ec-6431aa8f6f93","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_8C44F4D","objId": "47d84928-cfc6-4b04-ad54-52f3ed786b23","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 255,"y": 295}
             ],
             "layers": [
 
@@ -47,7 +74,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Text",
             "id": "ab591db9-ce68-429f-bad7-d6881cbe988d",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 8,
             "grid_y": 32,
             "hierarchyFrozen": true,
@@ -78,7 +105,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Abstracts",
             "id": "ede8e9b7-be05-4079-93a5-d9a9135c9699",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,
@@ -107,7 +134,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4282199103 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,

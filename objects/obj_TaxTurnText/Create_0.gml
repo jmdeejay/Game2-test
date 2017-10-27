@@ -4,3 +4,5 @@ event_inherited();
 
 labelOne = "Taxes: ";
 valueOne = obj_MyLedger.MyLedger[? "Taxes"];
+
+allDone = false;

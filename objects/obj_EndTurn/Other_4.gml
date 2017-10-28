@@ -4,7 +4,8 @@
 G.TurnCount += 1;
 
 // Consume Rations
-obj_MyBarrels.MyBarrels[# 0,21] -= G.DistanceCost;
+// This is handled by obj_RationTurnText
+// obj_MyBarrels.MyBarrels[# 0,21] -= G.DistanceCost;
 
 // Update World Qty Table
 with (obj_WorldQty)

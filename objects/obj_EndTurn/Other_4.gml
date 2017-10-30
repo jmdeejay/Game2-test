@@ -20,7 +20,8 @@ timeSpent = (G.DistanceTravelled * G.MilesPerTile) / _currentSpeed;
 
 // Calculate Ticket Revenue
 ticketRevenue = obj_MyShip.CurrentPassengers * obj_MyLedger.TicketPrice;
-obj_MyLedger.Cash += ticketRevenue;
+// Cash Update is handled by obj_PassengerTurnText
+// obj_MyLedger.Cash += ticketRevenue;
 
 alarm_set(myAlarms, room_speed);
 

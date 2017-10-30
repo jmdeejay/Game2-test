@@ -1959,6 +1959,14 @@
             }
         },
         {
+            "Key": "85076852-e22b-4f39-b93f-2dcd3f0be0a5",
+            "Value": {
+                "id": "957c80a7-d260-4825-8768-efaba0bbd258",
+                "resourcePath": "scripts\\scr_CalculateTax\\scr_CalculateTax.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8536d6e4-9843-4a1b-a482-93b3ae0014ff",
             "Value": {
                 "id": "94e53f8f-de48-46e9-80d9-7402cafa7150",
@@ -3800,7 +3808,8 @@
         "c9d2d41f-85df-4acd-98b9-f9aa5602b1e7",
         "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
-        "1ca00bce-3c06-4c4e-82fe-56396de616fe"
+        "1ca00bce-3c06-4c4e-82fe-56396de616fe",
+        "85076852-e22b-4f39-b93f-2dcd3f0be0a5"
     ],
     "tutorial": ""
 }

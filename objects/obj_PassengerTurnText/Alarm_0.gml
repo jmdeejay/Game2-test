@@ -12,6 +12,12 @@ if (obj_EndTurn.isDone == true)
 			var thisFloater = instance_create_layer(_xspot, y, "Floaters", obj_EndTurnFloater);
 			thisFloater.myString = _thisString;
 			thisFloater.myColor = COLOR_GREEN_LIGHT;	
+			
+			var _tax = scr_CalculateTax(obj_EndTurn.ticketRevenue, 1);
+			obj_MyLedger.MyLedger[? "Taxes"] += _tax;
+			obj_TaxTurnText.valueOne = obj_MyLedger.MyLedger[? "Taxes"];
+			obj_MyLedger.Cash += obj_EndTurn.ticketRevenue;
+			show_debug_message("Cash updated.");
 		}
 		with (obj_PayrollTurnText)
 		{

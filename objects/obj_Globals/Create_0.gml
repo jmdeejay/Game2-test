@@ -39,6 +39,10 @@ G.CurrentTown = VAIO;
 G.CrewWages = 100;
 
 
+// TAXES
+G.PassengerTaxRate = 0.10;
+G.SpiceTaxRate = 0.05;
+
 // STORE PRICE MODIFIERS;
 
 G.VaioRationModifier = 15; // Changes on a turn by turn basis, via Random Events.

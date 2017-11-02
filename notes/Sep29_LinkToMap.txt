@@ -24,7 +24,8 @@ OBJECTIVE: LINKAGE
 	• Update WorldQtyTable // DONE
 	• Show time taken to arrive at port. (Will be used later to rank who goes first) // DONE
 	• Add Ticket Revenues to Cash. //DONE
-	• Draw Event displays info breakdown. // IN PROGRESS
+	• Draw Event displays info breakdown. // DONE
+	• Dump player at next Port room. // IN PROGRESS.
 	
 	
 PASSENGER SYSTEM:

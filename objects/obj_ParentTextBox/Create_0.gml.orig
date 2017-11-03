@@ -1,0 +1,14 @@
+/// @description INIT VARIABLES
+
+surf = -1;
+
+myMessage = obj_Codex.PLACEHOLDER;
+
+myPadding = 8;
+myWidth = 96;
+myHeight = 64;
+<<<<<<< HEAD
+myFont = fnt_Venice14;
+=======
+myFont = fnt_Venice12;
+>>>>>>> 59183de47d42ed825c47f033103fdcd63240752a

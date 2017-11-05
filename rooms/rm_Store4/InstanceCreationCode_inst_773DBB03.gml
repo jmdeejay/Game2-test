@@ -1,1 +1,1 @@
-myMode = VAIO;
+myMode = G.CurrentTown;

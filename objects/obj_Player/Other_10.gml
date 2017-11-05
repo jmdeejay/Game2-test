@@ -2,9 +2,11 @@
 var _x = 0;
 var _y = 0;
 
+var _start = landStart
+
 with (obj_hexTester) // Gotta find Port A
 {
-	if (landTitle == "Port0_1") // Found port A
+	if (landTitle == _start) // Found port A
 	{
 	show_debug_message("found it");
 	_x = x; // What's the location of port A

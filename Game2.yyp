@@ -1999,6 +1999,14 @@
             }
         },
         {
+            "Key": "8022d786-35df-4f8d-9787-d9af8fadfe63",
+            "Value": {
+                "id": "7fca961b-dfc3-49d0-abe2-ca3ab121b7eb",
+                "resourcePath": "scripts\\scr_EnterPort\\scr_EnterPort.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "810d9a12-c59f-41d5-8be5-9eac8e11c8d7",
             "Value": {
                 "id": "d06ee0d2-5619-40a5-a82e-82a3987b0557",
@@ -4103,6 +4111,7 @@
         "fe1b1939-47ca-4de4-a771-220061c0bca9",
         "c9d2d41f-85df-4acd-98b9-f9aa5602b1e7",
         "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
+        "8022d786-35df-4f8d-9787-d9af8fadfe63",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
         "1ca00bce-3c06-4c4e-82fe-56396de616fe",
         "85076852-e22b-4f39-b93f-2dcd3f0be0a5"

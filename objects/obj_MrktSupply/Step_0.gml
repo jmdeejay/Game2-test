@@ -40,7 +40,7 @@ isColumnFour = point_in_rectangle(mouse_x, mouse_y, Column4_x1, Names_y1, Column
 isColumnFive = point_in_rectangle(mouse_x, mouse_y, Column5_x1, Names_y1, Column5_x2, bbox_bottom);
 isColumnSix = point_in_rectangle(mouse_x, mouse_y, Column6_x1, Names_y1, Column6_x2, bbox_bottom);
 
-if (isColumnOne)
+if (isColumnOne and visible)
 {
 	image_index = 1;
 	if (mouse_check_button_released(mb_left))
@@ -50,7 +50,7 @@ if (isColumnOne)
 	}
 }
 
-if (isColumnTwo)
+if (isColumnTwo and visible)
 {
 	image_index = 2;
 	if (mouse_check_button_released(mb_left))
@@ -60,7 +60,7 @@ if (isColumnTwo)
 	}
 }
 
-if (isColumnThree)
+if (isColumnThree and visible)
 {
 	image_index = 3;
 	if (mouse_check_button_released(mb_left))
@@ -70,7 +70,7 @@ if (isColumnThree)
 	}
 }
 
-if (isColumnFour)
+if (isColumnFour and visible)
 {
 	image_index = 4;
 	if (mouse_check_button_released(mb_left))
@@ -80,7 +80,7 @@ if (isColumnFour)
 	}
 }
 
-if (isColumnFive)
+if (isColumnFive and visible)
 {
 	image_index = 5;
 	if (mouse_check_button_released(mb_left))
@@ -90,7 +90,7 @@ if (isColumnFive)
 	}
 }
 
-if (isColumnSix)
+if (isColumnSix and visible)
 {
 	image_index = 6;
 	if (mouse_check_button_released(mb_left))

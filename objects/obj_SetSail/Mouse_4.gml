@@ -1,6 +1,6 @@
 /// @description MOVE THE BOAT
 
-if (canPress)
+if (canPress and isVisible)
 {
 	with (obj_Player)
 	{

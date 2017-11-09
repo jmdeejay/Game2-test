@@ -2639,6 +2639,14 @@
             }
         },
         {
+            "Key": "a82ec1d6-92be-42ef-88a2-b08e29a1b91e",
+            "Value": {
+                "id": "7b39be66-bc8b-42e6-8821-1bc368c05f3c",
+                "resourcePath": "scripts\\scr_GetPortString\\scr_GetPortString.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "1f7c8b97-e35f-49b5-ab8d-13204be43d48",
@@ -2796,6 +2804,14 @@
                 "id": "54cf9b89-63ff-47c0-9125-235ac8bb924f",
                 "resourcePath": "views\\b2d02157-c06a-407b-815f-be44fd90d2eb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3de2a99-993c-4884-95b0-1b476218e22c",
+            "Value": {
+                "id": "ce8df1f0-35fe-471e-aa43-5f862c920b50",
+                "resourcePath": "notes\\Nov7_Bugs.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -3479,6 +3495,14 @@
             }
         },
         {
+            "Key": "dca2b8bf-92cb-416b-85ff-3be0ba48dc50",
+            "Value": {
+                "id": "482fc5fb-e0e3-436b-b62d-a44a52ccbe6b",
+                "resourcePath": "notes\\Nov5_FeedbackLoop.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "dcfe56fe-b359-40d7-a43a-614670646992",
             "Value": {
                 "id": "08521569-a071-43cc-98f8-07143fcfb983",
@@ -4064,6 +4088,7 @@
         "4bbe14bf-7bc2-4b7c-9a79-727017fdef11",
         "ced0a454-2095-4664-b923-acd2082cb08c",
         "73f48247-5823-4fdb-8466-3e54b71e5982",
+        "a82ec1d6-92be-42ef-88a2-b08e29a1b91e",
         "f10aa20f-1ad1-454f-8e7d-7763a05cd32b",
         "ea3127de-22c4-4ea4-b818-dfe37a1181ac",
         "abe5b464-abf2-447d-b5ee-f52a8d24d21d",

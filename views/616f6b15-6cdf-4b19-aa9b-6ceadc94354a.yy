@@ -17,7 +17,8 @@
         "a09566ea-cc5b-481c-8be6-cc03cb38b7b3",
         "4bbe14bf-7bc2-4b7c-9a79-727017fdef11",
         "ced0a454-2095-4664-b923-acd2082cb08c",
-        "73f48247-5823-4fdb-8466-3e54b71e5982"
+        "73f48247-5823-4fdb-8466-3e54b71e5982",
+        "a82ec1d6-92be-42ef-88a2-b08e29a1b91e"
     ],
     "filterType": "GMScript",
     "folderName": "Mapscreen",

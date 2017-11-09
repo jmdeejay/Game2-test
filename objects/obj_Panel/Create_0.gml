@@ -11,11 +11,11 @@ xPadding = 0;
 yPadding = 0;
 
 myTitle = "Title";
-dropColor = make_color_rgb(35,33,61);
-titleColor = make_color_rgb(242,242,240);
+dropColor = COLOR_BLACK_DARK;
+titleColor = COLOR_WHITE_DARK;
 
 
 
-bodyColor = make_color_rgb(92,56,65);
+bodyColor = COLOR_WHITE_LIGHT;
 myLeftTexts = array_create(7, "Left: ");
 myRightTexts = array_create(7, "..Right");

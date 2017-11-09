@@ -1,0 +1,12 @@
+==============BUGS================
+
+✓ G.TownSelected is getting reset to 0 when clicking on the Mrkt Grid while Mrkt Demand is not visible.
+✓ The Bank has improper text rendering in the Panel objects.
+
+✓ Sometimes, in the MapScreen the RightLabel objects do not pop out when they are supposed to. 
+	(The issue was with obj_GameState.hasTriggered somehow being set to `true` prematurely. It is now
+	set to `false` in the Room Creation Code for rm_MapScreen)
+
+✓ The "SET SAIL" button is still functioning even while not visible.
+
+• On the 2nd journey from a Port, the obj_tracer object still spawns at VAIO.

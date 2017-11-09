@@ -1,6 +1,6 @@
 /// @description CREATE DS GRID
 
-myLocation = VAIO;
+myLocation = G.CurrentTown;
 visible = false;
 
 myGrid = ds_grid_create(7,18);

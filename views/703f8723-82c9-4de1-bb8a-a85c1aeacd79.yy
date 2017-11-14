@@ -12,7 +12,7 @@
         "a40f9855-34e2-4d90-a6c0-0028e6cdb2b3"
     ],
     "filterType": "GMObject",
-    "folderName": "NewGame",
+    "folderName": "GamePersistent",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

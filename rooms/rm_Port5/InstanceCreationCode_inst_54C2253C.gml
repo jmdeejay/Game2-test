@@ -1,1 +1,0 @@
-myRoom = rm_Tavern1; // works fine

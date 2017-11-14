@@ -1,3 +1,0 @@
-REFINE THE FEEDBACK LOOP
-
-• Fix the Market Demand Grid obj_MrktSupply.

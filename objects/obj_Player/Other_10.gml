@@ -8,7 +8,7 @@ with (obj_hexTester) // Gotta find Port A
 {
 	if (landTitle == _start) // Found port A
 	{
-	show_debug_message("found it");
+	show_debug_message("Boat Start At " + _start);
 	_x = x; // What's the location of port A
 	_y = y; // NOTE: Variable scope is in relation to obj_hexTester
 	show_debug_message(string(_x));

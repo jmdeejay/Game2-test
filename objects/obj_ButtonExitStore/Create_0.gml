@@ -2,7 +2,7 @@
 
 event_inherited();
 myAction = scr_placeholder;
-myMode = 0;
+myMode = G.CurrentTown;
 image_speed = 0;
 image_index = 0;
 visible = false;

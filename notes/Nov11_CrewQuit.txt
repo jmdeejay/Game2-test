@@ -1,0 +1,33 @@
+=============STARTING A TURN==============
+
+• Add a "PayOwed" attribute to ds_map for each crew member.
+• Add a "Morale"attribute to ds_map for each crew member.
+• Removed "CrewQuitChance" from crew ds_map and Captain objects.
+
+• Simplify Captain Pros and Cons
+	• 1 Crew Pro
+	• 1 Crew Con
+	• 1 Ship Pro
+	• 1 Ship Con
+
+• Ships don't get Pros and Cons, only different stats.
+
+
+==============CREW MORALE=====================
+
+A single crew member starts their Morale at 100. When this individual sails on the boat
+the morale is effected in the following outcomes (tentative figures):
+
+• Nothing happens. -10 Morale
+• A bad random event happens (unrelated to crew actions). -15 Morale
+• Witnessing a crew member be punished for causing a bad event. -18 Morale
+• Witnessing a captain show mercy. +5 Morale
+• Being punished. -50 Morale
+• A good random event happens (unrelated to crew actions). +5 Morale
+• A good random event the crew is responsible for. +10 Morale
+• Winning a battle. +15 Morale
+• Losing a battle. -30 Morale
+• Getting paid. +20 Morale
+
+The number cannot exceed 100 or go below 0.
+

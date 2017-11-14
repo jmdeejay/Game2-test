@@ -19,11 +19,11 @@ switch (G.CurrentTown)
 	break;
 	
 	case ZAND:
-	landStart = "Port15_26";
+	landStart = "Port8_15";
 	break;
 	
 	case SYRR:
-	landStart = "Port10_1";
+	landStart = "Port15_26";
 	break;
 	
 	case KAND:

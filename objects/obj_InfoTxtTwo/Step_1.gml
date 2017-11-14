@@ -1,13 +1,13 @@
 /// @description EVAL AND UPDATE
 
-switch (room)
+switch (myRoom)
 {
-	case rm_Market1:
+	case "rm_Market":
 	valueOne = G.CurrentBarrels;
 	valueTwo = G.MaxBarrels;
 	break;
 	
-	case rm_Store1:
+	case "rm_Store":
 	valueOne = storeBarrelsAtStart + obj_LocalStore.myRationCount + obj_LocalStore.myAmmoCount;
 	valueTwo = G.MaxBarrels;
 	break;

@@ -1399,6 +1399,14 @@
             }
         },
         {
+            "Key": "5c2cb6fc-4570-46bf-bd3a-c975740c737e",
+            "Value": {
+                "id": "23a803b4-0fcd-4f76-81c1-384aaef86503",
+                "resourcePath": "notes\\Nov11_CrewQuit.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "5d2b8cce-50e5-4314-bbfb-32cf515fb63f",
             "Value": {
                 "id": "35d4e933-8dea-411b-b7d4-46ff2df64718",
@@ -3492,14 +3500,6 @@
                 "id": "6d140c8b-cd6c-4661-9eb6-8ef4ec7d8add",
                 "resourcePath": "scripts\\scr_enumInit\\scr_enumInit.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "dca2b8bf-92cb-416b-85ff-3be0ba48dc50",
-            "Value": {
-                "id": "482fc5fb-e0e3-436b-b62d-a44a52ccbe6b",
-                "resourcePath": "notes\\Nov5_FeedbackLoop.yy",
-                "resourceType": "GMNotes"
             }
         },
         {

@@ -2,6 +2,6 @@
 
 event_inherited();
 myAction = scr_ExitBuilding;
-myMode = 0;
+myMode = G.CurrentTown;
 image_speed = 0;
 visible = false;

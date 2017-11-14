@@ -1,1 +1,0 @@
-myMode = G.CurrentTown;

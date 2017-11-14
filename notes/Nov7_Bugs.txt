@@ -9,4 +9,31 @@
 
 ✓ The "SET SAIL" button is still functioning even while not visible.
 
-• On the 2nd journey from a Port, the obj_tracer object still spawns at VAIO.
+✓ On the 2nd journey from a Port, the obj_tracer object still spawns at VAIO.
+
+✓ Sailed to Zandretta. Did some shopping. When I came back to map screen, I was in Syrr? 
+  obj_Player was placed on Syrr, but obj_Tracer was in Zandretta.
+
+✓ Can't exit the Kanda Bank, or the Barcellus Bank.
+
+✓ In Barcellus, walked into Pub, teleported to Vaios. Walked out to the Map screen. Exited Map screen. Back in Barcellus.
+
+✓ In Kanda, walked into Store, teleported to Vaios. Walked to Mapscreen, exited mapscreen, back in Kanda.
+	✓ Same results with Kanda Bank.
+	✓ Same results with Kanda Pub.
+
+✓ In Chirsk, walked into Pub, teleported to Vaios. Walked out to the Map screen. Exited map screen. Back in Chirsk.
+
+✓ I sailed to Zandretta, then Syrr, then Kanda. When I went into the Kanda store, my barrels read
+  "555 out of 999" barrels.
+	✓ (I later went to Chirsk, same number.)
+	✓ (I went to VAIOS next but the numbers were correct.)
+
+✓ Passengers are not disembarking the ship.
+	✓? I don't think the End Turn passengers aboard number is correct on the 2nd+ voyage.
+	✓? The Board Passengers button doesn't seem to work properly on the 2nd+ voyage.
+
+• I tried to click on Set Sail when heading for Syrr on 2nd voyage (from Zand), but nothing happened.
+	• From Kanda to Syrr -- Works.
+	• From Zand to Domos -- Doesn't Work (worked after reset).
+

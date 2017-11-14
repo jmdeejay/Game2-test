@@ -1,1 +1,0 @@
-myMode = VAIO;

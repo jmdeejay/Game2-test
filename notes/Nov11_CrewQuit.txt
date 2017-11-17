@@ -28,6 +28,15 @@ the morale is effected in the following outcomes (tentative figures):
 • Winning a battle. +15 Morale
 • Losing a battle. -30 Morale
 • Getting paid. +20 Morale
+• Getting paid... but not the full amount. -15 Morale
 
-The number cannot exceed 100 or go below 0.
+The number cannot exceed 100 or go below 0. If a crew member's morale is 0 by the time they
+reach the End Turn screen, the crew member quits.
+
+================QUITTING========================
+
+When a crew member quits, they automatically deduct their individual Pay Owed from Cash. If there
+is not enough in Cash, they deduct from Savings until satisfied. If there is not enough in Savings,
+they increase the Bank Loan until satisfied. If the Bank Loan credit limit is exceeded in this manner,
+the game is over.
 

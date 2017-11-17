@@ -14,7 +14,7 @@ ds_map_add(myCaptain, "CrewXPGrow", 1.00);
 ds_map_add(myCaptain, "CrewReadinessModifier", 1.00);
 ds_map_add(myCaptain, "CrewPayRate", 1.00);
 ds_map_add(myCaptain, "CrewTraitorChance", 1.00);
-ds_map_add(myCaptain, "CrewQuitChance", 0.15);
+ds_map_add(myCaptain, "MoraleModifier", 0);
 ds_map_add(myCaptain, "StartingCannon", 0);
 
 

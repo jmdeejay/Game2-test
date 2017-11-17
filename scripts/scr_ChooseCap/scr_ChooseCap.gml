@@ -5,20 +5,20 @@
 var _name = argument0;
 var _crewStatus = argument1;
 var _crewXP = argument2;
-var _crewMod = argument3;
+var _crewReady = argument3;
 var _crewPay = argument4;
 var _crewTraitor = argument5;
-var _crewQuit = argument6;
+var _crewMorale = argument6;
 var _cannonStart = argument7;
 
 with (obj_NewGame)
 {
 	NewGameCaptain[? "Name"] = _name;
 	NewGameCaptain[? "CrewXPGrow"] = _crewXP;
-	NewGameCaptain[? "CrewReadinessModifier"] = _crewMod;
+	NewGameCaptain[? "CrewReadinessModifier"] = _crewReady;
 	NewGameCaptain[? "CrewPayRate"] = _crewPay;
 	NewGameCaptain[? "CrewTraitorChance"] = _crewTraitor;
-	NewGameCaptain[? "CrewQuitChance"] = _crewQuit;
+	NewGameCaptain[? "MoraleModifier"] = _crewMorale;
 	NewGameCaptain[? "StartingCannons"] = _cannonStart;
 	
 }

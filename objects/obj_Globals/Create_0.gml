@@ -21,7 +21,19 @@ G.ZandrettaAttract = 0;
 G.SyrrAttract = 0;
 G.KandaAttract = 0;
 
+// MORALE
 
+G.MoraleNoEvent = -10;
+G.MoraleBadEvent = -15;
+G.MoraleWitnessPunishment = -18;
+G.MoraleWitnessMercy = 5;
+G.MoraleBePunished = -50;
+G.MoraleFortuneEvent = 5;
+G.MoraleGoodCrew = 10;
+G.MoraleWonBattle = 15;
+G.MoraleLostBattle = -30;
+G.MoraleGetPaid = 20;
+G.MoraleGetPartialPay = -15;
 
 // SPAWN POINT
 G.SpawnX = 95;

@@ -9,4 +9,4 @@ CrewReadinessModifier = 1.00;
 CrewPayRate = 1.00;
 CrewTraitorChance = 1.00;
 StartingCannons = 0;
-CrewQuitChance = 0.15;
+MoraleModifier = 0;

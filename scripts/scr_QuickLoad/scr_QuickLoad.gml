@@ -36,7 +36,7 @@ var ship = instance_create_depth(0, 0, 0, shipObj);
 ship.visible = false;
 
 scr_ChooseCap(captain.Name, captain.CrewStatus, captain.CrewXPGrow, captain.CrewReadinessModifier, captain.CrewPayRate, 
-captain.CrewTraitorChance, captain.CrewQuitChance, captain.StartingCannons);
+captain.CrewTraitorChance, captain.CrewMorale, captain.StartingCannons);
 
 scr_ChooseShip([ship.Name, ship.SailSpeed, ship.MaxReady, ship.CurrentReady, ship.PassengerCapacity, 
 ship.CurrentCannons, ship.CannonCapacity, ship.SightRange, ship.ShipHP, ship.isCorvusCaptain, ship.isDanteCaptain, 

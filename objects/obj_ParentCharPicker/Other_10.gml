@@ -7,7 +7,7 @@ scr_ChooseCap(	thisCaptain.Name,
 				thisCaptain.CrewReadinessModifier,
 				thisCaptain.CrewPayRate,
 				thisCaptain.CrewTraitorChance,
-				thisCaptain.CrewQuitChance,
+				thisCaptain.CrewMorale,
 				thisCaptain.StartingCannons
 			 );
 // the script takes these arguments, which are different for each child, and then

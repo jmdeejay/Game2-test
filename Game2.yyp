@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "1285be8f-6abf-4c83-a97a-012dc7800f98",
+            "Value": {
+                "id": "7f410aa5-b8bc-42da-b7ea-44a61b77a308",
+                "resourcePath": "scripts\\scr_DividePayroll\\scr_DividePayroll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "13709e19-b2ad-4ba5-b283-bebed619b37c",
             "Value": {
                 "id": "7d5096fd-a025-4b58-98cc-c564649c76a1",
@@ -1467,6 +1475,14 @@
             "Value": {
                 "id": "2a549102-c671-4b9d-9318-c984268d00c7",
                 "resourcePath": "scripts\\scr_BuildingTransaction\\scr_BuildingTransaction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "60c90efc-466e-4399-a3b2-7fcd8518e8cd",
+            "Value": {
+                "id": "a0e685f0-e7f1-430e-b840-e8df160b1810",
+                "resourcePath": "scripts\\scr_SetMorale\\scr_SetMorale.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3903,6 +3919,14 @@
             }
         },
         {
+            "Key": "f5c278a5-176d-480a-a1e7-cd0984f536c0",
+            "Value": {
+                "id": "e42debd5-9f33-4466-a3de-36087af3c695",
+                "resourcePath": "views\\f5c278a5-176d-480a-a1e7-cd0984f536c0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f5ed04e1-fbec-4641-8ee6-6953ce7b4bf4",
             "Value": {
                 "id": "f404df47-246f-453b-aa3e-1d61eb1b2f5f",
@@ -4137,9 +4161,11 @@
         "c9d2d41f-85df-4acd-98b9-f9aa5602b1e7",
         "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
         "8022d786-35df-4f8d-9787-d9af8fadfe63",
+        "1285be8f-6abf-4c83-a97a-012dc7800f98",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
         "1ca00bce-3c06-4c4e-82fe-56396de616fe",
-        "85076852-e22b-4f39-b93f-2dcd3f0be0a5"
+        "85076852-e22b-4f39-b93f-2dcd3f0be0a5",
+        "60c90efc-466e-4399-a3b2-7fcd8518e8cd"
     ],
     "tutorial": ""
 }

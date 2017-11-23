@@ -1,5 +1,7 @@
 /// @description INIT VARIABLES
 
+hasEvent = false;
+eventResolved = false;
 myStartX = 0;
 myStartY = 0;
 

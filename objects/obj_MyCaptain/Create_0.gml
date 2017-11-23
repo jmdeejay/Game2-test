@@ -16,10 +16,26 @@ ds_map_add(myCaptain, "CrewPayRate", 1.00);
 ds_map_add(myCaptain, "CrewTraitorChance", 1.00);
 ds_map_add(myCaptain, "MoraleModifier", 0);
 ds_map_add(myCaptain, "StartingCannon", 0);
+ds_map_add(myCaptain, "LuckModifier", 0);
 
 
 //CREW LIST
 
 myCrewManifest = ds_list_create();
 
+//MORALE ENUMS
 
+enum MORALE
+{
+	Nothing,
+	Bad,
+	WitnessPunishment,
+	WitnessMercy,
+	BePunished,
+	Fortune,
+	GoodCrew,
+	BattleWon,
+	BattleLost,
+	GetPaid,
+	GetStiffed
+}

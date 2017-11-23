@@ -13,12 +13,13 @@ for (var i = 0; i <= _count; i ++) // not sure if I want to do less-than||equal-
 	if (_pay < _payPile) // Is there enough money in the pile?
 	{
 		_map[? "PayOwed"] = 0; // This crew memeber gets paid.
+		_map[? "Morale"] = scr_SetMorale(_map[? "Morale"], MORALE.GetPaid);
 		_payPile -= _pay; // subtract the pay amount from the pile.
-	} else if (_pay >= _payPile) // If there isn't enough money left in the pile to pay the crew member...
+	} else // If there isn't enough money left in the pile to pay the crew member...
 	{
 		_map[? "PayOwed"] -= _payPile;	// Pay them with what's left
 		_payPile = 0;
-		return; // All done. No more cash to pay crew with.
+		_map[? "Morale"] = scr_SetMorale(_map[? "Morale"], MORALE.GetStiffed);
 	}
 }
 

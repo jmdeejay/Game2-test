@@ -10,43 +10,51 @@ var _modifier = obj_MyCaptain.myCaptain[? "MoraleModifier"];
 
 switch (_mode)
 {
-	case 0: // Nothing Happened
+	case MORALE.Nothing: // Nothing Happened
 	_morale += (G.MoraleNoEvent + _modifier);
-	return (_morale);
 	break;
 	
-	case 1: // Something Bad Happened
+	case MORALE.Bad: // Something Bad Happened
 	_morale += (G.MoraleBadEvent + _modifier);
-	return (_morale);
 	break;
 	
-	case 2: // This crew member witnessed some punishment
+	case MORALE.WitnessPunishment: // This crew member witnessed some punishment
 	_morale += (G.MoraleWitnessPunishment + _modifier);
-	return (_morale);
 	break;
 	
-	case 3: // This crew member witnessed mercy
+	case MORALE.WitnessMercy: // This crew member witnessed mercy
 	_morale += (G.MoraleWitnessMercy + _modifier);
-	return (_morale);
 	break;
 	
-	case 4: // This crew member was punished
+	case MORALE.BePunished: // This crew member was punished
 	_morale += (G.MoraleBePunished + _modifier);
-	return (_morale);
 	break;
 	
-	case 5: // Something Good Happened
+	case MORALE.Fortune: // Something Good Happened
 	_morale += (G.MoraleFortuneEvent + _modifier);
-	return (_morale);
 	break;
 	
-	case 6: // The crew did something good for everyone
+	case MORALE.GoodCrew: // The crew did something good for everyone
 	_morale += (G.MoraleGoodCrew + _modifier);
-	return (_morale);
 	break;
 	
-	case 7: // The crew won a naval battle
+	case MORALE.BattleWon: // The crew won a naval battle
 	_morale += (G.MoraleWonBattle + _modifier);
-	return (_morale);
 	break;
+	
+	case MORALE.BattleLost: // The crew Lost a naval battle
+	_morale += (G.MoraleLostBattle + _modifier);
+	break;
+	
+	case MORALE.GetPaid: // This crew member got paid
+	_morale += (G.MoraleGetPaid + _modifier);
+	break;
+	
+	case MORALE.GetStiffed: // This crew member got partial payment
+	_morale += (G.MoraleGetPartialPay + _modifier);
+	break;	
 }
+
+_morale = clamp(_morale, 0, 100);
+
+return _morale;

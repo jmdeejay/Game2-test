@@ -40,3 +40,78 @@ is not enough in Cash, they deduct from Savings until satisfied. If there is not
 they increase the Bank Loan until satisfied. If the Bank Loan credit limit is exceeded in this manner,
 the game is over.
 
+==============RANDOM EVENTS=====================
+
+When visiting the MapScreen, some of the tiles are given a Random Event. If the Player collides with
+that tile (after having pressed Set Sail), a Random Event occurs. These Random Events sometimes have
+pre-determined outcomes that are good or bad. Other times, they require a choice from the Player that
+then determines if the outcome is good, bad, or neither. Once the ship reaches the Destination, the
+End Turn room begins. Any Morale Bonuses / Deductions must be applied *before* going to the End Turn
+room.
+
+
+=============LUCK SYSTEM======================
+
+When a Random Event occurs, the Captain rolls a D100 + Luck Modifier. If the roll is low, like say less
+than 40, then the game randomly selects from the Bad Events table. The roll is somewhere in the middle range,
+then a Neutral Chance Event is selected, and if the roll is high then a Good Event happens.
+
+Most Captains have a Luck rating of 0. Some Captains might start out with a Luck rating of like 10, or -10.
+Other special events/items/transactions can have an effect on a captain's luck rating (temporary).
+
+============RANDOM EVENTS=====================
+
+What kind of effects could a Random Event have?
+
+=== Effect ======= Example ==========
+• Give Money -- a barrel of rations had a bunch of silver coins stashed inside
+• Cost Money -- some of your spice barrels weren't sealed properly
+• Lower Ship Speed (that trip) -- a storm ripped your sails
+• Increase Ship Speed (that trip) -- favorable winds
+• Lose a crew member -- "Man overboard!"
+• Gain a crew member -- Island castaway *
+• NPC Offer -- take me to this port instead for X reward.
+• Strange Encounter -- Take on new pet? Fulfil strange request?
+• NPC Offer -- Trade Cannon/Cannonball(s)/Ration(s) for money
+• NPC Offer -- Trade Cannon/Cannonball(s)/Ration(s) for strange item
+• NPC Offer -- Trade X spice barrels for Y spice barrels
+
+A Random Event needs:
+• A Title
+
+• Explanation Text
+
+• Flavor Text
+
+• Image
+
+• isDecision boolean -- Player decides Yes or No and recieves an outcome
+	• Needs YesOutcome ToolTip
+	• Needs NoOutcome ToolTip
+	• Needs YesOutcome pointer to possible YesEvent
+	• Needs NoOutcome pointer to possible NoEvent
+
+A classification:
+• Good
+• Neutral
+• Bad
+ 
+A Modifier Type: 
+ 
+• Needs a Cash Modifier 
+(0 is acceptable, always positive number, Good adds positive number to Cash, Bad subtracts positive 
+number from Cash)
+
+• Needs a Ship Speed Modifier
+(Always positive number. Good means added to ship speed, Bad means subtracted, Neutral means ignored. 
+0 is an acceptable number.)
+
+• Needs a crew number Modifier
+(Good means add crew, Bad means subtract crew)
+
+• Destination Modifier -- Must be NEUTRAL
+(VAIOS thru KAND are acceptable arguments, minus the G.DestinationTown and G.CurrentTown)
+
+• Barter Modifier
+
+Use a JSON format for each Card.

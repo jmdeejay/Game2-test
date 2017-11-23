@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "31e40323-6ccb-4197-a1e2-069d6a2c196b",
+            "Value": {
+                "id": "ede7b9d1-17e5-41f8-8d73-90fdf190f0d6",
+                "resourcePath": "datafiles_yy\\Events.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3202a183-cb67-42c8-96f9-a914f23cae20",
             "Value": {
                 "id": "26ffdc85-67a5-4d7c-93f3-7d89095d7aeb",
@@ -3863,6 +3871,14 @@
             }
         },
         {
+            "Key": "f2a16fd8-f889-4909-8e90-d018af754fc5",
+            "Value": {
+                "id": "1ced07a3-18e1-4094-a2ed-a47fb9cb03cb",
+                "resourcePath": "objects\\obj_RandomEvents\\obj_RandomEvents.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f2bbec48-6748-4b4c-8cb0-549e61a8c35c",
             "Value": {
                 "id": "035e74e7-745c-42fd-9571-9e10a05a8d9d",
@@ -4162,10 +4178,10 @@
         "ed5fa5ec-054c-48c5-a11e-c6f42fc7a70b",
         "8022d786-35df-4f8d-9787-d9af8fadfe63",
         "1285be8f-6abf-4c83-a97a-012dc7800f98",
-        "5f094bd6-d9b6-494d-8b81-370c95bacded",
+        "60c90efc-466e-4399-a3b2-7fcd8518e8cd",
         "1ca00bce-3c06-4c4e-82fe-56396de616fe",
-        "85076852-e22b-4f39-b93f-2dcd3f0be0a5",
-        "60c90efc-466e-4399-a3b2-7fcd8518e8cd"
+        "5f094bd6-d9b6-494d-8b81-370c95bacded",
+        "85076852-e22b-4f39-b93f-2dcd3f0be0a5"
     ],
     "tutorial": ""
 }

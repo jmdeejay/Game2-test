@@ -10,6 +10,7 @@ var _crewPay = argument4;
 var _crewTraitor = argument5;
 var _crewMorale = argument6;
 var _cannonStart = argument7;
+var _luckMod = argument8;
 
 with (obj_NewGame)
 {
@@ -20,6 +21,7 @@ with (obj_NewGame)
 	NewGameCaptain[? "CrewTraitorChance"] = _crewTraitor;
 	NewGameCaptain[? "MoraleModifier"] = _crewMorale;
 	NewGameCaptain[? "StartingCannons"] = _cannonStart;
+	NewGameCaptain[? "LuckModifier"] = _luckMod;
 	
 }
 

@@ -7,8 +7,9 @@ scr_ChooseCap(	thisCaptain.Name,
 				thisCaptain.CrewReadinessModifier,
 				thisCaptain.CrewPayRate,
 				thisCaptain.CrewTraitorChance,
-				thisCaptain.CrewMorale,
-				thisCaptain.StartingCannons
+				thisCaptain.MoraleModifier,
+				thisCaptain.StartingCannons,
+				thisCaptain.LuckModifier
 			 );
 // the script takes these arguments, which are different for each child, and then
 // invokes obj_MyCaptain to save them in a DS MAP

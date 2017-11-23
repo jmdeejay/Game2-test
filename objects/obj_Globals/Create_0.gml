@@ -8,6 +8,8 @@ G.ServingsPerRation = 50;
 G.MilesPerTile = 60;
 G.PASSENGERS_MAX = 255;
 G.StandardTicketPrice = 1000;
+G.RandomChance = 0.10;
+
 
 G.DistanceTravelled = 0;
 G.DistanceCost = 0;

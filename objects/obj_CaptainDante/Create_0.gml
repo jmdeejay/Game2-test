@@ -10,3 +10,5 @@ CrewPayRate = 0.85;
 CrewTraitorChance = 1.00;
 StartingCannons = 2;
 MoraleModifier = -5.00;
+LuckModifier = 0;
+

@@ -1,0 +1,34 @@
+[{
+	"id": 10001,
+    "title": "Example Bad Event",
+    "image": "spr_Card_BadEvent01",
+    "description": "Something Bad Happened to your Money",
+    "category": "Bad",
+    "amount": 2000,
+	"modifierType ": "Money",
+	"isDecision": false,
+	"yesGoto:" null,
+	"noGoto:" null
+},{
+	"id": 10401,
+    "title": "Example Neutral Event",
+    "image": "spr_Card_Neutral01",
+    "description": "Make a Decision",
+    "category": "Neutral",
+    "amount": 0,
+	"modifierType ": "Destination",
+	"isDecision": true,
+	"yesGoto": 10402,
+	"noGoto": 10403
+}, (
+	"id": 10801,
+    "title": "Example Good Event",
+    "image": "spr_Card_GoodEvent01",
+    "description": "Something Good Happened to your Money",
+    "category": "Good",
+    "amount": 3000,
+	"modifierType ": "Money",
+	"isDecision": false,
+	"yesGoto:" null,
+	"noGoto:" null
+)]

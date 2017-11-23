@@ -12,6 +12,8 @@ repeat(mySeamanCount)
     ds_map_add(cm,"Readiness", 3);
 	ds_map_add(cm, "Cooking", 0);
 	ds_map_add(cm, "Gunning", 0);
+	ds_map_add(cm, "Morale", 100);
+	ds_map_add(cm, "PayOwed", 0);
 	var _slot = ds_list_size(obj_MyCaptain.myCrewManifest);
     ds_list_add(obj_MyCaptain.myCrewManifest, cm);
 	ds_list_mark_as_map(obj_MyCaptain.myCrewManifest, _slot - 1);	
@@ -28,6 +30,8 @@ repeat(myCookCount)
     ds_map_add(cm,"Readiness", 0);
 	ds_map_add(cm, "Cooking", 2);
 	ds_map_add(cm, "Gunning", 0);
+	ds_map_add(cm, "Morale", 100);
+	ds_map_add(cm, "PayOwed", 0);
 	var _slot = ds_list_size(obj_MyCaptain.myCrewManifest);
     ds_list_add(obj_MyCaptain.myCrewManifest, cm);
 	ds_list_mark_as_map(obj_MyCaptain.myCrewManifest, _slot - 1);	
@@ -44,6 +48,8 @@ repeat(myGunnerCount)
     ds_map_add(cm,"Readiness", 1);
 	ds_map_add(cm, "Cooking", 0);
 	ds_map_add(cm, "Gunning", 1);
+	ds_map_add(cm, "Morale", 100);
+	ds_map_add(cm, "PayOwed", 0);
 	var _slot = ds_list_size(obj_MyCaptain.myCrewManifest);
     ds_list_add(obj_MyCaptain.myCrewManifest, cm);
 	ds_list_mark_as_map(obj_MyCaptain.myCrewManifest, _slot - 1);	

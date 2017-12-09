@@ -1,0 +1,47 @@
+See Nov11 Notes for more info.
+
+=======RANDOM EVENTS ORDER OF OPERATIONS==============
+
+• Player clicks SET SAIL
+• Player boat rolls Random Chance for number of tiles travelled.
+	• As soon as Player rolls a Success on Random Chance,
+		• The iterator number is the number of tiles travelled before reaching that point,
+		so you must warp/stop the player boat at that tile once it collides at that tile.
+		• Pull tile id from list of tiles, when Player Collides with that tile, stop path
+		movement.
+	• Mark hasEvent = true
+• hasEvent = true
+	• Player rolls their Luck number d100 and adds their Captain luck modifier.
+		• If  the roll is between 0 to 33, a Bad Event is picked
+		• If the roll is between 34 to 66, a Neutral Event is picked
+		• If  the roll is between 67 and 100, a Good Event is picked
+			• When a Bad Event is rolled, there are a few more internal rolls that happen
+			• The game rolls a 1-26 irandom, slot1 (for example, let's say a 6 is rolled)
+			• Then another 1-26 roll happens, slot2 (let's say a 4 is rolled)
+			•  6 = F, 4 = D. In other words the numbers correspond to the alphabet
+			• It's time to pull the event from the JSON file
+				• Because it's a BAD event, the first character is 'B'
+				• the second character is slot1, or 'F'
+				• the third character is slot2, or 'D'
+				• Open and read as ds_map the JSON file.
+				• Create a new instance of Random Event Card, using the variables associated
+				with id: "BFD"
+					• Open and Read JSON file
+					• Create ds_map
+					• Fill ds_map with variables that correspond to BFD in the JSON file
+						• QUESTION? Is this possible? Can the JSON file be searched?
+					• Note: If the lookup "BFD" doesn't exist, have it change to a "default" lookup
+					instead, like "BAA"
+				• Instance Create obj_RandomCard, fill with BFD values.
+• obj_RandomCard
+	• Has 0 / null values for variables necessary to a random event.
+	• When created, given the variables pulled by the Player Boat
+	• Pops up from bottom of screen.
+		• By default, has an "OKAY" acknowledgement button. 
+		• If "isDecision" is true, then the "OKAY" button is replaced with "YES" or "NO"
+		• Clicking either of those buttons pops down the the Random Event Card
+			• Have effects take place
+			• Destroy Card
+			• If Yes/No decision, spawn resulting card with value-lookup from yesGoto or noGoto
+			
+• Go to End Turn room.

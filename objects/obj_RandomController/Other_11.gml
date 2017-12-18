@@ -1,4 +1,5 @@
 /// @description SET UP CARD
+// Invoked by: Step Event
 
 var thisTitle = "";
 var thisImage = noone;

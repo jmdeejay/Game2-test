@@ -1,21 +1,21 @@
-/// draw_text_outlined_ext(x, y, str, stringWidth, sep, color, outlineColor, alpha, width);
-var myTmpX, myTmpY, myStr, myStringWidth, mySep, myColor, myOutlineColor, myAlpha, myWidth, myPrecision;
+/// draw_text_outlined_ext(x, y, str, color, outlineColor, alpha, width, sep, stringWidth);
+var myTmpX, myTmpY, myStr, myColor, myOutlineColor, myAlpha, myWidth, mySep, myStringWidth, myPrecision;
 
 myTmpX = argument[0];
 myTmpY = argument[1];
 myStr = argument[2];
-myStringWidth = 1000;
-if(argument_count > 3){ myStringWidth = argument[3]; }
-mySep = -1;
-if(argument_count > 4){ mySep = argument[4]; }
 myColor = c_white;
-if(argument_count > 5){ myColor = argument[5]; }
-myOutlineColor = c_black;
-if(argument_count > 6){ myOutlineColor = argument[6]; }
+if(argument_count > 3){ myColor = argument[3]; }
+myOutline_color = c_black;
+if(argument_count > 4){ myOutlineColor = argument[4]; }
 myAlpha = 1;
-if(argument_count > 7){ myAlpha = argument[7]; }
+if(argument_count > 5){ myAlpha = argument[5]; }
 myWidth = 2;
-if(argument_count > 8){ myWidth = argument[8]; }
+if(argument_count > 6){ myWidth = argument[6]; }
+mySep = -1;
+if(argument_count > 7){ mySep = argument[7]; }
+myStringWidth = 1000;
+if(argument_count > 8){ myStringWidth = argument[8]; }
 
 myPrecision = 8; // Value between 1 and 360 : Higher the value, higher the precision.
 myPrecision = median(1, myPrecision, 360);

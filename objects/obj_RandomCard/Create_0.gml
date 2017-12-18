@@ -12,6 +12,17 @@ isDecision = false;
 yesGoto = "";
 noGoto = "";
 
+// Text Variables
+xOffset = 8;
+yOffset = 154;
+
+titleColor = COLOR_WHITE_LIGHT;
+outlineColor = COLOR_BLACK_LIGHT;
+titleFont = fnt_Venice16;
+
+bodyColor = COLOR_GRAY_LIGHT;
+bodyFont = fnt_CodersCrux12;
+
 // Animation Variables
 //visible = false;
 //isTriggered = false;
@@ -30,3 +41,6 @@ noGoto = "";
 //animationTotal = 120;
 
 //alarm_set(0, myTicks);
+
+event_user(0); // Spawn Buttons
+

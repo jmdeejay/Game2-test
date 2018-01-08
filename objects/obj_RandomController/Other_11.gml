@@ -33,14 +33,14 @@ if (ds_grid_value_exists(G.cardData, 0, CARD, G.totalCards, CARD, myID))
 		myID = "BAA";
 		break;
 		
-		case "N":
+		case "C":
 		show_debug_message("Neutral Event " + myID + " does not exist. Reverting to default.");
-		myID = "NAA";
+		myID = "CAA";
 		break;
 		
-		case "G":
+		case "A":
 		show_debug_message("Good Event " + myID + " does not exist. Reverting to default.");
-		myID = "GAA";
+		myID = "AAA";
 		break;
 	}
 }

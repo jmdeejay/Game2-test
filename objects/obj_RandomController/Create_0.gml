@@ -10,18 +10,18 @@ hasRolled = false;
 
 
 slotOne = "";
-slotTwo = chr(irandom_range( ord("A"), ord("J")));
-slotThree = chr(irandom_range( ord("A"), ord("J")));
+slotTwo = chr(irandom_range( ord("A"), ord("D")));
+slotThree = chr(irandom_range( ord("A"), ord("D")));
 
 if (totalLuck < 34) // Poor Luck
 {
 	slotOne = "B"; // Bad Event
 } else if (totalLuck >= 34 and totalLuck < 70) // Moderate Luck
 {
-	slotOne = "N";	
+	slotOne = "C";	
 } else if (totalLuck >= 70) // Good Luck
 {
-	slotOne = "G";	
+	slotOne = "A";	
 }
 
 show_debug_message("The Random Card ID is " + slotOne + slotTwo + slotThree);

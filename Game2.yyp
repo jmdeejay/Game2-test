@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "50e37f5d-6ffd-4ed4-a956-de3a86838463",
+            "Value": {
+                "id": "4e5711df-2af1-4f25-88bf-3ca9b838f8c3",
+                "resourcePath": "views\\50e37f5d-6ffd-4ed4-a956-de3a86838463.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "51aae005-1c8a-45b2-a87a-024972a5f1d8",
             "Value": {
                 "id": "5499aa30-02bb-47ee-aff3-f9b764f4b4c1",
@@ -3263,6 +3271,14 @@
             }
         },
         {
+            "Key": "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
+            "Value": {
+                "id": "a8e38cb1-6d2a-463a-a363-dac6fb5a3f52",
+                "resourcePath": "scripts\\scr_OkayButton\\scr_OkayButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6151d3d-6000-4418-aa2c-072f7fb89d4f",
             "Value": {
                 "id": "2c6e2d84-b70e-4ff0-b9f2-ab90667bc460",
@@ -4307,9 +4323,10 @@
         "8022d786-35df-4f8d-9787-d9af8fadfe63",
         "1285be8f-6abf-4c83-a97a-012dc7800f98",
         "60c90efc-466e-4399-a3b2-7fcd8518e8cd",
-        "1ca00bce-3c06-4c4e-82fe-56396de616fe",
+        "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
         "85076852-e22b-4f39-b93f-2dcd3f0be0a5",
+        "1ca00bce-3c06-4c4e-82fe-56396de616fe",
         "9bbb63f1-5911-4a89-9497-128a3225b275"
     ],
     "tutorial": ""

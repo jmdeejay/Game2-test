@@ -1,5 +1,6 @@
 // Invoked by: obj_ButtonRandomOKAY
 // Objectives: enact the effects of myCard, destroy myCard, and proceed with boat animation.
+// Note: Uses variables specific to obj_ButtonOKAY
 
 var _amt = myCard.myAmount;
 var _type = myCard.myType;
@@ -99,9 +100,58 @@ switch (_type)
 		}
 	} if (_category == "Neutral")
 	{
+		// Get the id of the hexagon the boat is resting on
+		var _boatHex = instance_place(obj_Player.x, obj_Player.y, obj_hexTester);
 		
+		// Search the ds_list for this id.
+		var _index = ds_list_find_index(global.selectedHex, _boatHex);
+		obj_Player.currentTile = _index;
+		
+		// Delete list entries up until _index
+		while (ds_list_size(global.selectedHex) - 1 > _index)
+		{
+		    ds_list_delete(global.selectedHex, _index + 1);
+		}
+		
+		// Teleport Tracer
+		obj_Tracer.x = obj_Player.x;
+		obj_Tracer.y = obj_Player.y;
+		
+		// Move Tracer
+		obj_Tracer.isDone = false;
+		
+		var _portName = scr_GetPortString(_amt);
+		var _portLocation = scr_GetPort(_portName);
+		var _mx = 0;
+		var _my = 0;
+		path_clear_points(obj_Tracer.myPath);
+		
+		// Get x/y location of new destination
+		with (obj_hexTester)
+		{
+			if (landTitle == _portName)
+			{
+				_mx = x + 16;
+				_my = y + 16;
+			}
+		}
+		
+		with (obj_Tracer)
+		{
+			if (mp_grid_path(global.ourGrid, myPath, x, y, _mx, _my, 1) and isDone == false)
+			{
+				path_start(myPath, 8, path_action_stop, false);
+				if (path_position == 1)
+				{
+					obj_Player.eventResolved = true;
+				}
+			}
+		}
+		with (obj_Player)
+		{
+			event_user(2); // Resume Sailing	
+		}
 	}
-	
-	
+
 	exit;
 }

@@ -18,7 +18,9 @@ with (obj_Player)
 	if (hasEvent and !eventResolved)
 	{
 		path_speed = 0;	// Pause ship movement while the Player decides or reads their Event.
+		obj_SetSail.visible = false;
 	}
+	
 	
 	if (path_position == 1)
 	{

@@ -1,8 +1,8 @@
 {
-    "id": "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
+    "id": "863dfa16-ca98-492c-ac27-86b27d899d59",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_OkayButton",
+    "name": "scr_NoRandomButton",
     "IsCompatibility": false,
     "IsDnD": false
 }

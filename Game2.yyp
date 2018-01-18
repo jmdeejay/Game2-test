@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "35ffb5f1-b034-499f-90f0-98285e07221c",
+            "Value": {
+                "id": "a01924d8-7409-46b6-aed1-49ffacf5e56e",
+                "resourcePath": "scripts\\scr_YesRandomButton\\scr_YesRandomButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3613d4d8-e3ca-46cf-92d2-821ac084f3c8",
             "Value": {
                 "id": "06de211d-fd24-4fe2-9a52-7b7ccadb3e42",
@@ -2231,6 +2239,14 @@
             }
         },
         {
+            "Key": "863dfa16-ca98-492c-ac27-86b27d899d59",
+            "Value": {
+                "id": "0a10deb6-849e-4016-af8c-d784c31303ed",
+                "resourcePath": "scripts\\scr_NoRandomButton\\scr_NoRandomButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86bc1c5d-bbdc-4617-95f6-e1ec1c9eafb9",
             "Value": {
                 "id": "9535b890-f897-4eb1-8806-e0b01901f2f5",
@@ -3274,7 +3290,7 @@
             "Key": "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
             "Value": {
                 "id": "a8e38cb1-6d2a-463a-a363-dac6fb5a3f52",
-                "resourcePath": "scripts\\scr_OkayButton\\scr_OkayButton.yy",
+                "resourcePath": "scripts\\scr_OkayRandomButton\\scr_OkayRandomButton.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4324,6 +4340,8 @@
         "1285be8f-6abf-4c83-a97a-012dc7800f98",
         "60c90efc-466e-4399-a3b2-7fcd8518e8cd",
         "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
+        "35ffb5f1-b034-499f-90f0-98285e07221c",
+        "863dfa16-ca98-492c-ac27-86b27d899d59",
         "5f094bd6-d9b6-494d-8b81-370c95bacded",
         "85076852-e22b-4f39-b93f-2dcd3f0be0a5",
         "1ca00bce-3c06-4c4e-82fe-56396de616fe",

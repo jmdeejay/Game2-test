@@ -10,3 +10,4 @@ path_set_closed(myCourse, false);
 mySpeed = 25;
 
 landStart = "";
+currentTile = 0;

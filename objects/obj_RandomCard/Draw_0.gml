@@ -1,6 +1,6 @@
 /// @description DRAW SELF
 
-draw_self();
+draw_sprite(sprite_index, image_index, x, y);
 
 
 // Draw Card Title

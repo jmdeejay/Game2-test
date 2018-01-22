@@ -8,6 +8,8 @@ var _morale = argument0;
 var _mode = argument1;
 var _modifier = obj_MyCaptain.myCaptain[? "MoraleModifier"];
 
+show_debug_message("Setting Morale: Starting at " + string(_morale));
+
 switch (_mode)
 {
 	case MORALE.Nothing: // Nothing Happened
@@ -56,5 +58,6 @@ switch (_mode)
 }
 
 _morale = clamp(_morale, 0, 100);
+show_debug_message("Setting Morale: Ending at " + string(_morale));
 
 return _morale;

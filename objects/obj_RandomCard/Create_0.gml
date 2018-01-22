@@ -11,6 +11,7 @@ myType = "";
 isDecision = false;
 yesGoto = "";
 noGoto = "";
+image_speed = 0;
 
 // Text Variables
 xOffset = 8;

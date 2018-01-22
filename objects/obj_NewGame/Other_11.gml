@@ -15,7 +15,7 @@ with (obj_MyCaptain)
 {
 	myCaptain[? "Name"] = _name;
 	myCaptain[? "CrewXPGrow"] = _crewXP;
-	myCaptain[? "CrewReadinessModifier"] = _crewMorale;
+	myCaptain[? "CrewReadinessModifier"] = _crewReady;
 	myCaptain[? "CrewPayRate"] = _crewPay;
 	myCaptain[? "CrewTraitorChance"] = _crewTraitor;
 	myCaptain[? "MoraleModifier"] = _crewMorale;

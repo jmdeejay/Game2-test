@@ -1,5 +1,5 @@
 /// @description UPDATE PAYROLL
-// Invoked by: obj_SetSail - Left Pressed Event
+// Invoked by: rm_EndTurn Creation Code
 
 var _headCount = ds_list_size(obj_MyCaptain.myCrewManifest); // How many crew do I have?
 var _payRate = G.CrewWages * obj_MyCaptain.myCaptain[? "CrewPayRate"] // How much should they be paid EACH?

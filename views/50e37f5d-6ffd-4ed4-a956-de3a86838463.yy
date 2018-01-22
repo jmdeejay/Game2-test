@@ -6,7 +6,8 @@
     "children": [
         "c5159d7f-3d16-4c21-bc8d-d7c4c7b69f0b",
         "35ffb5f1-b034-499f-90f0-98285e07221c",
-        "863dfa16-ca98-492c-ac27-86b27d899d59"
+        "863dfa16-ca98-492c-ac27-86b27d899d59",
+        "a3046dec-d580-4452-9407-0bbd9f30b5ee"
     ],
     "filterType": "GMScript",
     "folderName": "RandomEvents",

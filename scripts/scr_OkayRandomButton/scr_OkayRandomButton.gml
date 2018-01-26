@@ -20,7 +20,7 @@ switch (_type)
 		show_debug_message("Doing Good Money Event. " + thisFloater.myString + " added to Cash.");
 		
 		// Modify Morale
-		for (var i = 0; i <= _count; i ++) // For every crew member on board...
+		for (var i = 0; i < _count; i ++) // For every crew member on board...
 		{
 			var _map = obj_MyCaptain.myCrewManifest[| i]; // where _map is the current crew member
 			_map[? "Morale"] = scr_SetMorale(_map[? "Morale"], MORALE.Fortune);
@@ -48,7 +48,7 @@ switch (_type)
 			}
 		}
 			// Modify Morale
-			for (var i = 0; i <= _count; i ++) // For every crew member on board...
+			for (var i = 0; i < _count; i ++) // For every crew member on board...
 			{
 				var _map = obj_MyCaptain.myCrewManifest[| i]; // where _map is the current crew member
 				_map[? "Morale"] = scr_SetMorale(_map[? "Morale"], MORALE.Bad);
@@ -58,7 +58,7 @@ switch (_type)
 	{
 		
 			// Modify Morale
-			for (var i = 0; i <= _count; i ++) // For every crew member on board...
+			for (var i = 0; i < _count; i ++) // For every crew member on board...
 			{
 				var _map = obj_MyCaptain.myCrewManifest[| i]; // where _map is the current crew member
 				_map[? "Morale"] = scr_SetMorale(_map[? "Morale"], MORALE.Nothing);

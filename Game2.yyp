@@ -3775,6 +3775,14 @@
             }
         },
         {
+            "Key": "e3c28c66-075e-42ae-88b8-b4ae747656b6",
+            "Value": {
+                "id": "c44ba57f-f157-4606-a8f9-ab9451fe91fa",
+                "resourcePath": "objects\\obj_ButtonRandomPARENT\\obj_ButtonRandomPARENT.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e43220d3-96ef-44f9-93b7-21a2d526b6a4",
             "Value": {
                 "id": "2caae739-4740-41bb-ad5e-6592d959a921",

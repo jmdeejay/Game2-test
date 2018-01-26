@@ -30,7 +30,7 @@ thisYes = G.cardData[# _column, YESGOTO];
 thisNo = G.cardData[# _column, NOGOTO];	
 
 // Spawn Random card with values pulled from ds grid totalCards 
-var thisCard = instance_create_layer(_x, _y, "Instances", obj_RandomCard);
+var thisCard = instance_create_layer(_x/2, _y/3, "UI", obj_RandomCard);
 thisCard.myCode = thisID;
 thisCard.myTitle = thisTitle;
 thisCard.myImage = thisImage;

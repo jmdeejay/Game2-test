@@ -13,6 +13,7 @@ yesGoto = "";
 noGoto = "";
 image_speed = 0;
 
+
 // Text Variables
 xOffset = 8;
 yOffset = 154;

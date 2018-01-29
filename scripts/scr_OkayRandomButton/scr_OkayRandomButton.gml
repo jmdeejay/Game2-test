@@ -149,7 +149,7 @@ switch (_type)
 		}
 		with (obj_Player)
 		{
-			event_user(2); // Resume Sailing	
+			event_user(1); // Resume Sailing	
 		}
 	}
 

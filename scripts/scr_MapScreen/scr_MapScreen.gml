@@ -15,14 +15,14 @@ with (obj_Tracer)
 with (obj_Player)
 {
 	
-	if (hasEvent and !eventResolved)
+	if (instance_exists(obj_RandomCard))
 	{
-		path_speed = 0;	// Pause ship movement while the Player decides or reads their Event.
+		canSail = false;
 		obj_SetSail.visible = false;
 	}
 	
 	
-	if (path_position == 1)
+	if (hasArrived)
 	{
 		
 		room_goto(rm_EndTurn);	

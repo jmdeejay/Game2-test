@@ -9,3 +9,4 @@ if (canPress and isVisible)
 
 }
 canPress = false;
+isVisible = false;

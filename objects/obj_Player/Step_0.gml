@@ -2,13 +2,15 @@
 
 if (canSail) // starts at false, set to 'true' in User Event 1
 {
+	speed = mySpeed;
 	var _dist = point_distance(x, y, TargetX, TargetY); // How close are we to the next cell?
 	show_debug_message("Player Boat: Distance to next cell is: " + string(_dist));
-	move_towards_point(TargetX, TargetY, min(1, _dist))
-	if (_dist < 0.4 and (_dist < path_get_length(myCourse)))
+	move_towards_point(TargetX, TargetY, min(mySpeed, _dist))
+	if (_dist < 1)
 	{
 		show_debug_message("Player Boat: Arrived at next cell.");
 		// We have arrived at the next cell
+		currentTile += 1;
 		path_delete_point(myCourse, 0);
 		TargetX = path_get_point_x(myCourse, 0);
 		TargetY = path_get_point_y(myCourse, 0);
@@ -21,12 +23,19 @@ if (canSail) // starts at false, set to 'true' in User Event 1
 			if (_chance < G.RandomChance)
 			{
 				hasEvent = true;
+				canSail = false;
 				show_debug_message("A Random Event occured!");
 			}
 		}
 	} else
 	{
-		show_debug_message("Player Boat: Reached Last Cell.");
-		hasArrived = true; // TRiggers GameState Mapscreen to goto Room End
+		if (currentTile == ds_list_size(global.selectedHex))
+		{
+			show_debug_message("Player Boat: Reached Last Cell.");
+			hasArrived = true; // TRiggers GameState Mapscreen to goto Room End
+		}
 	}
 }
+
+if (!canSail)
+	speed = 0;

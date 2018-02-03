@@ -15,7 +15,7 @@ image_speed = 0;
 
 
 // Text Variables
-xOffset = 8;
+xOffset = 12;
 yOffset = 154;
 
 titleColor = COLOR_WHITE_LIGHT;

@@ -7,10 +7,11 @@ draw_sprite(myImage, image_index, x, y);
 var _title_X1 = bbox_left + xOffset;
 var _title_Y1 = bbox_top + yOffset;
 var _width = bbox_right - (2 * xOffset);
+var _lengthOne = string_length(myTitle)
 
 draw_set_font(titleFont);
 draw_set_halign(fa_center);
-draw_text_outline_ext(_title_X1, _title_Y1, myTitle, _width, 4, titleColor, outlineColor, 1, 2);
+draw_text_outline_ext(_title_X1 + 40, _title_Y1, myTitle, _width, 4, titleColor, outlineColor, 1, 2);
 
 draw_set_font(bodyFont);
 draw_set_halign(fa_left);
